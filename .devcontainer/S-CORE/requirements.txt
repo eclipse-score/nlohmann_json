@@ -212,7 +212,7 @@ packaging==25.0 \
 pip-tools==7.5.2 \
     --hash=sha256:2d64d72da6a044da1110257d333960563d7a4743637e8617dd2610ae7b82d60f \
     --hash=sha256:2fe16db727bbe5bf28765aeb581e792e61be51fc275545ef6725374ad720a1ce
-    # via -r .devcontainer/S-CORE/requirements.in
+    # via -r requirements.in
 pluggy==1.6.0 \
     --hash=sha256:7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3 \
     --hash=sha256:e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746
@@ -232,7 +232,7 @@ pyproject-hooks==1.2.0 \
 pytest==8.4.1 \
     --hash=sha256:539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7 \
     --hash=sha256:7c67fd69174877359ed9371ec3af8a3d2b04741818c51e5e99cc1742251fa93c
-    # via -r .devcontainer/S-CORE/requirements.in
+    # via -r requirements.in
 pyyaml==6.0.3 \
     --hash=sha256:00c4bdeba853cc34e7dd471f16b4114f4162dc03e6b7afcc2128711f0eca823c \
     --hash=sha256:0150219816b6a1fa26fb4699fb7daa9caf09eb1999f3b70fb6e786805e80375a \
@@ -307,7 +307,7 @@ pyyaml==6.0.3 \
     --hash=sha256:f7057c9a337546edc7973c0d3ba84ddcdf0daa14533c2065749c9075001090e6 \
     --hash=sha256:fa160448684b4e94d80416c0fa4aac48967a969efe22931448d853ada8baf926 \
     --hash=sha256:fc09d0aa354569bc501d4e787133afc08552722d3ab34836a80547331bb5d4a0
-    # via -r .devcontainer/S-CORE/requirements.in
+    # via -r requirements.in
 referencing==0.36.2 \
     --hash=sha256:df2e89862cd09deabbdba16944cc3f10feb6b3e6f18e902f7cc25609a34775aa \
     --hash=sha256:e8699adbbf8b5c7de96d8ffa0eb5c158b3beafce084968e2ea8bb08c6794dcd0
@@ -496,7 +496,7 @@ sphinx==8.2.3 \
     --hash=sha256:398ad29dee7f63a75888314e9424d40f52ce5a6a87ae88e7071e80af296ec348 \
     --hash=sha256:4405915165f13521d875a8c29c8970800a0141c14cc5416a38feca4ea5d9b9c3
     # via
-    #   -r .devcontainer/S-CORE/requirements.in
+    #   -r requirements.in
     #   sphinx-data-viewer
     #   sphinx-design
     #   sphinx-needs
@@ -509,11 +509,11 @@ sphinx-data-viewer==0.1.5 \
 sphinx-design==0.6.1 \
     --hash=sha256:b11f37db1a802a183d61b159d9a202314d4d2fe29c163437001324fe2f19549c \
     --hash=sha256:b44eea3719386d04d765c1a8257caca2b3e6f8421d7b3a5e742c0fd45f84e632
-    # via -r .devcontainer/S-CORE/requirements.in
+    # via -r requirements.in
 sphinx-needs==5.1.0 \
     --hash=sha256:23a0ca1dfe733a0a58e884b59ce53a8b63a530f0ac87ae5ab0d40f05f853fbe7 \
     --hash=sha256:7adf3763478e91171146918d8af4a22aa0fc062a73856f1ebeb6822a62cbe215
-    # via -r .devcontainer/S-CORE/requirements.in
+    # via -r requirements.in
 sphinxcontrib-applehelp==2.0.0 \
     --hash=sha256:2f29ef331735ce958efa4734873f084941970894c6090408b079c61b2e1c06d1 \
     --hash=sha256:4cd3f0ec4ac5dd9c17ec65e9ab272c9b867ea77425228e68ecf08d6b28ddbdb5
@@ -536,7 +536,7 @@ sphinxcontrib-jsmath==1.0.1 \
     # via sphinx
 sphinxcontrib-plantuml==0.31 \
     --hash=sha256:fd74752f8ea070e641c3f8a402fccfa1d4a4056e0967b56033d2a76282d9f956
-    # via -r .devcontainer/S-CORE/requirements.in
+    # via -r requirements.in
 sphinxcontrib-qthelp==2.0.0 \
     --hash=sha256:4fe7d0ac8fc171045be623aba3e2a8f613f8682731f9153bb2e40ece16b9bbab \
     --hash=sha256:b18a828cdba941ccd6ee8445dbe72ffa3ef8cbe7505d8cd1fa0d42d3f2d5f3eb
@@ -549,9 +549,9 @@ typing-extensions==4.15.0 \
     --hash=sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466 \
     --hash=sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548
     # via referencing
-urllib3==2.6.0 \
-    --hash=sha256:c90f7a39f716c572c4e3e58509581ebd83f9b59cced005b7db7ad2d22b0db99f \
-    --hash=sha256:cb9bcef5a4b345d5da5d145dc3e30834f58e8018828cbc724d30b4cb7d4d49f1
+urllib3==2.6.3 \
+    --hash=sha256:1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed \
+    --hash=sha256:bf272323e553dfb2e87d9bfd225ca7b0f467b919d7bbd355436d3fd37cb0acd4
     # via requests
 wheel==0.45.1 \
     --hash=sha256:661e1abd9198507b1409a20c02106d9670b2576e916d58f520316666abca6729 \
@@ -563,11 +563,11 @@ pip==25.3 \
     --hash=sha256:8d0538dbbd7babbd207f261ed969c65de439f6bc9e5dbd3b3b9a77f25d95f343 \
     --hash=sha256:9655943313a94722b7774661c21049070f6bbb0a1516bf02f7c8d5d9201514cd
     # via
-    #   -r .devcontainer/S-CORE/requirements.in
+    #   -r requirements.in
     #   pip-tools
 setuptools==78.1.1 \
     --hash=sha256:c3a9c4211ff4c309edb8b8c4f1cbfa7ae324c4ba9f91ff254e3d305b9fd54561 \
     --hash=sha256:fcc17fd9cd898242f6b4adfaca46137a9edef687f43e6f78469692a5e70d851d
     # via
-    #   -r .devcontainer/S-CORE/requirements.in
+    #   -r requirements.in
     #   pip-tools
