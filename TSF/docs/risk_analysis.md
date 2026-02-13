@@ -110,7 +110,7 @@ The following Assumptions of Use are explicitly stated in this TSF tree and are 
 
 - **`AOU-04`**: the integrator shall ensure that exceptions are properly handled or turned off when using the library.
 - **`AOU-05`**: the integrator shall ensure input is UTF-8 (RFC 8259) and handle exceptions for other string formats.
-- **`AOU-07`**: expected exceptions for invalid JSON (default parameters) shall be properly handled.
+- **`AOU-07`**: expected parsing errors for invalid JSON (default parameters) shall be detected and handled properly.
 - **`AOU-20`**: keys within an object shall be unique whenever an object is parsed.
 - **`AOU-22`**: numbers shall be written in base 10; exceptions/misbehaviours for other bases shall be handled/mitigated.
 - **`AOU-23`**: data shall be complete and error-free whenever transmitted to the component.
