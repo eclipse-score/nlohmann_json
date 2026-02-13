@@ -4,8 +4,6 @@ This document provides a **risk analysis** for the **eclipse-score/nlohmann_json
 
 ## 0. Methodology (RAFIA / STPA) – What is being done and why
 
-This Risk Analysis follows the RAFIA approach described by Codethink. The intent is to document both **what the software must do** and **what it must not do**, by focusing on the negative outcomes we want to prevent, and by deriving constraints and verification evidence from that analysis \[[RAFIA: Risk Analysis](https://codethinklabs.gitlab.io/trustable/trustable/extensions/rafia/risk-analysis.html)\].
-
 Risk Analysis objectives (summarised from the Codethink guidance) are:
 
 - **Hazard analysis**
