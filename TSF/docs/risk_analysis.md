@@ -47,7 +47,7 @@ Concretely, the procedure steps map to this document as follows:
 
 ---
 
-## 1. System Description and TSF Context
+## 1. Scope and System Context
 
 ### 1.1 Software Under Analysis
 
