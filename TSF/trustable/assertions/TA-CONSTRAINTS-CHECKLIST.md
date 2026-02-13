@@ -1,4 +1,4 @@
-#### Checklist for TA-CONSTRAINTS from [Codethink](https://codethinklabs.gitlab.io/trustable/trustable/print_page.html)
+#### Checklist for TA-CONSTRAINTS from [Codethink](https://pages.eclipse.dev/eclipse/tsf/tsf/print_page.html)
 
 * Are the constraints grounded in realistic expectations, backed by real-world examples?
 

@@ -1,4 +1,4 @@
-#### Checklist for TA-INDICATORS from [Codethink](https://codethinklabs.gitlab.io/trustable/trustable/print_page.html)
+#### Checklist for TA-INDICATORS from [Codethink](https://pages.eclipse.dev/eclipse/tsf/tsf/print_page.html)
 
 * How appropriate/thorough are the analyses that led to the indicators?
 

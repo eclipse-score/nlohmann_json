@@ -1,4 +1,4 @@
-#### Checklist for TA-METHODOLOGIES from [Codethink](https://codethinklabs.gitlab.io/trustable/trustable/print_page.html)
+#### Checklist for TA-METHODOLOGIES from [Codethink](https://pages.eclipse.dev/eclipse/tsf/tsfprint_page.html)
 
 This project follows purely the Methodologies of Eclipse S-CORE.
 

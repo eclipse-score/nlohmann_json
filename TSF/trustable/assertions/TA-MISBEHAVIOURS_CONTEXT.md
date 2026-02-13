@@ -3,7 +3,7 @@ level: 1.1
 normative: false
 ---
 
-(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://codethinklabs.gitlab.io/trustable/trustable/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
+(Note: The guidance, evidence, confidence scoring and checklist sections below are copied from [CodeThink's documentation of TSF](https://pages.eclipse.dev/eclipse/tsf/tsf/trustable/TA.html). However, the answers to each point in the evidence list and checklist are specific to this project.)
 
 The goal of TA-MISBEHAVIOURS is to force engineers to think critically about their work.
 This means understanding and mitigating as many of the situations that cause the

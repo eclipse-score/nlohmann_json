@@ -1,6 +1,6 @@
 ## Risk Analysis for nlohmann/json 3.12.0 within eclipse-score/nlohmann_json
 
-This document provides a **risk analysis** for the **eclipse-score/nlohmann_json** repository following the risk analysis approach of the Trustable Software Framework (TSF) \[[RAFIA: Risk Analysis](https://codethinklabs.gitlab.io/trustable/trustable/extensions/rafia/risk-analysis.html)\].
+This document provides a **risk analysis** for the **eclipse-score/nlohmann_json** repository following the risk analysis approach of the Trustable Software Framework (TSF) \[[RAFIA: Risk Analysis](https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html)\].
 
 ## 0. Methodology (RAFIA / STPA) – What is being done and why
 
@@ -17,7 +17,7 @@ Risk Analysis objectives (summarised from the Codethink guidance) are:
   - Map analysis outcomes into the TSF model of Statements: *Expectations*, *Assertions*, *Evidence*.
   - Maintain forward/backward links so that changes to any statement trigger re-evaluation of related analysis links.
 - **Risk evaluation**
-  - Evaluate relative importance of hazards/misbehaviours using at least **severity** and **likelihood**, and optionally **controllability** and **exposure/demand**, to support prioritisation and cost/benefit decisions \[[RAFIA: Risk Analysis](https://codethinklabs.gitlab.io/trustable/trustable/extensions/rafia/risk-analysis.html)\].
+  - Evaluate relative importance of hazards/misbehaviours using at least **severity** and **likelihood**, and optionally **controllability** and **exposure/demand**, to support prioritisation and cost/benefit decisions \[[RAFIA: Risk Analysis](https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html)\].
 
 ### How this is instantiated for this repository
 
@@ -30,8 +30,8 @@ This repository already contains a rich TSF statement graph that captures:
 
 This document follows the RAFIA STPA procedure at the level of intent and outputs (Losses → Hazards → Control Structure → UCAs → Scenarios → Constraints → Misbehaviours), as described in the TSF extensions:
 
-- STPA procedure: \[[RAFIA STPA Procedure](https://codethinklabs.gitlab.io/trustable/trustable/extensions/stpa/procedure.html)\]
-- STPA workbook schema (tables/columns): \[[STPA results schema](https://codethinklabs.gitlab.io/trustable/trustable/extensions/stpa/schema.html)\]
+- STPA procedure: \[[RAFIA STPA Procedure](https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/stpa/procedure.html)\]
+- STPA workbook schema (tables/columns): \[[STPA results schema](https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/stpa/schema.html)\]
 
 Concretely, the procedure steps map to this document as follows:
 
@@ -83,7 +83,7 @@ The TSF graph shows this as:
 
 The library **does not control hardware directly**. Misbehaviours affect S-CORE only **via incorrect JSON validation or parsing**, influencing higher-level functions.
 
-Because this is a *library component*, we express risks at the S-CORE system level (e.g., “S-CORE accepts ill-formed JSON”), and we treat the library as a contributing factor through its API behaviour and error signalling. This matches the RAFIA/STPA guidance to analyse the software in the context of a system/subsystem, rather than as an isolated artifact \[[RAFIA: Risk Analysis](https://codethinklabs.gitlab.io/trustable/trustable/extensions/rafia/risk-analysis.html)\].
+Because this is a *library component*, we express risks at the S-CORE system level (e.g., “S-CORE accepts ill-formed JSON”), and we treat the library as a contributing factor through its API behaviour and error signalling. This matches the RAFIA/STPA guidance to analyse the software in the context of a system/subsystem, rather than as an isolated artifact \[[RAFIA: Risk Analysis](https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html)\].
 
 ### 1.3 Assumptions of Use and Constraints
 
@@ -272,7 +272,7 @@ CS Type legend (informal, used here as a compact tag):
 
 ## 7. Mapping to TSF Items
 
-In RAFIA/STPA, constraints are “statements that must be true” to avoid a hazard, UCA, or causal scenario \[[RAFIA: Risk Analysis](https://codethinklabs.gitlab.io/trustable/trustable/extensions/rafia/risk-analysis.html)\]. In TSF terms, these constraints are captured as (or mapped onto existing) **Items**, and are supported by **Evidence**. 
+In RAFIA/STPA, constraints are “statements that must be true” to avoid a hazard, UCA, or causal scenario \[[RAFIA: Risk Analysis](https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html)\]. In TSF terms, these constraints are captured as (or mapped onto existing) **Items**, and are supported by **Evidence**. 
 
 ### 7.1 Constraints
 
