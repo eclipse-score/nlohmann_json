@@ -26,8 +26,6 @@ This repository already contains a rich TSF statement graph that captures:
 - the **expected behaviours** (`JLEX-01`, `JLEX-02`) and their supporting evidence (`WFJ-*`, `PJD-*`, `NJF-*`, `NPF-*`, `TIJ-*`), and
 - the process expectations around tests, fixes, inputs, constraints, and analysis (`TA-TESTS`, `TA-FIXES`, `TA-INPUTS`, `TA-CONSTRAINTS`, `TA-ANALYSIS`, …).
 
-However, the TA misbehaviours and analysis context files explicitly list “Risk analysis” as expected evidence, while the concrete risk analysis narrative was missing. This document fills that gap by making the implicit rationale behind the existing statement graph explicit, and by linking it back to RAFIA/STPA concepts and terminology.
-
 ### STPA procedure and schema conformance
 
 This document follows the RAFIA STPA procedure at the level of intent and outputs (Losses → Hazards → Control Structure → UCAs → Scenarios → Constraints → Misbehaviours), as described in the TSF extensions:
