@@ -56,8 +56,8 @@ set of AWIs is incorrect, or the tolerance is too lax.
 
 **Evidence**
 
-- Risk analyses
-  - **Answer**: There is no dedicated TSF risk analysis that focuses specifically on the runtime behaviour of `eclipse-score/inc_nlohmann_json`. The reason is that *nlohmann/json* is a stateless library. It does not run as a standalone component and it does not maintain long-lived runtime resources. It also does not perform continuous or stream processing. For that reason, there are no component-specific runtime indicators or thresholds that could meaningfully be defined for runtime behaviour.
+- Risk analysis
+  - **Answer**: Risk analysis has been performed (see docs/risk_analysis.md).
 - List of advance warning indicators
   - **Answer**: The only two introduced AWIs are provided in JLS-54 and JLS-55.
 - List of Expectations for monitoring mechanisms
