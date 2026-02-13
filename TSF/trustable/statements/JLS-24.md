@@ -17,4 +17,4 @@ evidence:
                     - "https://json.nlohmann.me/home/exceptions/"
 ---
 
-The nlohmann/json library recognizes malformed JSON and returns an exception.
+The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value.
