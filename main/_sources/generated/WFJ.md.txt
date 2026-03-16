@@ -1,6 +1,6 @@
 
 ### WFJ-01 | Reviewed: ⨯ | Score: 0.0 
-The service checks the well-formedness of the literal names.
+The service provided by the nlohmann/json library checks the well-formedness of the literal names.
 
 
 **Supported Requests:**
@@ -13,10 +13,10 @@ The service checks the well-formedness of the literal names.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-02](NJF.md#njf-02)  | The service accepts the literal name true. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-03](NJF.md#njf-03)  | The service accepts the literal name false. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-04](NJF.md#njf-04)  | The service does not accept any other literal name. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-01](NJF.md#njf-01)  | The service accepts the literal name null. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-02](NJF.md#njf-02)  | The service provided by the nlohmann/json library accepts the literal name true. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-03](NJF.md#njf-03)  | The service provided by the nlohmann/json library accepts the literal name false. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-04](NJF.md#njf-04)  | The service provided by the nlohmann/json library does not accept any other literal name. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-01](NJF.md#njf-01)  | The service provided by the nlohmann/json library accepts the literal name null. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -37,14 +37,15 @@ _None_
 |date-time|WFJ-01|NJF-02|NJF-03|NJF-04|NJF-01|
 |-|-|-|-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
 ---
 
 ### WFJ-02 | Reviewed: ⨯ | Score: 0.0 
-The service checks the well-formedness of strings.
+The service provided by the nlohmann/json library checks the well-formedness of strings.
 
 
 **Supported Requests:**
@@ -57,7 +58,7 @@ The service checks the well-formedness of strings.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -78,14 +79,15 @@ _None_
 |date-time|WFJ-02|NJF-07|
 |-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |
 
 
 
 ---
 
 ### WFJ-03 | Reviewed: ⨯ | Score: 0.0 
-The service checks the well-formedness of numbers.
+The service provided by the nlohmann/json library checks the well-formedness of numbers.
 
 
 **Supported Requests:**
@@ -98,7 +100,7 @@ The service checks the well-formedness of numbers.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -119,14 +121,15 @@ _None_
 |date-time|WFJ-03|NJF-08|
 |-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |
 
 
 
 ---
 
 ### WFJ-04 | Reviewed: ⨯ | Score: 0.0 
-The service checks the well-formedness of array.
+The service provided by the nlohmann/json library checks the well-formedness of array.
 
 
 **Supported Requests:**
@@ -139,7 +142,7 @@ The service checks the well-formedness of array.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -160,14 +163,15 @@ _None_
 |date-time|WFJ-04|NJF-05|
 |-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |
 
 
 
 ---
 
 ### WFJ-05 | Reviewed: ⨯ | Score: 0.0 
-The service checks the well-formedness of objects.
+The service provided by the nlohmann/json library checks the well-formedness of objects.
 
 
 **Supported Requests:**
@@ -180,8 +184,8 @@ The service checks the well-formedness of objects.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-13](NJF.md#njf-13)  | The service accepts JSON data consisting of combinations of the data types. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-13](NJF.md#njf-13)  | The service provided by the nlohmann/json library accepts JSON data consisting of combinations of the data types. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -202,14 +206,15 @@ _None_
 |date-time|WFJ-05|NJF-06|NJF-13|
 |-|-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |0.00 |
 
 
 
 ---
 
 ### WFJ-06 | Reviewed: ⨯ | Score: 0.0 
-The service checks that a JSON value must be an object, array, number, or string, or one of the lowercase literal names false, null, or true
+The service provided by the nlohmann/json library checks that a JSON value must be an object, array, number, or string, or one of the lowercase literal names false, null, or true
 
 
 **Supported Requests:**
@@ -738,14 +743,15 @@ _None_
 |date-time|WFJ-06|
 |-|-|
 |2026-02-20 12:44:32|0.00 |
-|2026-02-20 12:46:25.309871|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:20:05.914360|0.00 |
 
 
 
 ---
 
 ### WFJ-07 | Reviewed: ⨯ | Score: 0.0 
-The service checks that JSON is only serialized using UTF-8.
+The service provided by the nlohmann/json library checks that JSON is only serialized using UTF-8.
 
 
 **Supported Requests:**
@@ -758,7 +764,7 @@ The service checks that JSON is only serialized using UTF-8.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-12](NJF.md#njf-12)  | The service decodes UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -779,14 +785,15 @@ _None_
 |date-time|WFJ-07|NJF-12|
 |-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |
 
 
 
 ---
 
 ### WFJ-08 | Reviewed: ⨯ | Score: 0.0 
-The service ignores byte order marks.
+The service provided by the nlohmann/json library ignores byte order marks.
 
 
 **Supported Requests:**
@@ -799,7 +806,7 @@ The service ignores byte order marks.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-14](NJF.md#njf-14)  | The service accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 0.00 | ⨯ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -820,5 +827,6 @@ _None_
 |date-time|WFJ-08|NJF-14|
 |-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |
 

@@ -7,20 +7,20 @@ The requirement regarding [JSON Validation](https://eclipse-score.github.io/scor
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-01](WFJ.md#wfj-01)  | The service checks the well-formedness of the literal names. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [WFJ-02](WFJ.md#wfj-02)  | The service checks the well-formedness of strings. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [WFJ-03](WFJ.md#wfj-03)  | The service checks the well-formedness of numbers. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [WFJ-04](WFJ.md#wfj-04)  | The service checks the well-formedness of array. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [WFJ-05](WFJ.md#wfj-05)  | The service checks the well-formedness of objects. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [WFJ-06](WFJ.md#wfj-06)  | The service checks that a JSON value must be an object, array, number, or string, or one of the lowercase literal names false, null, or true | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [WFJ-07](WFJ.md#wfj-07)  | The service checks that JSON is only serialized using UTF-8. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [WFJ-08](WFJ.md#wfj-08)  | The service ignores byte order marks. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-02](WFJ.md#wfj-02)  | The service provided by the nlohmann/json library checks the well-formedness of strings. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-03](WFJ.md#wfj-03)  | The service provided by the nlohmann/json library checks the well-formedness of numbers. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-04](WFJ.md#wfj-04)  | The service provided by the nlohmann/json library checks the well-formedness of array. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-05](WFJ.md#wfj-05)  | The service provided by the nlohmann/json library checks the well-formedness of objects. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-06](WFJ.md#wfj-06)  | The service provided by the nlohmann/json library checks that a JSON value must be an object, array, number, or string, or one of the lowercase literal names false, null, or true | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-07](WFJ.md#wfj-07)  | The service provided by the nlohmann/json library checks that JSON is only serialized using UTF-8. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-08](WFJ.md#wfj-08)  | The service provided by the nlohmann/json library ignores byte order marks. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -538,7 +538,8 @@ _None_
 |date-time|JLEX-01|WFJ-01|WFJ-02|WFJ-03|WFJ-04|WFJ-05|WFJ-06|WFJ-07|WFJ-08|
 |-|-|-|-|-|-|-|-|-|-|
 |2026-02-20 12:44:32|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 
 
 
@@ -552,15 +553,14 @@ The requirement regarding [JSON Deserialization](https://eclipse-score.github.io
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [PJD-01](PJD.md#pjd-01)  | The service provides implementations that parses JSON texts, which ignores the presence of a byte order mark rather than treating it as an error. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [PJD-03](PJD.md#pjd-03)  | The service parses all texts that conform to the JSON grammar. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [AOU-20](AOU.md#aou-20)  | The integrator shall ensure that the keys within an object are unique, whenever an object is to be parsed by nlohmann/json. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [PJD-01](PJD.md#pjd-01)  | The service provided by the nlohmann/json library provides implementations that parses JSON texts, which ignores the presence of a byte order mark rather than treating it as an error. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [PJD-03](PJD.md#pjd-03)  | The service provided by the nlohmann/json library parses all texts that conform to the JSON grammar. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -1136,8 +1136,9 @@ _None_
 
 ![No Image](figs/JLEX-02.svg)
 
-|date-time|JLEX-02|PJD-01|PJD-03|AOU-20|
-|-|-|-|-|-|
-|2026-02-20 12:44:32|0.00 |0.00 |0.00 |0.00 |
-|2026-02-20 12:46:25.309871|0.00 |0.00 |0.00 |0.00 |
+|date-time|JLEX-02|PJD-01|PJD-03|
+|-|-|-|-|
+|2026-02-20 12:44:32|0.00 |0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |0.00 |
+|2026-03-16 09:20:05.914360|0.00 |0.00 |0.00 |
 

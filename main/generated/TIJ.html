@@ -38,11 +38,11 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/modern.css?v=803738c0" />
   
   <!-- So that users can add custom icons -->
@@ -427,7 +427,7 @@
                   
   <section id="tij-01-reviewed-score-0-0">
 <h1>TIJ-01 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-01-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The parsing service throws an exception on ill-formed literal names.</p>
+<p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed literal names.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -439,7 +439,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="JLS.html#jls-24"><span class="std std-ref">JLS-24</span></a></p></td>
-<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception.</p></td>
+<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -457,12 +457,12 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-01.1"><span class="std std-ref">TIJ-01.1</span></a></p></td>
-<td><p>The service throws an exception on capitalised literal names.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on capitalised literal names.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-01.2"><span class="std std-ref">TIJ-01.2</span></a></p></td>
-<td><p>The service throws an exception on any other than the three literal names true, false, null.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on any other than the three literal names true, false, null.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -489,7 +489,12 @@
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
@@ -501,7 +506,7 @@
 <hr class="docutils" />
 <section id="tij-01-1-reviewed-score-0-0">
 <h1>TIJ-01.1 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-01-1-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on capitalised literal names.</p>
+<p>The service provided by the nlohmann/json library throws an exception on capitalised literal names.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -513,7 +518,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-01"><span class="std std-ref">TIJ-01</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed literal names.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed literal names.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -615,7 +620,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -625,7 +633,7 @@
 <hr class="docutils" />
 <section id="tij-01-2-reviewed-score-0-0">
 <h1>TIJ-01.2 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-01-2-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on any other than the three literal names true, false, null.</p>
+<p>The service provided by the nlohmann/json library throws an exception on any other than the three literal names true, false, null.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -637,7 +645,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-01"><span class="std std-ref">TIJ-01</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed literal names.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed literal names.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -1463,7 +1471,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -1473,7 +1484,7 @@
 <hr class="docutils" />
 <section id="tij-02-reviewed-score-0-0">
 <h1>TIJ-02 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-02-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The parsing service throws an exception on ill-formed numbers.</p>
+<p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed numbers.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1485,7 +1496,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="JLS.html#jls-24"><span class="std std-ref">JLS-24</span></a></p></td>
-<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception.</p></td>
+<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -1503,27 +1514,27 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02.1"><span class="std std-ref">TIJ-02.1</span></a></p></td>
-<td><p>The service throws an exception on leading plus.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on leading plus.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-02.2"><span class="std std-ref">TIJ-02.2</span></a></p></td>
-<td><p>The service throws an exception on leading zeroes.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on leading zeroes.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02.3"><span class="std std-ref">TIJ-02.3</span></a></p></td>
-<td><p>The service throws an exception on NaN, infinity.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on NaN and infinity.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-02.4"><span class="std std-ref">TIJ-02.4</span></a></p></td>
-<td><p>The service throws an exception on U+0415 and U+0436 instead of U+0045 or U+0065.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on U+0415 and U+0436 instead of U+0045 or U+0065.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02.5"><span class="std std-ref">TIJ-02.5</span></a></p></td>
-<td><p>The service throws an exception on invalid number syntax.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on invalid number syntax.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -1556,7 +1567,15 @@
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
@@ -1571,7 +1590,7 @@
 <hr class="docutils" />
 <section id="tij-02-1-reviewed-score-0-0">
 <h1>TIJ-02.1 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-02-1-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on leading plus.</p>
+<p>The service provided by the nlohmann/json library throws an exception on leading plus.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1583,7 +1602,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02"><span class="std std-ref">TIJ-02</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed numbers.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed numbers.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -1653,7 +1672,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -1663,7 +1685,7 @@
 <hr class="docutils" />
 <section id="tij-02-2-reviewed-score-0-0">
 <h1>TIJ-02.2 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-02-2-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on leading zeroes.</p>
+<p>The service provided by the nlohmann/json library throws an exception on leading zeroes.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1675,7 +1697,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02"><span class="std std-ref">TIJ-02</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed numbers.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed numbers.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -1804,7 +1826,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -1814,7 +1839,7 @@
 <hr class="docutils" />
 <section id="tij-02-3-reviewed-score-0-0">
 <h1>TIJ-02.3 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-02-3-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on NaN, infinity.</p>
+<p>The service provided by the nlohmann/json library throws an exception on NaN and infinity.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -1826,7 +1851,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02"><span class="std std-ref">TIJ-02</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed numbers.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed numbers.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -2200,7 +2225,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -2210,7 +2238,7 @@
 <hr class="docutils" />
 <section id="tij-02-4-reviewed-score-0-0">
 <h1>TIJ-02.4 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-02-4-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on U+0415 and U+0436 instead of U+0045 or U+0065.</p>
+<p>The service provided by the nlohmann/json library throws an exception on U+0415 and U+0436 instead of U+0045 or U+0065.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -2222,7 +2250,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02"><span class="std std-ref">TIJ-02</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed numbers.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed numbers.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -2272,7 +2300,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -2282,7 +2313,7 @@
 <hr class="docutils" />
 <section id="tij-02-5-reviewed-score-0-0">
 <h1>TIJ-02.5 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-02-5-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on invalid number syntax.</p>
+<p>The service provided by the nlohmann/json library throws an exception on invalid number syntax.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -2294,7 +2325,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-02"><span class="std std-ref">TIJ-02</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed numbers.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed numbers.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -2833,7 +2864,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -2843,7 +2877,7 @@
 <hr class="docutils" />
 <section id="tij-03-reviewed-score-0-0">
 <h1>TIJ-03 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-03-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The parsing service throws an exception on ill-formed strings.</p>
+<p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed strings.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -2855,7 +2889,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="JLS.html#jls-24"><span class="std std-ref">JLS-24</span></a></p></td>
-<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception.</p></td>
+<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -2873,27 +2907,27 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03.1"><span class="std std-ref">TIJ-03.1</span></a></p></td>
-<td><p>The service throws an exception on unescaped control characters.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on unescaped control characters.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-03.2"><span class="std std-ref">TIJ-03.2</span></a></p></td>
-<td><p>The service throws an exception on unpaired utf-16 surrogates.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on unpaired utf-16 surrogates.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03.3"><span class="std std-ref">TIJ-03.3</span></a></p></td>
-<td><p>The service throws an exception on improperly bounded strings.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on improperly bounded strings.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-03.4"><span class="std std-ref">TIJ-03.4</span></a></p></td>
-<td><p>The service throws an exception on escaped invalid characters.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on escaped invalid characters.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03.5"><span class="std std-ref">TIJ-03.5</span></a></p></td>
-<td><p>The service throws an exception on incorrect surrogate pairs.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on incorrect surrogate pairs.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -2926,7 +2960,15 @@
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
@@ -2941,7 +2983,7 @@
 <hr class="docutils" />
 <section id="tij-03-1-reviewed-score-0-0">
 <h1>TIJ-03.1 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-03-1-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on unescaped control characters.</p>
+<p>The service provided by the nlohmann/json library throws an exception on unescaped control characters.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -2953,7 +2995,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03"><span class="std std-ref">TIJ-03</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed strings.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed strings.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -3040,7 +3082,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -3050,7 +3095,7 @@
 <hr class="docutils" />
 <section id="tij-03-2-reviewed-score-0-0">
 <h1>TIJ-03.2 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-03-2-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on unpaired utf-16 surrogates.</p>
+<p>The service provided by the nlohmann/json library throws an exception on unpaired utf-16 surrogates.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -3062,7 +3107,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03"><span class="std std-ref">TIJ-03</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed strings.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed strings.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -3119,7 +3164,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -3129,7 +3177,7 @@
 <hr class="docutils" />
 <section id="tij-03-3-reviewed-score-0-0">
 <h1>TIJ-03.3 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-03-3-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on improperly bounded strings.</p>
+<p>The service provided by the nlohmann/json library throws an exception on improperly bounded strings.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -3141,7 +3189,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03"><span class="std std-ref">TIJ-03</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed strings.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed strings.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -3505,7 +3553,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -3515,7 +3566,7 @@
 <hr class="docutils" />
 <section id="tij-03-4-reviewed-score-0-0">
 <h1>TIJ-03.4 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-03-4-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on escaped invalid characters.</p>
+<p>The service provided by the nlohmann/json library throws an exception on escaped invalid characters.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -3527,7 +3578,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03"><span class="std std-ref">TIJ-03</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed strings.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed strings.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -3706,7 +3757,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -3716,7 +3770,7 @@
 <hr class="docutils" />
 <section id="tij-03-5-reviewed-score-0-0">
 <h1>TIJ-03.5 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-03-5-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on incorrect surrogate pairs.</p>
+<p>The service provided by the nlohmann/json library throws an exception on incorrect surrogate pairs.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -3728,7 +3782,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-03"><span class="std std-ref">TIJ-03</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed strings.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed strings.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -3793,7 +3847,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -3803,7 +3860,7 @@
 <hr class="docutils" />
 <section id="tij-04-reviewed-score-0-0">
 <h1>TIJ-04 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-04-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The parsing service throws an exception on ill-formed arrays.</p>
+<p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed arrays.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -3815,7 +3872,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="JLS.html#jls-24"><span class="std std-ref">JLS-24</span></a></p></td>
-<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception.</p></td>
+<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -3833,17 +3890,17 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-04.1"><span class="std std-ref">TIJ-04.1</span></a></p></td>
-<td><p>The service throws an exception on improperly bounded arrays.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on improperly bounded arrays.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-04.2"><span class="std std-ref">TIJ-04.2</span></a></p></td>
-<td><p>The service throws an exception on improper values within a properly bounded array.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on improper values within a properly bounded array.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-04.3"><span class="std std-ref">TIJ-04.3</span></a></p></td>
-<td><p>The service throws an exception on improper value separators.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on improper value separators.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -3872,7 +3929,13 @@
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
@@ -3885,7 +3948,7 @@
 <hr class="docutils" />
 <section id="tij-04-1-reviewed-score-0-0">
 <h1>TIJ-04.1 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-04-1-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on improperly bounded arrays.</p>
+<p>The service provided by the nlohmann/json library throws an exception on improperly bounded arrays.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -3897,7 +3960,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-04"><span class="std std-ref">TIJ-04</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed arrays.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed arrays.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4089,7 +4152,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -4099,7 +4165,7 @@
 <hr class="docutils" />
 <section id="tij-04-2-reviewed-score-0-0">
 <h1>TIJ-04.2 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-04-2-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on improper values within a properly bounded array.</p>
+<p>The service provided by the nlohmann/json library throws an exception on improper values within a properly bounded array.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4111,7 +4177,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-04"><span class="std std-ref">TIJ-04</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed arrays.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed arrays.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4220,7 +4286,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -4230,7 +4299,7 @@
 <hr class="docutils" />
 <section id="tij-04-3-reviewed-score-0-0">
 <h1>TIJ-04.3 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-04-3-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on improper value separators.</p>
+<p>The service provided by the nlohmann/json library throws an exception on improper value separators.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4242,7 +4311,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-04"><span class="std std-ref">TIJ-04</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed arrays.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed arrays.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4302,7 +4371,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -4312,7 +4384,7 @@
 <hr class="docutils" />
 <section id="tij-05-reviewed-score-0-0">
 <h1>TIJ-05 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-05-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The parsing service throws an exception on ill-formed objects.</p>
+<p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed objects.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4324,7 +4396,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="JLS.html#jls-24"><span class="std std-ref">JLS-24</span></a></p></td>
-<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception.</p></td>
+<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4342,27 +4414,27 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05.1"><span class="std std-ref">TIJ-05.1</span></a></p></td>
-<td><p>The service throws an exception on improperly bounded objects.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on improperly bounded objects.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-05.2"><span class="std std-ref">TIJ-05.2</span></a></p></td>
-<td><p>The service throws an exception if a non-string is used as name of any member.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception if a non-string is used as name of any member.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05.3"><span class="std std-ref">TIJ-05.3</span></a></p></td>
-<td><p>The service throws an exception if an improper string is used as name of any member.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception if an improper string is used as name of any member.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#tij-05.4"><span class="std std-ref">TIJ-05.4</span></a></p></td>
-<td><p>The service throws an exception if any member has an improper value.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception if any member has an improper value.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05.5"><span class="std std-ref">TIJ-05.5</span></a></p></td>
-<td><p>The service throws an exception on improper member separators.</p></td>
+<td><p>The service provided by the nlohmann/json library throws an exception on improper member separators.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4395,7 +4467,15 @@
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
@@ -4410,7 +4490,7 @@
 <hr class="docutils" />
 <section id="tij-05-1-reviewed-score-0-0">
 <h1>TIJ-05.1 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-05-1-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on improperly bounded objects.</p>
+<p>The service provided by the nlohmann/json library throws an exception on improperly bounded objects.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4422,7 +4502,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05"><span class="std std-ref">TIJ-05</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed objects.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed objects.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4516,7 +4596,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -4526,7 +4609,7 @@
 <hr class="docutils" />
 <section id="tij-05-2-reviewed-score-0-0">
 <h1>TIJ-05.2 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-05-2-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception if a non-string is used as name of any member.</p>
+<p>The service provided by the nlohmann/json library throws an exception if a non-string is used as name of any member.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4538,7 +4621,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05"><span class="std std-ref">TIJ-05</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed objects.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed objects.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4649,7 +4732,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -4659,7 +4745,7 @@
 <hr class="docutils" />
 <section id="tij-05-3-reviewed-score-0-0">
 <h1>TIJ-05.3 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-05-3-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception if an improper string is used as name of any member.</p>
+<p>The service provided by the nlohmann/json library throws an exception if an improper string is used as name of any member.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4671,7 +4757,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05"><span class="std std-ref">TIJ-05</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed objects.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed objects.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4806,7 +4892,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -4816,7 +4905,7 @@
 <hr class="docutils" />
 <section id="tij-05-4-reviewed-score-0-0">
 <h1>TIJ-05.4 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-05-4-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception if any member has an improper value.</p>
+<p>The service provided by the nlohmann/json library throws an exception if any member has an improper value.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4828,7 +4917,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05"><span class="std std-ref">TIJ-05</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed objects.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed objects.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -4888,7 +4977,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -4898,7 +4990,7 @@
 <hr class="docutils" />
 <section id="tij-05-5-reviewed-score-0-0">
 <h1>TIJ-05.5 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-05-5-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service throws an exception on improper member separators.</p>
+<p>The service provided by the nlohmann/json library throws an exception on improper member separators.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -4910,7 +5002,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="#tij-05"><span class="std std-ref">TIJ-05</span></a></p></td>
-<td><p>The parsing service throws an exception on ill-formed objects.</p></td>
+<td><p>The parsing service provided by the nlohmann/json library throws an exception on ill-formed objects.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -5060,7 +5152,10 @@
 <tr class="row-even"><td><p>2026-02-20 12:44:32</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 </tr>
 </tbody>
@@ -5070,7 +5165,7 @@
 <hr class="docutils" />
 <section id="tij-06-reviewed-score-0-0">
 <h1>TIJ-06 | Reviewed: ⨯ | Score: 0.0<a class="headerlink" href="#tij-06-reviewed-score-0-0" title="Link to this heading">#</a></h1>
-<p>The service recognises ill-formed byte-order marks and throws an exception.</p>
+<p>The service provided by the nlohmann/json library recognises ill-formed byte-order marks and throws an exception.</p>
 <p><strong>Supported Requests:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
@@ -5082,7 +5177,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="JLS.html#jls-24"><span class="std std-ref">JLS-24</span></a></p></td>
-<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception.</p></td>
+<td><p>The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -5100,22 +5195,22 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="NPF.html#npf-01.2"><span class="std std-ref">NPF-01.2</span></a></p></td>
-<td><p>The service does not parse multiple UTF-8 byte order marks at the beginning of the input and throws an exception.</p></td>
+<td><p>The service provided by the nlohmann/json library does not parse multiple UTF-8 byte order marks at the beginning of the input and throws an exception.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="NPF.html#npf-01.3"><span class="std std-ref">NPF-01.3</span></a></p></td>
-<td><p>The service does not parse UTF-8 byte order marks outside of a string and the first three characters of the input, and throws an exception.</p></td>
+<td><p>The service provided by the nlohmann/json library does not parse UTF-8 byte order marks outside of a string and the first three characters of the input, and throws an exception.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="NPF.html#npf-01.4"><span class="std std-ref">NPF-01.4</span></a></p></td>
-<td><p>The service does not parse UTF-16 and UTF-32 byte order mark instead of an UTF-8 byte order mark, and throws an exception.</p></td>
+<td><p>The service provided by the nlohmann/json library does not parse UTF-16 and UTF-32 byte order mark instead of an UTF-8 byte order mark, and throws an exception.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="NPF.html#npf-01.5"><span class="std std-ref">NPF-01.5</span></a></p></td>
-<td><p>The service does not parse partial and perturbed UTF-8 byte order marks within the first three characters of the input and throws an exception.</p></td>
+<td><p>The service provided by the nlohmann/json library does not parse partial and perturbed UTF-8 byte order marks within the first three characters of the input and throws an exception.</p></td>
 <td><p>0.00</p></td>
 <td><p>⨯ Item Reviewed<br>⨯ Link Reviewed</p></td>
 </tr>
@@ -5146,7 +5241,14 @@
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="row-odd"><td><p>2026-02-20 12:46:25.309871</p></td>
+<tr class="row-odd"><td><p>2026-03-16 08:31:01</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>2026-03-16 09:20:05.914360</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>

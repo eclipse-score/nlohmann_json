@@ -151,6 +151,18 @@ Trustable graph centered at TA-ANALYSIS
 
 Trustable graph centered at TA-VALIDATION
 
+.. image:: custom_JLS-53_graph.svg
+	:alt: Root of the trustable graph
+	:width: 6000px
+
+Trustable graph centered at JLS-53
+
+.. image:: custom_JLS-52_graph.svg
+	:alt: Root of the trustable graph
+	:width: 6000px
+
+Trustable graph centered at JLS-52
+
 .. image:: custom_JLEX-01_graph.svg
 	:alt: Root of the trustable graph
 	:width: 6000px
