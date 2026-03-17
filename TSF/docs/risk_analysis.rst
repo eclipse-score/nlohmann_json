@@ -35,13 +35,14 @@ The system boundary, environment, and boundary-crossing interactions assumed for
 The software under analysis (SUA) is the **header-only C++ JSON library `nlohmann/json` (v3.12.0)**, with:
 
 - **Implementation**
-  - primary include `include/nlohmann/json.hpp` (and internal headers under `include/nlohmann/detail/**`)
-  - optional amalgamated single-include header `single_include/nlohmann/json.hpp`
+  - `primary include <https://github.com/nlohmann/json/blob/develop/include/nlohmann/json.hpp>`_ (and internal headers under `include/nlohmann/detail <https://github.com/nlohmann/json/tree/develop/include/nlohmann/detail>`_)
+  - optional amalgamated single-include header `single_include/nlohmann/json.hpp <https://github.com/nlohmann/json/blob/develop/single_include/nlohmann/json.hpp>`_
   - C++11, no external code dependencies
 - **Purpose**
   - provide JSON parsing and validation per **RFC 8259**
 - **Evidence**
-  - captured extensively in `WFJ-*`, `TIJ-*`, `NJF-*`, `NPF-*`, and `PJD-*` statements, which are connected in the trustable graph to the expectation `JLEX-02`.
+  - captured extensively in `WFJ-*`, `TIJ-*`, `NJF-*`, `NPF-*`, and `PJD-*` statements, which are connected in the trustable graph to the expectation `JLEX-02`. See `Trustable Graph (JLEX-02) <https://eclipse-score.github.io/nlohmann_json/main/_images/custom_JLEX-02_graph.svg>`_.
+    Finding: the trustable graph contains JLEX-01, which is not a S-CORE requirement any more (to be fixed with `Bug #2686 <https://github.com/eclipse-score/score/issues/2686>`_).
 
 1.2 System
 ^^^^^^^^^^
@@ -54,7 +55,7 @@ It is typically an ECU containing driving functions and the necessary supporting
 
 Assumptions of Use are captured in the TSF elements:
 
-- `TA-CONSTRAINTS` → `AOU-01..AOU-31`
+- `TA-CONSTRAINTS` → `AOU-01..AOU-31` (see `Trustable Graph (TA-CONSTRAINTS) <https://eclipse-score.github.io/nlohmann_json/main/_images/custom_TA-CONSTRAINTS_graph.svg>`_.
 
 
 
@@ -72,7 +73,8 @@ Two use cases should be considered:
 
 Rationale for the chosen losses:
 
-As the expected system the SUA is used in is a vehicle only the maximum possible loss is considered.
+As the expected system the SUA is used in is a vehicle control unit, the assumption is there are safety relevant functions in it.
+The loss(es) are constrained to the scope of S-CORE.
 
 .. list-table:: Losses
         :header-rows: 1
@@ -81,7 +83,7 @@ As the expected system the SUA is used in is a vehicle only the maximum possible
           - Loss description
 
         * - L1
-          - Loss of life of people inside or outside of the vehicle.
+          - Loss of safety related applications, realizing functions or parts of them e.g. for driving function..
 
 
 2.2 Hazards (System-Level Conditions that can lead to these Losses)
@@ -108,13 +110,15 @@ Using the Losses, we define **Hazards (H\*)** :
           - System reaction in normal mode is delayed (e.g. breaking too late).
           - L1
 
+Note: Use cases during shutdown or crash are not taken into account, as the expectation is that in these states the system is already in safe state or
+shortly before, so that the JSON lib can not have safety relevant errors. Butt even if not, the hazards would be similar to the above.
 
 2.3 System-level Constraints (system conditions or behaviours that need to be satisfied to prevent hazards)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In RAFIA/STPA, constraints are “statements that must be true” to avoid a hazard, UCA, or causal scenario `RAFIA: Risk Analysis <https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html>`_. In TSF terms, these constraints are captured as (or mapped onto existing) **Items**, and are supported by **Evidence**.
+In RAFIA/STPA, constraints are “statements that must be true” to avoid a hazard, Unsafe Control Actions (UCA), or causal scenario `RAFIA: Risk Analysis <https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html>`_. In TSF terms, these constraints are captured as (or mapped onto existing) **Items**, and are supported by **Evidence**.
 
-.. list-table:: SLCs
+.. list-table:: System Level Constraints (SLCs)
         :header-rows: 1
 
         * - Constraint Id
@@ -143,12 +147,12 @@ In RAFIA/STPA, constraints are “statements that must be true” to avoid a haz
           - In case of safety relevant timing constraints are violated, the system is detecting this and will go to safe state.
           - H3
           - UCA-I1-TL; UCA-I3-TL
-          - TBD
+          - `Bug #2686 <https://github.com/eclipse-score/score/issues/2686>`_
 
 Note: Column "Link to UCA" is filled in step 5.
 
 
-1. Control structure
+3. Control structure
 --------------------
 
 Here, a control structure is defined:
@@ -195,7 +199,7 @@ This diagram is used both to define the **scope of analysis** (system boundary a
 
         * - Interaction Id
           - Interaction description
-          - Type
+          - IType
           - Provider Id
           - Receiver Id
 
@@ -223,8 +227,9 @@ This diagram is used both to define the **scope of analysis** (system boundary a
           - E2
           - E1
 
+Note: In this and other tables definitions from `STPA results schema <https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/stpa/schema.html>`_ are used, e.g. IType.
 
-1. Unsafe Control Actions (UCAs)
+4. Unsafe Control Actions (UCAs)
 --------------------------------
 
 Using the control structure, we identify **Unsafe Control Actions (UCA\*)**:
@@ -260,7 +265,7 @@ for the SUA provided feedback.
 
         * - CA Analysis ID
           - CA Id
-          - UCA Type
+          - UCAType
           - UCA Context
           - Analysis Result
           - Hazard(s)
@@ -410,13 +415,14 @@ for the SUA provided feedback.
           - -
           - Sequence/order is not applicable to a single `parse` call in isolation, nlohman_json is a library so no influence from other callers.
 
+Note: In this and other tables definitions from `STPA results schema <https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/stpa/schema.html>`_ are used, e.g. UCAType.
 
 4.3 UCAs
 ^^^^^^^^
 
 The UCA identified in the above analysis are:
 
-.. list-table:: UCAs
+.. list-table:: Unsafe Control Actions (UCAs)
         :header-rows: 1
 
         * - UCA Id
@@ -477,12 +483,12 @@ The UCA identified in the above analysis are:
 
 
 
-1. Controller (Functional) Constraints
+5. Controller (Functional) Constraints
 --------------------------------------
 
 This step records the **Controller (Functional) Constraints (CFC)** derived from the UCA results. This adds to the above constraint table
 
-.. list-table:: CFCs
+.. list-table:: Controller (Functional) Constraints (CFCs)
         :header-rows: 1
 
         * - Constraint Id
@@ -497,10 +503,10 @@ This step records the **Controller (Functional) Constraints (CFC)** derived from
           - Non availability of return data is treated by the caller (e.g. by default data, or safe state).
           - -
           - UCA-I1-ML; UCA-I3-ML
-          - ?
+          - `Bug #2686 <https://github.com/eclipse-score/score/issues/2686>`_
 
 
-1. Control Loops and Sequences
+6. Control Loops and Sequences
 ------------------------------
 
 This step is tailored out due to low complexity of the SUA (simple caller/callee interacttion).
@@ -523,26 +529,30 @@ This step is tailored out due to low complexity of the SUA (simple caller/callee
 ^^^^^^^^^^^^^^^^^
 
 In TSF terms, misbehaviours are **anything that can cause a deviation from Expected Behaviour** (`TA-MISBEHAVIOURS_CONTEXT.md`).
-JLS-24 partly but not fully covers C2. As this misbehaviour leads to an exception, this needs to be covered by the user (see AOU-04).
-But AOU-04 is formulated in a wrong way ("exceptions are ... turned off") and has to be corrected.
+
+`JLS-24 <https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-24>`_ partly but not fully covers C2. As this misbehaviour leads to an exception, this needs to be covered by the user (see `AOU-04 <https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-04>`_).
+
+But AOU-04 is formulated in a wrong way ("exceptions are ... turned off") and has to be corrected (to be fixed with `Bug #2686 <https://github.com/eclipse-score/score/issues/2686>`_)
 
 
 9.2 Expectations
 ^^^^^^^^^^^^^^^^
 
-Here, expectations are recorded as explicit, change-controlled statements about the SUA where it is responsible for preventing or mitigating a risk (Hazard, UCA, Causal Scenario) or Misbehaviour. The key SUA expectations already exist as TSF Expectation (`JLEX-02`).
+Here, expectations are recorded as explicit, change-controlled statements about the SUA where it is responsible for preventing or mitigating a risk (Hazard, UCA, Causal Scenario) or Misbehaviour.
+The key SUA expectations already exist as TSF Expectation (`JLEX-02 <https://eclipse-score.github.io/nlohmann_json/main/generated/JLEX.html#jlex-02>`_) covering C1.
 
 
 9.3 Assumptions
 ^^^^^^^^^^^^^^^
 
-Assumptions record conditions for integrators and other system elements (outside the SUA) that are responsible for preventing or mitigating a risk or misbehaviour. Again, assumptions are already covered under TSF as Assumptions of Use (AOU-23, AOU-24).
+Assumptions record conditions for integrators and other system elements (outside the SUA) that are responsible for preventing or mitigating a risk or misbehaviour.
+Again, assumptions are already covered under TSF as Assumptions of Use (`AOU-23 <https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-23>`_, `AOU-24 <https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-24>`_).
 
-To make sure C3 is covered by the system a new AOU has to be formulated.
+To make sure C3 is covered by the system a new AOU has to be formulated (to be fixed with `Bug #2686 <https://github.com/eclipse-score/score/issues/2686>`_).
 It is not possible to be covered by the SUA, because it has no control over the size of the JSON data provided.
 
 If the uses `accept` before using `parse` on a JSON to be deserialized he can avoid an exception due to mal-formed JSON, but he still needs to care for the missing
-deserialized data in a safe way. AOU for this is missing (which will cover C4).
+deserialized data in a safe way. AOU for this is missing which will cover C4 (to be fixed with `Bug #2686 <https://github.com/eclipse-score/score/issues/2686>`_).
 
 10. Review STPA results
 -----------------------
