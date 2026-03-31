@@ -5,6 +5,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
+### [#5122](https://github.com/nlohmann/json/issues/5122)
+- **Title:** Compilation error occurs when using nlohmann::ordered_map
+- **State:** OPEN
+- **Created At:** 2026-03-29T05:50:19Z
+
+
+
 ### [#5103](https://github.com/nlohmann/json/issues/5103)
 - **Title:** Build issue when compiling with gcc (any modules-capable version) in a C++ modules project
 - **State:** OPEN
