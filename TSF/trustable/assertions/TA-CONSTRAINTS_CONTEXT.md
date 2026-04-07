@@ -59,7 +59,7 @@ reporting bugs, issues, and requests.
 - User guides detailing limitations in interfaces designed for expandability or modularity
   - **Answer**: See JLS-73.
 - Documented strategies used by external users to address constraints and work with existing Statements
-  - **Answer**: See AOU-10 and AOU-11.
+  - **Answer**: See AOU-10 and AOU-11. For resource and time budgeting constraints on parsing and validation of untrusted or extreme inputs, see also AOU-31 and the supporting analysis in TSF/docs/nlohmann_runtime_and_memory_analysis.md.
 
 **Confidence scoring**
 
