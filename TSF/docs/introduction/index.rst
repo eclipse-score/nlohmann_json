@@ -61,7 +61,6 @@ The underlying standard, which defines the syntax of JSON data and the necessary
 Therefore, this documentation asserts the trustability of the capabilities of the library to recognize ill-formed JSON data according to RFC8259 and parse well-formed JSON data.
 In particular, the capabilities (and inabilities) according to different JSON formats, e.g. `RFC6902 <https://doi.org/10.17487/RFC6902>`_, `RFC7396 <https://doi.org/10.17487/RFC7396>`_, `RFC7493 <https://doi.org/10.17487/RFC7493>`_, `RFC7049 <https://doi.org/10.17487/RFC7049>`_ and `RFC8949 <https://doi.org/10.17487/RFC8949>`_ are not covered in this documentation.
 
-
 Context Diagram
 -----------------------------------
 

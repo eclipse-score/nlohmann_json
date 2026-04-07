@@ -89,7 +89,7 @@ established and reusable solutions.
 **Suggested evidence**
 
 - List of identified Misbehaviours
-  - **Answer**: A list of Misbehaviours was identified through STPA risk analysis (risk_analysis.md). Upstream bug tracking (JLS-11 and nlohmann_misbehaviours_comments.md) is used as complementary empirical evidence to confirm coverage and update the list where needed.
+  - **Answer**: A list of Misbehaviours was identified through STPA risk analysis (TSF/docs/risk_analysis.rst). Upstream bug tracking (JLS-11 and TSF/docs/nlohmann_misbehaviours_comments.md) is used as complementary empirical evidence to confirm coverage and update the list where needed. Furthermore, the handling of misbehaviours that were closed (TSF/docs/nlohmann_closed_misbehaviours.md) is analysed, with a focus on how long the tickets remained open and how they were resolved.
 - List of Expectations for mitigations addressing identified Misbehaviours
   - **Answer**: Mitigation expectations are expressed implicitly through (a) documented Quality assurance (https://json.nlohmann.me/community/quality_assurance) requirements and (b) concrete mitigation mechanisms captured by existing Statements: JLS-02 (fuzzing), JLS-31 (static analysis), JLS-25 (review/security policy), JLS-24 (defined failure mode via exceptions), and WFJ-06 (input validation via accept()).
 - Risk analysis
