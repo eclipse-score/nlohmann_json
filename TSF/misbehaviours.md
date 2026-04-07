@@ -47,27 +47,6 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
-### [#5036](https://github.com/nlohmann/json/issues/5036)
-- **Title:** get enum with default value
-- **State:** OPEN
-- **Created At:** 2025-12-20T07:06:56Z
-
-
-
-### [#5023](https://github.com/nlohmann/json/issues/5023)
-- **Title:** std::map and std::unordered_map serialization broken for keys of type std::u16string
-- **State:** OPEN
-- **Created At:** 2025-12-03T12:02:24Z
-
-
-
-### [#5012](https://github.com/nlohmann/json/issues/5012)
-- **Title:** error_handler_t::ignore documentation is incorrect
-- **State:** OPEN
-- **Created At:** 2025-11-24T14:21:24Z
-
-
-
 ### [#4996](https://github.com/nlohmann/json/issues/4996)
 - **Title:** Tests don't build with VS 2026
 - **State:** OPEN
@@ -272,10 +251,31 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
+### [#5036](https://github.com/nlohmann/json/issues/5036)
+- **Title:** get enum with default value
+- **State:** CLOSED
+- **Created At:** 2025-12-20T07:06:56Z
+
+
+
+### [#5023](https://github.com/nlohmann/json/issues/5023)
+- **Title:** std::map and std::unordered_map serialization broken for keys of type std::u16string
+- **State:** CLOSED
+- **Created At:** 2025-12-03T12:02:24Z
+
+
+
 ### [#5013](https://github.com/nlohmann/json/issues/5013)
 - **Title:** An object is used after it's moved
 - **State:** CLOSED
 - **Created At:** 2025-11-24T15:32:02Z
+
+
+
+### [#5012](https://github.com/nlohmann/json/issues/5012)
+- **Title:** error_handler_t::ignore documentation is incorrect
+- **State:** CLOSED
+- **Created At:** 2025-11-24T14:21:24Z
 
 
 
