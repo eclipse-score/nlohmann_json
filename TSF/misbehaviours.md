@@ -5,6 +5,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
+### [#5135](https://github.com/nlohmann/json/issues/5135)
+- **Title:** basic_json destructor allocates memory, violating noexcept semantics
+- **State:** OPEN
+- **Created At:** 2026-04-13T20:56:36Z
+
+
+
 ### [#5122](https://github.com/nlohmann/json/issues/5122)
 - **Title:** Compilation error occurs when using nlohmann::ordered_map
 - **State:** OPEN
