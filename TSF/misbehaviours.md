@@ -61,13 +61,6 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
-### [#4974](https://github.com/nlohmann/json/issues/4974)
-- **Title:** [MSVC][build] JSON failed with error C2672: 'nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,
-- **State:** OPEN
-- **Created At:** 2025-10-30T10:01:39Z
-
-
-
 ### [#4972](https://github.com/nlohmann/json/issues/4972)
 - **Title:** Natvis file for version 3.12.0 does not contain a type definition for detail::json_default_base
 - **State:** OPEN
@@ -297,6 +290,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Title:** VS2026 Insiders, C2678 With C++23 Modules
 - **State:** CLOSED
 - **Created At:** 2025-11-18T20:45:50Z
+
+
+
+### [#4974](https://github.com/nlohmann/json/issues/4974)
+- **Title:** [MSVC][build] JSON failed with error C2672: 'nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,
+- **State:** CLOSED
+- **Created At:** 2025-10-30T10:01:39Z
 
 
 
