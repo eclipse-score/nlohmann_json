@@ -5,38 +5,38 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
+### [#5288](https://github.com/nlohmann/json/issues/5288)
+- **Title:** Deprecation warning for operator== when using ordered_json when building with clang
+- **State:** OPEN
+- **Created At:** 2026-07-22T10:06:53Z
+
+
+
+### [#5256](https://github.com/nlohmann/json/issues/5256)
+- **Title:** Int and uint compare equal but hashes do not
+- **State:** OPEN
+- **Created At:** 2026-07-09T11:02:19Z
+
+
+
+### [#5210](https://github.com/nlohmann/json/issues/5210)
+- **Title:** Mixed comparison bug: number_unsigned (INT64_MAX+1~UINT64_MAX) vs number_integer
+- **State:** OPEN
+- **Created At:** 2026-06-17T16:49:21Z
+
+
+
+### [#5198](https://github.com/nlohmann/json/issues/5198)
+- **Title:** TOCTOU race between lexer construction and locale changes causes float truncation
+- **State:** OPEN
+- **Created At:** 2026-05-30T17:11:17Z
+
+
+
 ### [#5135](https://github.com/nlohmann/json/issues/5135)
 - **Title:** basic_json destructor allocates memory, violating noexcept semantics
 - **State:** OPEN
 - **Created At:** 2026-04-13T20:56:36Z
-
-
-
-### [#5122](https://github.com/nlohmann/json/issues/5122)
-- **Title:** Compilation error occurs when using nlohmann::ordered_map
-- **State:** OPEN
-- **Created At:** 2026-03-29T05:50:19Z
-
-
-
-### [#5103](https://github.com/nlohmann/json/issues/5103)
-- **Title:** Build issue when compiling with gcc (any modules-capable version) in a C++ modules project
-- **State:** OPEN
-- **Created At:** 2026-03-09T13:50:59Z
-
-
-
-### [#5074](https://github.com/nlohmann/json/issues/5074)
-- **Title:** Copy constructor changes semantics
-- **State:** OPEN
-- **Created At:** 2026-02-09T10:39:05Z
-
-
-
-### [#5068](https://github.com/nlohmann/json/issues/5068)
-- **Title:** Using json_pointer causes the warning of deprecated declarations
-- **State:** OPEN
-- **Created At:** 2026-02-04T04:05:50Z
 
 
 
@@ -47,65 +47,12 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
-### [#5048](https://github.com/nlohmann/json/issues/5048)
-- **Title:** function argument safety check silently optimized out in release build by clang
-- **State:** OPEN
-- **Created At:** 2026-01-07T22:27:57Z
-
-
-
-### [#4996](https://github.com/nlohmann/json/issues/4996)
-- **Title:** Tests don't build with VS 2026
-- **State:** OPEN
-- **Created At:** 2025-11-14T16:26:05Z
-
-
-
-### [#4972](https://github.com/nlohmann/json/issues/4972)
-- **Title:** Natvis file for version 3.12.0 does not contain a type definition for detail::json_default_base
-- **State:** OPEN
-- **Created At:** 2025-10-29T16:05:32Z
-
-
-
-### [#4916](https://github.com/nlohmann/json/issues/4916)
-- **Title:** Constructing array from C++20 ranges view does not work
-- **State:** OPEN
-- **Created At:** 2025-09-11T10:13:26Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Version 3.12.0 of nlohmann::json does not contain a constructor accepting std::views.
-
-
-### [#4864](https://github.com/nlohmann/json/issues/4864)
-- **Title:** C++17 std::optional feature not enabled
-- **State:** OPEN
-- **Created At:** 2025-07-28T16:11:42Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Using std::optional with nlohmann::json is broken in version 3.12.0, but shall be fixed in version 3.12.1.
-
-
-### [#4813](https://github.com/nlohmann/json/issues/4813)
-- **Title:** json::update() with merge_objects==true may trigger JSON_ASSERT for some objects
-- **State:** OPEN
-- **Created At:** 2025-06-09T14:01:42Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This issue is observed under specific circumstances only; in particular, basic_json is not affected.
-
-
 ### [#4714](https://github.com/nlohmann/json/issues/4714)
 - **Title:** Binary formats invalid encoding for <discarded> values in arrays and objects
 - **State:** OPEN
 - **Created At:** 2025-04-01T14:14:30Z
 
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Binary formats are creating broken outputs when discarded values are included in arrays/objects.
-
-
-### [#4552](https://github.com/nlohmann/json/issues/4552)
-- **Title:** UTF-8 invalid characters are not always ignored when dumping with error_handler_t::ignore
-- **State:** OPEN
-- **Created At:** 2024-12-17T15:49:31Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Invalid UTF-8 characters are not ignored when passing  error_handler_t::ignore to dump(); this issue is still open in version 3.12.0.
 
 
 ### [#4041](https://github.com/nlohmann/json/issues/4041)
@@ -116,44 +63,12 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This issue was observed in version 3.11.2; it is fixed in version 3.12.0.
 
 
-### [#3907](https://github.com/nlohmann/json/issues/3907)
-- **Title:** error: expected initializer before ‘<’ token 
-- **State:** OPEN
-- **Created At:** 2023-01-04T12:28:45Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Using CUDA with gcc as host compiler can lead to compiler errors. This issue still exists in version 3.12.0.
-
-
 ### [#3885](https://github.com/nlohmann/json/issues/3885)
 - **Title:** meson build does not install nlohmann_json*.cmake files
 - **State:** OPEN
 - **Created At:** 2022-12-17T09:28:11Z
 
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Using meson instead of cmake to build the library does not work; use cmake to guarantee the expected outcome.
-
-
-### [#3868](https://github.com/nlohmann/json/issues/3868)
-- **Title:** [MSVC][std:c++latest] JSON failed with error C2678: binary '==': no operator found which takes a left-hand operand of type 'nlohmann::json_abi_v3_11_2::json'
-- **State:** OPEN
-- **Created At:** 2022-12-07T08:01:14Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This issue regards the compatibility with the latest C++ standard.
-
-
-### [#3859](https://github.com/nlohmann/json/issues/3859)
-- **Title:** .value() with optional default value fails to compile
-- **State:** OPEN
-- **Created At:** 2022-12-02T12:28:33Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. json.value() with optional fallback value does not compile; this issue is still open in version 3.12.0.
-
-
-### [#3732](https://github.com/nlohmann/json/issues/3732)
-- **Title:** Using iteration_proxy_value with ordered_json fails to compile due to incomplete type
-- **State:** OPEN
-- **Created At:** 2022-09-08T09:39:38Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Using iteration_proxy_value with ordered_json as shown below fails to compile due to an incomplete type error in iterator set_parents(iterator it, typename iterator::difference_type count_set_parents); this issue still exists in version 3.12.0.
 
 
 ### [#3669](https://github.com/nlohmann/json/issues/3669)
@@ -180,28 +95,12 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Custom number types with non-trivial destructors and move-constructors are not permitted.
 
 
-### [#3425](https://github.com/nlohmann/json/issues/3425)
-- **Title:** Conversion from alt_json to json produces incorrect result
-- **State:** OPEN
-- **Created At:** 2022-04-06T08:08:14Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This issue is fixed in version 3.12.0 with the corresponding test in line 323 of unit-alt-string.cpp
-
-
 ### [#3381](https://github.com/nlohmann/json/issues/3381)
 - **Title:** msgpack parser failed to parse null as Map key
 - **State:** OPEN
 - **Created At:** 2022-03-08T10:12:45Z
 
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Keys of objects are required to be strings; and the literal null is not a string.
-
-
-### [#3106](https://github.com/nlohmann/json/issues/3106)
-- **Title:** Use of JSON_DIAGNOSTICS through CMake and find_package()
-- **State:** OPEN
-- **Created At:** 2021-10-26T15:05:21Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Setting JSON_DIAGNOSTICS was broken in version 3.10.4.
 
 
 ### [#2649](https://github.com/nlohmann/json/issues/2649)
@@ -223,6 +122,34 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Closed Issues (since version 3.12.0)
 
+### [#5197](https://github.com/nlohmann/json/issues/5197)
+- **Title:** MSVC std c++23 u8string can not be correctly stored in json
+- **State:** CLOSED
+- **Created At:** 2026-05-30T05:00:23Z
+
+
+
+### [#5175](https://github.com/nlohmann/json/issues/5175)
+- **Title:** Test "dump for basic_json with long double number_float_t" fails when run with Valgrind
+- **State:** CLOSED
+- **Created At:** 2026-05-16T08:01:07Z
+
+
+
+### [#5122](https://github.com/nlohmann/json/issues/5122)
+- **Title:** Compilation error occurs when using nlohmann::ordered_map
+- **State:** CLOSED
+- **Created At:** 2026-03-29T05:50:19Z
+
+
+
+### [#5103](https://github.com/nlohmann/json/issues/5103)
+- **Title:** Build issue when compiling with gcc (any modules-capable version) in a C++ modules project
+- **State:** CLOSED
+- **Created At:** 2026-03-09T13:50:59Z
+
+
+
 ### [#5091](https://github.com/nlohmann/json/issues/5091)
 - **Title:** The README section on creating JSON objects from literals contains wording that suggests file I/O but doesn't demonstrate it, and has a minor grammatical error.
 - **State:** CLOSED
@@ -230,10 +157,31 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
+### [#5074](https://github.com/nlohmann/json/issues/5074)
+- **Title:** Copy constructor changes semantics
+- **State:** CLOSED
+- **Created At:** 2026-02-09T10:39:05Z
+
+
+
+### [#5068](https://github.com/nlohmann/json/issues/5068)
+- **Title:** Using json_pointer causes the warning of deprecated declarations
+- **State:** CLOSED
+- **Created At:** 2026-02-04T04:05:50Z
+
+
+
 ### [#5060](https://github.com/nlohmann/json/issues/5060)
 - **Title:** Segfault on x86_64 Android with Chromium libc++ in serializer::~serializer()
 - **State:** CLOSED
 - **Created At:** 2026-01-24T10:41:51Z
+
+
+
+### [#5048](https://github.com/nlohmann/json/issues/5048)
+- **Title:** function argument safety check silently optimized out in release build by clang
+- **State:** CLOSED
+- **Created At:** 2026-01-07T22:27:57Z
 
 
 
@@ -293,10 +241,24 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
+### [#4996](https://github.com/nlohmann/json/issues/4996)
+- **Title:** Tests don't build with VS 2026
+- **State:** CLOSED
+- **Created At:** 2025-11-14T16:26:05Z
+
+
+
 ### [#4974](https://github.com/nlohmann/json/issues/4974)
 - **Title:** [MSVC][build] JSON failed with error C2672: 'nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,
 - **State:** CLOSED
 - **Created At:** 2025-10-30T10:01:39Z
+
+
+
+### [#4972](https://github.com/nlohmann/json/issues/4972)
+- **Title:** Natvis file for version 3.12.0 does not contain a type definition for detail::json_default_base
+- **State:** CLOSED
+- **Created At:** 2025-10-29T16:05:32Z
 
 
 
@@ -314,6 +276,14 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Created At:** 2025-09-19T18:41:56Z
 
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Optimized binary arrays have to be explicitly enabled when parsing from BJdata; otherwise an exception is thrown.
+
+
+### [#4916](https://github.com/nlohmann/json/issues/4916)
+- **Title:** Constructing array from C++20 ranges view does not work
+- **State:** CLOSED
+- **Created At:** 2025-09-11T10:13:26Z
+
+- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Version 3.12.0 of nlohmann::json does not contain a constructor accepting std::views.
 
 
 ### [#4903](https://github.com/nlohmann/json/issues/4903)
@@ -369,6 +339,14 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Created At:** 2025-07-29T05:52:07Z
 
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. The linkage of this [link](https://raw.githubusercontent.com/nlohmann/json/v3.11.3/single_include/nlohmann/json.hpp) pointed erroneously to version 3.12.0 for some time.
+
+
+### [#4864](https://github.com/nlohmann/json/issues/4864)
+- **Title:** C++17 std::optional feature not enabled
+- **State:** CLOSED
+- **Created At:** 2025-07-28T16:11:42Z
+
+- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Using std::optional with nlohmann::json is broken in version 3.12.0, but shall be fixed in version 3.12.1.
 
 
 ### [#4863](https://github.com/nlohmann/json/issues/4863)
@@ -443,12 +421,12 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Cf. https://json.nlohmann.me/home/faq/#brace-initialization-yields-arrays
 
 
-### [#4819](https://github.com/nlohmann/json/issues/4819)
-- **Title:** gcc 14.2 bug: array subscript out of bounds with `JSON_DIAGNOSTICS`
+### [#4813](https://github.com/nlohmann/json/issues/4813)
+- **Title:** json::update() with merge_objects==true may trigger JSON_ASSERT for some objects
 - **State:** CLOSED
-- **Created At:** 2025-06-16T11:20:55Z
+- **Created At:** 2025-06-09T14:01:42Z
 
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This is a bug in gcc 14.2, which will not be suppressed by the library.
+- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This issue is observed under specific circumstances only; in particular, basic_json is not affected.
 
 
 ### [#4812](https://github.com/nlohmann/json/issues/4812)
