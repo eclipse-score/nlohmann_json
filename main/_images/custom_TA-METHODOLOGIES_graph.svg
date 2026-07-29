@@ -61,10 +61,10 @@
 <!-- JLS&#45;36 -->
 <g id="node3" class="node">
 <title>JLS&#45;36</title>
-<g id="a_node3"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-36" xlink:title="JLS&#45;36: Updates of the\neclipse&#45;score/inc_nlohmann_json\nrepository are carried\nout in accordance with\nthe defined and documented\nupdate process in TSF/README.md.\n" target="_top">
+<g id="a_node3"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-36" xlink:title="JLS&#45;36: Updates of the\neclipse&#45;score/nlohmann_json\nrepository are carried\nout in accordance with\nthe defined and documented\nupdate process in TSF/README.md.\n" target="_top">
 <polygon fill="none" stroke="black" points="535.5,-128 269.5,-128 269.5,-30 535.5,-30 535.5,-128"/>
 <text text-anchor="middle" x="402.5" y="-112.8" font-family="Open Sans" font-size="14.00">JLS&#45;36: Updates of the</text>
-<text text-anchor="middle" x="402.5" y="-97.8" font-family="Open Sans" font-size="14.00">eclipse&#45;score/inc_nlohmann_json</text>
+<text text-anchor="middle" x="402.5" y="-97.8" font-family="Open Sans" font-size="14.00">eclipse&#45;score/nlohmann_json</text>
 <text text-anchor="middle" x="402.5" y="-82.8" font-family="Open Sans" font-size="14.00">repository are carried</text>
 <text text-anchor="middle" x="402.5" y="-67.8" font-family="Open Sans" font-size="14.00">out in accordance with</text>
 <text text-anchor="middle" x="402.5" y="-52.8" font-family="Open Sans" font-size="14.00">the defined and documented</text>

@@ -147,7 +147,7 @@
 <!-- WFJ&#45;06 -->
 <g id="node10" class="node">
 <title>WFJ&#45;06</title>
-<g id="a_node10"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/WFJ.html#wfj-06" xlink:title="WFJ&#45;06: The service provided\nby the nlohmann/json\nlibrary checks that a\nJSON value must be an\nobject, array, number,\nor string, or one of\nthe lowercase literal\nnames false, null, or\ntrue " target="_top">
+<g id="a_node10"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/WFJ.html#wfj-06" xlink:title="WFJ&#45;06: The service provided\nby the nlohmann/json\nlibrary checks that a\nJSON value must be an\nobject, array, number,\nor string, or one of\nthe lowercase literal\nnames false, null, or\ntrue. " target="_top">
 <polygon fill="none" stroke="black" points="1609.5,-143 1390.5,-143 1390.5,0 1609.5,0 1609.5,-143"/>
 <text text-anchor="middle" x="1500" y="-127.8" font-family="Open Sans" font-size="14.00">WFJ&#45;06: The service provided</text>
 <text text-anchor="middle" x="1500" y="-112.8" font-family="Open Sans" font-size="14.00">by the nlohmann/json</text>
@@ -157,7 +157,7 @@
 <text text-anchor="middle" x="1500" y="-52.8" font-family="Open Sans" font-size="14.00">or string, or one of</text>
 <text text-anchor="middle" x="1500" y="-37.8" font-family="Open Sans" font-size="14.00">the lowercase literal</text>
 <text text-anchor="middle" x="1500" y="-22.8" font-family="Open Sans" font-size="14.00">names false, null, or</text>
-<text text-anchor="middle" x="1500" y="-7.8" font-family="Open Sans" font-size="14.00">true </text>
+<text text-anchor="middle" x="1500" y="-7.8" font-family="Open Sans" font-size="14.00">true. </text>
 </a>
 </g>
 </g>

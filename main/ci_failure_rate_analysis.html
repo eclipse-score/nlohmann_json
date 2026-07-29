@@ -32,17 +32,17 @@
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
-    <link rel="stylesheet" type="text/css" href="_static/css/score.css?v=940e959b" />
+    <link rel="stylesheet" type="text/css" href="_static/css/score.css?v=6e51530f" />
     <link rel="stylesheet" type="text/css" href="_static/css/score_needs.css?v=e97392eb" />
     <link rel="stylesheet" type="text/css" href="_static/css/score_design.css?v=d9fd870c" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/modern.css?v=803738c0" />
   
   <!-- So that users can add custom icons -->
@@ -528,7 +528,7 @@ The remaining data can be found on the GitHub <a class="reference external" href
 </section>
 <section id="ci-static-analysis-clang-ci-clang-tidy">
 <h3><code class="docutils literal notranslate"><span class="pre">ci_static_analysis_clang</span> <span class="pre">(ci_clang_tidy)</span></code><a class="headerlink" href="#ci-static-analysis-clang-ci-clang-tidy" title="Link to this heading">#</a></h3>
-<p>In the analyzed period, most failed <code class="docutils literal notranslate"><span class="pre">ci_static_analysis_clang</span> <span class="pre">(ci_clang_tidy)</span></code> runs come from a few PRs that deliberately changed static analysis or CI tooling, plus real bug fix. In particular, PR <a class="reference external" href="https://github.com/nlohmann/json/pull/4654">#4654</a> “Fix ~basic_json causing std::terminate”, PR <a class="reference external" href="https://github.com/nlohmann/json/pull/4663">#4663</a> “Add clang-tidy plugin to convert implicit conversions to explicit ones”, and the change referenced as <a class="reference external" href="https://github.com/nlohmann/json/pull/4701">#4701</a> “Suppress clang-analyzer-webkit.NoUncountedMemberChecker” all show multiple failed Ubuntu workflow runs while their clang-tidy / analyzer configuration was being tuned. Because this job treats every clang-tidy or analyzer diagnostic as a hard error, each new or stricter check initially makes the job fail until the warnings are fixed or suppressed. The resulting ~14 % failure rate is therefore explained by intentional tightening and maintenance of the static-analysis pipeline (plus normal PR iteration), rather than by unexplained or unaddressed misbehaviour in the library itself.</p>
+<p>In the analysed period, most failed <code class="docutils literal notranslate"><span class="pre">ci_static_analysis_clang</span> <span class="pre">(ci_clang_tidy)</span></code> runs come from a few PRs that deliberately changed static analysis or CI tooling, plus real bug fixes. In particular, PR <a class="reference external" href="https://github.com/nlohmann/json/pull/4654">#4654</a> “Fix ~basic_json causing std::terminate”, PR <a class="reference external" href="https://github.com/nlohmann/json/pull/4663">#4663</a> “Add clang-tidy plugin to convert implicit conversions to explicit ones”, and the change referenced as <a class="reference external" href="https://github.com/nlohmann/json/pull/4701">#4701</a> “Suppress clang-analyzer-webkit.NoUncountedMemberChecker” all show multiple failed Ubuntu workflow runs while their clang-tidy / analyzer configuration was being tuned. Because this job treats every clang-tidy or analyzer diagnostic as a hard error, each new or stricter check initially makes the job fail until the warnings are fixed or suppressed. The resulting ~14 % failure rate is therefore explained by intentional tightening and maintenance of the static-analysis pipeline (plus normal PR iteration), rather than by unexplained or unaddressed misbehaviour in the library itself.</p>
 </section>
 <section id="ci-test-coverage">
 <h3><code class="docutils literal notranslate"><span class="pre">ci_test_coverage</span></code><a class="headerlink" href="#ci-test-coverage" title="Link to this heading">#</a></h3>
@@ -594,7 +594,7 @@ branch. The observed 5.26 % failure rate corresponds to 2 failed runs out of
 branch / permission issues) rather than to the execution of the tests
 themselves.</p>
 <p>The job <code class="docutils literal notranslate"><span class="pre">clone_missing_labels</span></code> belongs to the separate “Labeler Workflow” and
-synchronizes GitHub issue/PR labels for this repository with the organisation
+synchronises GitHub issue/PR labels for this repository with the organisation
 defaults. Its 2.63 % failure rate corresponds to 1 failed run out of 38,
 and is related to repository/label management rather than to building or
 testing the JSON library.</p>
@@ -603,7 +603,7 @@ observed high failure rates were confined to publishing or repository-management
 </section>
 <section id="id4">
 <h2>Conclusion<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
-<p>Taken together, a period of there months show that all test-related
+<p>Taken together, a period of three months shows that all test-related
 jobs in the Parent Workflow have 0 % failures, while the few non-zero
 failure rates are confined to meta-jobs that handle publishing of historical
 test data and label synchronization. This indicates a stable CI setup for
@@ -674,7 +674,7 @@ infrastructure-side integration steps rather than in the core test pipeline.</p>
 
   
   <div class="tocsection editthispage">
-    <a href="https://github.com/eclipse-score/nlohmann_json/edit/main/docs/ci_failure_rate_analysis.md">
+    <a href="https://github.com/eclipse-score/nlohmann_json/edit/main/TSF/docs/ci_failure_rate_analysis.md">
       <i class="fa-solid fa-pencil"></i>
       
       

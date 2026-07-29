@@ -52,7 +52,7 @@ This job was a short-lived Clang coverage experiment. In the selected time windo
 
 ### `ci_static_analysis_clang (ci_clang_tidy)`
 
-In the analyzed period, most failed `ci_static_analysis_clang (ci_clang_tidy)` runs come from a few PRs that deliberately changed static analysis or CI tooling, plus real bug fix. In particular, PR [#4654](https://github.com/nlohmann/json/pull/4654) "Fix ~basic_json causing std::terminate", PR [#4663](https://github.com/nlohmann/json/pull/4663) "Add clang-tidy plugin to convert implicit conversions to explicit ones", and the change referenced as [#4701](https://github.com/nlohmann/json/pull/4701) "Suppress clang-analyzer-webkit.NoUncountedMemberChecker" all show multiple failed Ubuntu workflow runs while their clang-tidy / analyzer configuration was being tuned. Because this job treats every clang-tidy or analyzer diagnostic as a hard error, each new or stricter check initially makes the job fail until the warnings are fixed or suppressed. The resulting ~14 % failure rate is therefore explained by intentional tightening and maintenance of the static-analysis pipeline (plus normal PR iteration), rather than by unexplained or unaddressed misbehaviour in the library itself.
+In the analysed period, most failed `ci_static_analysis_clang (ci_clang_tidy)` runs come from a few PRs that deliberately changed static analysis or CI tooling, plus real bug fixes. In particular, PR [#4654](https://github.com/nlohmann/json/pull/4654) "Fix ~basic_json causing std::terminate", PR [#4663](https://github.com/nlohmann/json/pull/4663) "Add clang-tidy plugin to convert implicit conversions to explicit ones", and the change referenced as [#4701](https://github.com/nlohmann/json/pull/4701) "Suppress clang-analyzer-webkit.NoUncountedMemberChecker" all show multiple failed Ubuntu workflow runs while their clang-tidy / analyzer configuration was being tuned. Because this job treats every clang-tidy or analyzer diagnostic as a hard error, each new or stricter check initially makes the job fail until the warnings are fixed or suppressed. The resulting ~14 % failure rate is therefore explained by intentional tightening and maintenance of the static-analysis pipeline (plus normal PR iteration), rather than by unexplained or unaddressed misbehaviour in the library itself.
 
 ### `ci_test_coverage` 
 
@@ -103,7 +103,7 @@ branch / permission issues) rather than to the execution of the tests
 themselves.
 
 The job `clone_missing_labels` belongs to the separate “Labeler Workflow” and
-synchronizes GitHub issue/PR labels for this repository with the organisation
+synchronises GitHub issue/PR labels for this repository with the organisation
 defaults. Its 2.63 % failure rate corresponds to 1 failed run out of 38,
 and is related to repository/label management rather than to building or
 testing the JSON library.
@@ -113,7 +113,7 @@ observed high failure rates were confined to publishing or repository-management
 
 ## Conclusion
 
-Taken together, a period of there months show that all test-related
+Taken together, a period of three months shows that all test-related
 jobs in the Parent Workflow have 0 % failures, while the few non-zero
 failure rates are confined to meta-jobs that handle publishing of historical
 test data and label synchronization. This indicates a stable CI setup for

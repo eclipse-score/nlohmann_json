@@ -107,11 +107,11 @@
 <!-- NJF&#45;06.4.1 -->
 <g id="node5" class="node">
 <title>NJF&#45;06.4.1</title>
-<g id="a_node5"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/NJF.html#njf-06.4.1" xlink:title="NJF&#45;06.4.1: If the service\nprovided by the nlohmann/json\nlibrary recognises the\nname candidate as string,\nthen it accepts the name\ncandidate. " target="_top">
+<g id="a_node5"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/NJF.html#njf-06.4.1" xlink:title="NJF&#45;06.4.1: If the service\nprovided by the nlohmann/json\nlibrary recognizes the\nname candidate as string,\nthen it accepts the name\ncandidate. " target="_top">
 <polygon fill="none" stroke="black" points="403,-98 170,-98 170,0 403,0 403,-98"/>
 <text text-anchor="middle" x="286.5" y="-82.8" font-family="Open Sans" font-size="14.00">NJF&#45;06.4.1: If the service</text>
 <text text-anchor="middle" x="286.5" y="-67.8" font-family="Open Sans" font-size="14.00">provided by the nlohmann/json</text>
-<text text-anchor="middle" x="286.5" y="-52.8" font-family="Open Sans" font-size="14.00">library recognises the</text>
+<text text-anchor="middle" x="286.5" y="-52.8" font-family="Open Sans" font-size="14.00">library recognizes the</text>
 <text text-anchor="middle" x="286.5" y="-37.8" font-family="Open Sans" font-size="14.00">name candidate as string,</text>
 <text text-anchor="middle" x="286.5" y="-22.8" font-family="Open Sans" font-size="14.00">then it accepts the name</text>
 <text text-anchor="middle" x="286.5" y="-7.8" font-family="Open Sans" font-size="14.00">candidate. </text>

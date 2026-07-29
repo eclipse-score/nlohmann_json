@@ -65,7 +65,7 @@ Verifies that the library can be embedded directly into a CMake project using `a
 - Builds multiple executables (`with_namespace_target`, `without_namespace_target`, `without_exceptions`)
 - Each build creates object files, executables with embedded timestamps
 - Subsequent runs create new artifacts with different timestamps
-- CMake's incremental build cache persists between runs, causing different behavior
+- CMake's incremental build cache persists between runs, causing different behaviour
 
 ---
 

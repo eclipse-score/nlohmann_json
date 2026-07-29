@@ -59,11 +59,11 @@
 <!-- JLS&#45;11 -->
 <g id="node3" class="node">
 <title>JLS&#45;11</title>
-<g id="a_node3"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-11" xlink:title="JLS&#45;11: Outstanding bugs\nor misbehaviours are\nanalyzed within eclipse&#45;score/inc_nlohmann_json\nto determine whether\nthey are relevant for\nS&#45;CORE&#39;s use cases of\nthe nlohmann/json library.\n" target="_top">
+<g id="a_node3"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-11" xlink:title="JLS&#45;11: Outstanding bugs\nor misbehaviours are\nanalysed within eclipse&#45;score/inc_nlohmann_json\nto determine whether\nthey are relevant for\nS&#45;CORE&#39;s use cases of\nthe nlohmann/json library.\n" target="_top">
 <polygon fill="none" stroke="black" points="619.5,-128 263.5,-128 263.5,-15 619.5,-15 619.5,-128"/>
 <text text-anchor="middle" x="441.5" y="-112.8" font-family="Open Sans" font-size="14.00">JLS&#45;11: Outstanding bugs</text>
 <text text-anchor="middle" x="441.5" y="-97.8" font-family="Open Sans" font-size="14.00">or misbehaviours are</text>
-<text text-anchor="middle" x="441.5" y="-82.8" font-family="Open Sans" font-size="14.00">analyzed within eclipse&#45;score/inc_nlohmann_json</text>
+<text text-anchor="middle" x="441.5" y="-82.8" font-family="Open Sans" font-size="14.00">analysed within eclipse&#45;score/inc_nlohmann_json</text>
 <text text-anchor="middle" x="441.5" y="-67.8" font-family="Open Sans" font-size="14.00">to determine whether</text>
 <text text-anchor="middle" x="441.5" y="-52.8" font-family="Open Sans" font-size="14.00">they are relevant for</text>
 <text text-anchor="middle" x="441.5" y="-37.8" font-family="Open Sans" font-size="14.00">S&#45;CORE&#39;s use cases of</text>

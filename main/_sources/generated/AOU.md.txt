@@ -1,5 +1,5 @@
 
-### AOU-01 | Reviewed: ⨯ | Score: 0.0 
+### AOU-01 | Reviewed: ✔ | Score: 0.0 
 The integrator shall report problems with eclipse-score/inc_nlohmann_json's implementation to the upstream nlohmann/json repository whenever a problem is detected.
 
 
@@ -7,7 +7,7 @@ The integrator shall report problems with eclipse-score/inc_nlohmann_json's impl
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -35,13 +35,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-02 | Reviewed: ⨯ | Score: 0.0 
+### AOU-02 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that the build environment used for eclipse-score/inc_nlohmann_json is supplied with consistent dependencies in every integrating system.
 
 
@@ -49,7 +56,7 @@ The integrator shall ensure that the build environment used for eclipse-score/in
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -77,13 +84,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-03 | Reviewed: ⨯ | Score: 0.0 
+### AOU-03 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that integrator-controlled mirrors of the dependencies of the nlohmann/json repository are persistently and accessibly stored as long as the nlohmann/json library is used within eclipse-score/inc_nlohmann_json.
 
 
@@ -91,7 +105,7 @@ The integrator shall ensure that integrator-controlled mirrors of the dependenci
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -119,13 +133,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-04 | Reviewed: ⨯ | Score: 0.0 
+### AOU-04 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that exceptions are properly handled or turned off in eclipse-score/inc_nlohmann_json, whenever eclipse-score/inc_nlohmann_json's implementation of nlohmann/json is used.
 
 
@@ -133,7 +154,7 @@ The integrator shall ensure that exceptions are properly handled or turned off i
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -161,7 +182,14 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
@@ -176,7 +204,7 @@ Alternatively, the accept function may first be used to check if the JSON is val
 
 ---
 
-### AOU-05 | Reviewed: ⨯ | Score: 0.0 
+### AOU-05 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that in eclipse-score/inc_nlohmann_json, input is encoded as UTF-8 (as required by RFC8259) and that in case other string formats are used, thrown exceptions are properly handled.
 
 
@@ -184,7 +212,7 @@ The integrator shall ensure that in eclipse-score/inc_nlohmann_json, input is en
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -212,13 +240,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-06 | Reviewed: ⨯ | Score: 0.0 
+### AOU-06 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that in eclipse-score/inc_nlohmann_json brace initialization (e.g. json j{true};) is not used with the types basic_json, json, or ordered_json, unless an object or array is created.
 
 
@@ -226,7 +261,7 @@ The integrator shall ensure that in eclipse-score/inc_nlohmann_json brace initia
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -254,13 +289,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-07 | Reviewed: ⨯ | Score: 0.0 
+### AOU-07 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure in eclipse-score/inc_nlohmann_json that exceptions, which are expected during parsing with default parameters, are properly handled whenever the input is no valid JSON.
 
 
@@ -268,7 +310,7 @@ The integrator shall ensure in eclipse-score/inc_nlohmann_json that exceptions, 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -296,13 +338,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-08 | Reviewed: ⨯ | Score: 0.0 
+### AOU-08 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that all necessary source files and built tools are mirrored in eclipse-score/inc_nlohmann_json, e.g. using a built server without internet access, as long as nlohmann/json is actively used within eclipse-score/inc_nlohmann_json.
 
 
@@ -310,7 +359,7 @@ The integrator shall ensure that all necessary source files and built tools are 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -338,13 +387,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-09 | Reviewed: ⨯ | Score: 0.0 
+### AOU-09 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure, within eclipse-score/inc_nlohmann_json, that the data produced by the implemented advanced warning indicators are verified and validated based on analysis.
 
 
@@ -352,7 +408,7 @@ The integrator shall ensure, within eclipse-score/inc_nlohmann_json, that the da
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -380,13 +436,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-10 | Reviewed: ⨯ | Score: 0.0 
+### AOU-10 | Reviewed: ✔ | Score: 0.0 
 The integrator shall, whenever possible, turn any remaining Assumptions-of-Use (AOU) items into statements and add suitable references and/or validators.
 
 
@@ -394,7 +457,7 @@ The integrator shall, whenever possible, turn any remaining Assumptions-of-Use (
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -421,13 +484,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-11 | Reviewed: ⨯ | Score: 0.0 
+### AOU-11 | Reviewed: ✔ | Score: 0.0 
 The integrator shall, whenever possible, replace outdated and/or provide additional references and validators that would further improve the trustability of a statement.
 
 
@@ -435,7 +505,7 @@ The integrator shall, whenever possible, replace outdated and/or provide additio
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -462,13 +532,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-14 | Reviewed: ⨯ | Score: 0.0 
+### AOU-14 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that the eclipse-score/inc_nlohmann_json is built with tools from the provided matrix specification, whenever nlohmann/json is used within eclipse-score/inc_nlohmann_json. (not yet provided)
 
 
@@ -476,7 +553,7 @@ The integrator shall ensure that the eclipse-score/inc_nlohmann_json is built wi
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -504,13 +581,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-15 | Reviewed: ⨯ | Score: 0.0 
+### AOU-15 | Reviewed: ✔ | Score: 0.0 
 The integrator shall maintain mirrors for all code and tools utilized in testing as long as nlohmann/json is actively used within eclipse-score/inc_nlohmann_json.
 
 
@@ -518,7 +602,7 @@ The integrator shall maintain mirrors for all code and tools utilized in testing
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -546,13 +630,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-16 | Reviewed: ⨯ | Score: 0.0 
+### AOU-16 | Reviewed: ✔ | Score: 0.0 
 The integrator shall use C++ versions and compilers that are tested in the CI pipeline, whenever nlohmann/json is used within eclipse-score/inc_nlohmann_json.
 
 
@@ -560,7 +651,7 @@ The integrator shall use C++ versions and compilers that are tested in the CI pi
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -588,13 +679,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-17 | Reviewed: ⨯ | Score: 0.0 
+### AOU-17 | Reviewed: ✔ | Score: 0.0 
 The integrator shall identify misbehaviours for the nlohmann/json library, define appropriate mitigations, and ensure that these mitigations are thoroughly validated, whenever using eclipse-score/inc_nlohmann_json.
 
 
@@ -602,7 +700,7 @@ The integrator shall identify misbehaviours for the nlohmann/json library, defin
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -630,13 +728,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-19 | Reviewed: ⨯ | Score: 0.0 
+### AOU-19 | Reviewed: ✔ | Score: 0.0 
 As long as the nlohmann/json library is actively used within eclipse-score/inc_nlohmann_json, the system integrator shall regularly review the available monitoring indicators (e.g. CI metrics such as test coverage and PR gate results, and any future runtime indicators) to detect adverse trends or threshold violations. For each identified trend or violation, the integrator shall initiate appropriate corrective actions (e.g. blocking the affected change, creating an issue, or triggering a root-cause analysis) and track them to closure.
 
 
@@ -644,7 +749,7 @@ As long as the nlohmann/json library is actively used within eclipse-score/inc_n
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -672,13 +777,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-20 | Reviewed: ⨯ | Score: 0.0 
+### AOU-20 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that the keys within an object are unique, whenever an object is to be parsed by eclipse-score/inc_nlohmann_json.
 
 
@@ -686,7 +798,7 @@ The integrator shall ensure that the keys within an object are unique, whenever 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -714,13 +826,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-21 | Reviewed: ⨯ | Score: 0.0 
+### AOU-21 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that a string does not contain escaped unpaired utf-16 surrogate characters, and that exceptions are properly handled in eclipse-score/inc_nlohmann_json, whenever a string is to be parsed.
 
 
@@ -728,7 +847,7 @@ The integrator shall ensure that a string does not contain escaped unpaired utf-
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -756,13 +875,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-22 | Reviewed: ⨯ | Score: 0.0 
+### AOU-22 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that numbers are written in base 10, and that exceptions and misbehaviours in case that any other base is used are properly handled and mitigated within eclipse-score/inc_nlohmann_json, whenever a number is parsed.
 
 
@@ -770,7 +896,7 @@ The integrator shall ensure that numbers are written in base 10, and that except
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -798,13 +924,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-23 | Reviewed: ⨯ | Score: 0.0 
+### AOU-23 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that data are complete and error-free, whenever they are transmitted to eclipse-score/inc_nlohmann_json.
 
 
@@ -812,7 +945,7 @@ The integrator shall ensure that data are complete and error-free, whenever they
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -840,13 +973,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-24 | Reviewed: ⨯ | Score: 0.0 
+### AOU-24 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that the data do not change during reading, whenever transmitted to eclipse-score/inc_nlohmann_json.
 
 
@@ -854,7 +994,7 @@ The integrator shall ensure that the data do not change during reading, whenever
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -882,13 +1022,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-25 | Reviewed: ⨯ | Score: 0.0 
+### AOU-25 | Reviewed: ✔ | Score: 0.0 
 The integrator shall convince themselves that the behaviour of the used C++ standard library is known, verified and validated.
 
 
@@ -896,7 +1043,7 @@ The integrator shall convince themselves that the behaviour of the used C++ stan
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -924,13 +1071,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-26 | Reviewed: ⨯ | Score: 0.0 
+### AOU-26 | Reviewed: ✔ | Score: 0.0 
 The integrator shall convince themselves that the misbehaviours of the C++ standard library and mitigations are known, verified and validated.
 
 
@@ -938,7 +1092,7 @@ The integrator shall convince themselves that the misbehaviours of the C++ stand
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -966,13 +1120,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-27 | Reviewed: ⨯ | Score: 0.0 
+### AOU-27 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that the 'Release management' and 'Update concepts' in TSF/README.md are followed whenever any changes are done in eclipse-score/inc_nlohmann_json.
 
 
@@ -980,7 +1141,7 @@ The integrator shall ensure that the 'Release management' and 'Update concepts' 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1008,13 +1169,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-28 | Reviewed: ⨯ | Score: 0.0 
+### AOU-28 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that the known open bugs of the nlohmann/json repository are regularly reviewed on their impact on the use of the documented version of nlohmann/json, as long as the nlohmann/json library is actively used within eclipse-score/inc_nlohmann_json.
 
 
@@ -1022,7 +1190,7 @@ The integrator shall ensure that the known open bugs of the nlohmann/json reposi
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1050,21 +1218,28 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-29 | Reviewed: ⨯ | Score: 0.0 
-The integrator shall check the security tab in the GitHub UI on a regular basis, analyze and either fix or dismiss any outstanding CVEs.
+### AOU-29 | Reviewed: ✔ | Score: 0.0 
+The integrator shall check the security tab in the GitHub UI on a regular basis, analyse and either fix or dismiss any outstanding CVEs.
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1091,13 +1266,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-30 | Reviewed: ⨯ | Score: 0.0 
+### AOU-30 | Reviewed: ✔ | Score: 0.0 
 The integrator shall review the answers to each of the TSF evidence lists in the TA_CONTEXT files (see e.g., TSF/trustable/assertions/TA-ANALYSIS_CONTEXT.md). For each point that has not already been fulfilled, the integrator shall evaluate it and provide the relevant evidence if possible.
 
 
@@ -1105,7 +1287,7 @@ The integrator shall review the answers to each of the TSF evidence lists in the
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1132,13 +1314,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 
 
 
 ---
 
-### AOU-31 | Reviewed: ⨯ | Score: 0.0 
+### AOU-31 | Reviewed: ✔ | Score: 0.0 
 The integrator shall ensure that JSON parsing and validation using eclipse-score/nlohmann_json is performed under integration-defined resource and time budgets (e.g., maximum input size, maximum nesting/structure complexity, and maximum processing time), and that suitable enforcement mechanisms are in place at the integration boundary to prevent hangs or resource exhaustion when processing untrusted or extreme inputs.
 
 
@@ -1146,7 +1335,7 @@ The integrator shall ensure that JSON parsing and validation using eclipse-score
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1173,5 +1362,12 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.00 |
+|2026-07-29 13:10:30.513740|0.00 |
 

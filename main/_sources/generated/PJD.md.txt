@@ -1,5 +1,5 @@
 
-### PJD-01 | Reviewed: ⨯ | Score: 0.0 
+### PJD-01 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library provides implementations that parses JSON texts, which ignores the presence of a byte order mark rather than treating it as an error.
 
 
@@ -7,13 +7,13 @@ The service provided by the nlohmann/json library provides implementations that 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLEX-02](JLEX.md#jlex-02)  | The requirement regarding [JSON Deserialization](https://eclipse-score.github.io/score/main/modules/baselibs/json/docs/requirements/index.html#comp_req__json__deserialization) is fulfilled. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [JLEX-02](JLEX.md#jlex-02)  | The requirement regarding [JSON Deserialization](https://eclipse-score.github.io/score/main/modules/baselibs/json/docs/requirements/index.html#comp_req__json__deserialization) is fulfilled. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NPF-01](NPF.md#npf-01)  | The service provided by the nlohmann/json library ignores the presence of a byte order mark. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NPF-01](NPF.md#npf-01)  | The service provided by the nlohmann/json library ignores the presence of a byte order mark. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -37,13 +37,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |
+|2026-07-29 12:21:26|1.00 |1.00 |
+|2026-07-29 13:10:30.513740|1.00 |1.00 |
 
 
 
 ---
 
-### PJD-02 | Reviewed: ⨯ | Score: 0.0 
+### PJD-02 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library transforms a JSON text into a C++ representation using C++ containers (for arrays and objects) and primitive datatypes (for strings, numbers, boolean, null).
 
 
@@ -51,7 +58,7 @@ The service provided by the nlohmann/json library transforms a JSON text into a 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [PJD-03](PJD.md#pjd-03)  | The service provided by the nlohmann/json library parses all texts that conform to the JSON grammar. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [PJD-03](PJD.md#pjd-03)  | The service provided by the nlohmann/json library parses all texts that conform to the JSON grammar. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -61,7 +68,548 @@ _None_
 
 **References:**
 
-_None_
+- `this item also refers to the references of item JLEX-02`
+
+
+	- see [here](JLEX.md#jlex-02) to find JLEX-02
+
+
+- `function: [basic_json::parse]
+(include/nlohmann/json.hpp)`
+
+
+	- Description: the public interface of the `parse`-functionality of nlohmann/json for single inputs
+
+
+	```cpp
+	static basic_json parse(InputType&& i,
+	                        parser_callback_t cb = nullptr,
+	                        const bool allow_exceptions = true,
+	                        const bool ignore_comments = false)
+	{
+	    basic_json result;
+	    parser(detail::input_adapter(std::forward&lt;InputType&gt;(i)), std::move(cb), allow_exceptions, ignore_comments).parse(true, result); // cppcheck-suppress[accessMoved,accessForwarded]
+	    return result;
+	}
+	
+	```
+	
+
+- `function: [basic_json::parse]
+(include/nlohmann/json.hpp)`
+
+
+	- Description: the public interface of the `parse`-functionality of nlohmann/json for iterator inputs
+
+
+	```cpp
+	static basic_json parse(IteratorType first,
+	                        IteratorType last,
+	                        parser_callback_t cb = nullptr,
+	                        const bool allow_exceptions = true,
+	                        const bool ignore_comments = false)
+	{
+	    basic_json result;
+	    parser(detail::input_adapter(std::move(first), std::move(last)), std::move(cb), allow_exceptions, ignore_comments).parse(true, result); // cppcheck-suppress[accessMoved]
+	    return result;
+	}
+	
+	```
+	
+
+- `function: [basic_json::parse]
+(include/nlohmann/json.hpp)`
+
+
+	- Description: the public interface of the `parse`-functionality of nlohmann/json for input buffer
+
+
+	```cpp
+	JSON_HEDLEY_DEPRECATED_FOR(3.8.0, parse(ptr, ptr + len))
+	static basic_json parse(detail::span_input_adapter&& i,
+	                        parser_callback_t cb = nullptr,
+	                        const bool allow_exceptions = true,
+	                        const bool ignore_comments = false)
+	{
+	    basic_json result;
+	    parser(i.get(), std::move(cb), allow_exceptions, ignore_comments).parse(true, result); // cppcheck-suppress[accessMoved]
+	    return result;
+	}
+	
+	```
+	
+
+- `function: [parser::sax_parse_internal]
+(include/nlohmann/detail/input/parser.hpp)`
+
+
+	- Description: called by parser::sax_parse
+
+
+	```cpp
+	bool sax_parse_internal(SAX* sax)
+	{
+	    // stack to remember the hierarchy of structured values we are parsing
+	    // true = array; false = object
+	    std::vector&lt;bool&gt; states;
+	    // value to avoid a goto (see comment where set to true)
+	    bool skip_to_state_evaluation = false;
+	
+	    while (true)
+	    {
+	        if (!skip_to_state_evaluation)
+	        {
+	            // invariant: get_token() was called before each iteration
+	            switch (last_token)
+	            {
+	                case token_type::begin_object:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;start_object(detail::unknown_size())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    // closing } -&gt; we are done
+	                    if (get_token() == token_type::end_object)
+	                    {
+	                        if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_object()))
+	                        {
+	                            return false;
+	                        }
+	                        break;
+	                    }
+	
+	                    // parse key
+	                    if (JSON_HEDLEY_UNLIKELY(last_token != token_type::value_string))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                parse_error::create(101, m_lexer.get_position(), exception_message(token_type::value_string, "object key"), nullptr));
+	                    }
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;key(m_lexer.get_string())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    // parse separator (:)
+	                    if (JSON_HEDLEY_UNLIKELY(get_token() != token_type::name_separator))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                parse_error::create(101, m_lexer.get_position(), exception_message(token_type::name_separator, "object separator"), nullptr));
+	                    }
+	
+	                    // remember we are now inside an object
+	                    states.push_back(false);
+	
+	                    // parse values
+	                    get_token();
+	                    continue;
+	                }
+	
+	                case token_type::begin_array:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;start_array(detail::unknown_size())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    // closing ] -&gt; we are done
+	                    if (get_token() == token_type::end_array)
+	                    {
+	                        if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_array()))
+	                        {
+	                            return false;
+	                        }
+	                        break;
+	                    }
+	
+	                    // remember we are now inside an array
+	                    states.push_back(true);
+	
+	                    // parse values (no need to call get_token)
+	                    continue;
+	                }
+	
+	                case token_type::value_float:
+	                {
+	                    const auto res = m_lexer.get_number_float();
+	
+	                    if (JSON_HEDLEY_UNLIKELY(!std::isfinite(res)))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                out_of_range::create(406, concat("number overflow parsing '", m_lexer.get_token_string(), '\''), nullptr));
+	                    }
+	
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;number_float(res, m_lexer.get_string())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    break;
+	                }
+	
+	                case token_type::literal_false:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;boolean(false)))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::literal_null:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;null()))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::literal_true:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;boolean(true)))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::value_integer:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;number_integer(m_lexer.get_number_integer())))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::value_string:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;string(m_lexer.get_string())))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::value_unsigned:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;number_unsigned(m_lexer.get_number_unsigned())))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::parse_error:
+	                {
+	                    // using "uninitialized" to avoid "expected" message
+	                    return sax-&gt;parse_error(m_lexer.get_position(),
+	                                            m_lexer.get_token_string(),
+	                                            parse_error::create(101, m_lexer.get_position(), exception_message(token_type::uninitialized, "value"), nullptr));
+	                }
+	                case token_type::end_of_input:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(m_lexer.get_position().chars_read_total == 1))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                parse_error::create(101, m_lexer.get_position(),
+	                                                        "attempting to parse an empty input; check that your input string or stream contains the expected JSON", nullptr));
+	                    }
+	
+	                    return sax-&gt;parse_error(m_lexer.get_position(),
+	                                            m_lexer.get_token_string(),
+	                                            parse_error::create(101, m_lexer.get_position(), exception_message(token_type::literal_or_value, "value"), nullptr));
+	                }
+	                case token_type::uninitialized:
+	                case token_type::end_array:
+	                case token_type::end_object:
+	                case token_type::name_separator:
+	                case token_type::value_separator:
+	                case token_type::literal_or_value:
+	                default: // the last token was unexpected
+	                {
+	                    return sax-&gt;parse_error(m_lexer.get_position(),
+	                                            m_lexer.get_token_string(),
+	                                            parse_error::create(101, m_lexer.get_position(), exception_message(token_type::literal_or_value, "value"), nullptr));
+	                }
+	            }
+	        }
+	        else
+	        {
+	            skip_to_state_evaluation = false;
+	        }
+	
+	        // we reached this line after we successfully parsed a value
+	        if (states.empty())
+	        {
+	            // empty stack: we reached the end of the hierarchy: done
+	            return true;
+	        }
+	
+	        if (states.back())  // array
+	        {
+	            // comma -&gt; next value
+	            if (get_token() == token_type::value_separator)
+	            {
+	                // parse a new value
+	                get_token();
+	                continue;
+	            }
+	
+	            // closing ]
+	            if (JSON_HEDLEY_LIKELY(last_token == token_type::end_array))
+	            {
+	                if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_array()))
+	                {
+	                    return false;
+	                }
+	
+	                // We are done with this array. Before we can parse a
+	                // new value, we need to evaluate the new state first.
+	                // By setting skip_to_state_evaluation to false, we
+	                // are effectively jumping to the beginning of this if.
+	                JSON_ASSERT(!states.empty());
+	                states.pop_back();
+	                skip_to_state_evaluation = true;
+	                continue;
+	            }
+	
+	            return sax-&gt;parse_error(m_lexer.get_position(),
+	                                    m_lexer.get_token_string(),
+	                                    parse_error::create(101, m_lexer.get_position(), exception_message(token_type::end_array, "array"), nullptr));
+	        }
+	
+	        // states.back() is false -&gt; object
+	
+	        // comma -&gt; next value
+	        if (get_token() == token_type::value_separator)
+	        {
+	            // parse key
+	            if (JSON_HEDLEY_UNLIKELY(get_token() != token_type::value_string))
+	            {
+	                return sax-&gt;parse_error(m_lexer.get_position(),
+	                                        m_lexer.get_token_string(),
+	                                        parse_error::create(101, m_lexer.get_position(), exception_message(token_type::value_string, "object key"), nullptr));
+	            }
+	
+	            if (JSON_HEDLEY_UNLIKELY(!sax-&gt;key(m_lexer.get_string())))
+	            {
+	                return false;
+	            }
+	
+	            // parse separator (:)
+	            if (JSON_HEDLEY_UNLIKELY(get_token() != token_type::name_separator))
+	            {
+	                return sax-&gt;parse_error(m_lexer.get_position(),
+	                                        m_lexer.get_token_string(),
+	                                        parse_error::create(101, m_lexer.get_position(), exception_message(token_type::name_separator, "object separator"), nullptr));
+	            }
+	
+	            // parse values
+	            get_token();
+	            continue;
+	        }
+	
+	        // closing }
+	        if (JSON_HEDLEY_LIKELY(last_token == token_type::end_object))
+	        {
+	            if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_object()))
+	            {
+	                return false;
+	            }
+	
+	            // We are done with this object. Before we can parse a
+	            // new value, we need to evaluate the new state first.
+	            // By setting skip_to_state_evaluation to false, we
+	            // are effectively jumping to the beginning of this if.
+	            JSON_ASSERT(!states.empty());
+	            states.pop_back();
+	            skip_to_state_evaluation = true;
+	            continue;
+	        }
+	
+	        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                m_lexer.get_token_string(),
+	                                parse_error::create(101, m_lexer.get_position(), exception_message(token_type::end_object, "object"), nullptr));
+	    }
+	}
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::null]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler mapping the JSON literal `null` to a `basic_json` null value
+
+
+	```cpp
+	bool null()
+	{
+	    handle_value(nullptr);
+	    return true;
+	}
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::boolean]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler mapping JSON booleans to `basic_json` boolean values
+
+
+	```cpp
+	bool boolean(bool val)
+	{
+	    handle_value(val);
+	    return true;
+	}
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::number_integer]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler mapping JSON integer numbers to `basic_json` integer values
+
+
+	```cpp
+	bool number_integer(number_integer_t val)
+	{
+	    handle_value(val);
+	    return true;
+	}
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::number_unsigned]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler mapping JSON unsigned numbers to `basic_json` unsigned values
+
+
+	```cpp
+	bool number_unsigned(number_unsigned_t val)
+	{
+	    handle_value(val);
+	    return true;
+	}
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::number_float]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler mapping JSON floating-point numbers to `basic_json` floating-point values
+
+
+	```cpp
+	bool number_float(number_float_t val, const string_t& /*unused*/)
+	{
+	    handle_value(val);
+	    return true;
+	}
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::string]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler mapping JSON strings to `basic_json` string values
+
+
+	```cpp
+	bool string(string_t& val)
+	{
+	    handle_value(val);
+	    return true;
+	}
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::start_object]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler creating an object value when parsing a JSON object
+
+
+	```cpp
+	    bool start_object(std::size_t len)
+	    {
+	        ref_stack.push_back(handle_value(BasicJsonType::value_t::object));
+	
+	#if JSON_DIAGNOSTIC_POSITIONS
+	        // Manually set the start position of the object here.
+	        // Ensure this is after the call to handle_value to ensure correct start position.
+	        if (m_lexer_ref)
+	        {
+	            // Lexer has read the first character of the object, so
+	            // subtract 1 from the position to get the correct start position.
+	            ref_stack.back()-&gt;start_position = m_lexer_ref-&gt;get_position() - 1;
+	        }
+	#endif
+	
+	        if (JSON_HEDLEY_UNLIKELY(len != detail::unknown_size() && len &gt; ref_stack.back()-&gt;max_size()))
+	        {
+	            JSON_THROW(out_of_range::create(408, concat("excessive object size: ", std::to_string(len)), ref_stack.back()));
+	        }
+	
+	        return true;
+	    }
+	
+	```
+	
+
+- `function: [json_sax_dom_parser::start_array]
+(include/nlohmann/detail/input/json_sax.hpp)`
+
+
+	- Description: internal DOM-construction handler creating an array value when parsing a JSON array
+
+
+	```cpp
+	    bool start_array(std::size_t len)
+	    {
+	        ref_stack.push_back(handle_value(BasicJsonType::value_t::array));
+	
+	#if JSON_DIAGNOSTIC_POSITIONS
+	        // Manually set the start position of the array here.
+	        // Ensure this is after the call to handle_value to ensure correct start position.
+	        if (m_lexer_ref)
+	        {
+	            ref_stack.back()-&gt;start_position = m_lexer_ref-&gt;get_position() - 1;
+	        }
+	#endif
+	
+	        if (JSON_HEDLEY_UNLIKELY(len != detail::unknown_size() && len &gt; ref_stack.back()-&gt;max_size()))
+	        {
+	            JSON_THROW(out_of_range::create(408, concat("excessive array size: ", std::to_string(len)), ref_stack.back()));
+	        }
+	
+	        return true;
+	    }
+	
+	```
+	
+
 
 
 
@@ -79,13 +627,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### PJD-03 | Reviewed: ⨯ | Score: 0.0 
+### PJD-03 | Reviewed: ✔ | Score: 0.99274 
 The service provided by the nlohmann/json library parses all texts that conform to the JSON grammar.
 
 
@@ -93,19 +648,19 @@ The service provided by the nlohmann/json library parses all texts that conform 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLEX-02](JLEX.md#jlex-02)  | The requirement regarding [JSON Deserialization](https://eclipse-score.github.io/score/main/modules/baselibs/json/docs/requirements/index.html#comp_req__json__deserialization) is fulfilled. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [JLEX-02](JLEX.md#jlex-02)  | The requirement regarding [JSON Deserialization](https://eclipse-score.github.io/score/main/modules/baselibs/json/docs/requirements/index.html#comp_req__json__deserialization) is fulfilled. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NPF-02](NPF.md#npf-02)  | The service provided by the nlohmann/json library parses numbers according to RFC8259. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NPF-04](NPF.md#npf-04)  | The service provided by the nlohmann/json library parses literal names "true", "false" and "null" according to RFC8259. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NPF-05](NPF.md#npf-05)  | The service provided by the nlohmann/json library parses arrays according to RFC8259. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NPF-06](NPF.md#npf-06)  | The service provided by the nlohmann/json library parses objects according to RFC8259. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NPF-07](NPF.md#npf-07)  | The service provided by the nlohmann/json library parses well-formed UTF-8 encoded data only. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NPF-03](NPF.md#npf-03)  | The service provided by the nlohmann/json library parses strings according to RFC8259. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [PJD-02](PJD.md#pjd-02)  | The service provided by the nlohmann/json library transforms a JSON text into a C++ representation using C++ containers (for arrays and objects) and primitive datatypes (for strings, numbers, boolean, null). | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NPF-02](NPF.md#npf-02)  | The service provided by the nlohmann/json library parses numbers according to RFC8259. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NPF-04](NPF.md#npf-04)  | The service provided by the nlohmann/json library parses literal names "true", "false" and "null" according to RFC8259. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NPF-05](NPF.md#npf-05)  | The service provided by the nlohmann/json library parses arrays according to RFC8259. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NPF-06](NPF.md#npf-06)  | The service provided by the nlohmann/json library parses objects according to RFC8259. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NPF-07](NPF.md#npf-07)  | The service provided by the nlohmann/json library parses well-formed UTF-8 encoded data only. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NPF-03](NPF.md#npf-03)  | The service provided by the nlohmann/json library parses strings according to RFC8259. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [PJD-02](PJD.md#pjd-02)  | The service provided by the nlohmann/json library transforms a JSON text into a C++ representation using C++ containers (for arrays and objects) and primitive datatypes (for strings, numbers, boolean, null). | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -129,5 +684,159 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.99 |1.00 |1.00 |0.99 |0.97 |1.00 |0.99 |1.00 |
+|2026-07-29 13:10:30.513740|0.99 |1.00 |1.00 |0.99 |0.97 |1.00 |0.99 |1.00 |
+
+
+
+---
+
+### PJD-04 | Reviewed: ✔ | Score: 1.0 
+The service provided by the nlohmann/json library correctly parses 64-bit integers (exceeding the range defined in RFC8259).
+
+
+**Supported Requests:**
+
+_None_
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `cpp-test: [parser class - core;parse;number;integers]
+(TSF/tests/unit-class_parser_core.cpp)`
+
+
+```cpp
+SECTION("integers")
+{
+    SECTION("without exponent")
+    {
+        CHECK(parser_helper("-128") == json(-128));
+        CHECK(parser_helper("-0") == json(-0));
+        CHECK(parser_helper("0") == json(0));
+        CHECK(parser_helper("128") == json(128));
+    }
+
+    SECTION("with exponent")
+    {
+        CHECK(parser_helper("0e1") == json(0e1));
+        CHECK(parser_helper("0E1") == json(0e1));
+
+        CHECK(parser_helper("10000E-4") == json(10000e-4));
+        CHECK(parser_helper("10000E-3") == json(10000e-3));
+        CHECK(parser_helper("10000E-2") == json(10000e-2));
+        CHECK(parser_helper("10000E-1") == json(10000e-1));
+        CHECK(parser_helper("10000E0") == json(10000e0));
+        CHECK(parser_helper("10000E1") == json(10000e1));
+        CHECK(parser_helper("10000E2") == json(10000e2));
+        CHECK(parser_helper("10000E3") == json(10000e3));
+        CHECK(parser_helper("10000E4") == json(10000e4));
+
+        CHECK(parser_helper("10000e-4") == json(10000e-4));
+        CHECK(parser_helper("10000e-3") == json(10000e-3));
+        CHECK(parser_helper("10000e-2") == json(10000e-2));
+        CHECK(parser_helper("10000e-1") == json(10000e-1));
+        CHECK(parser_helper("10000e0") == json(10000e0));
+        CHECK(parser_helper("10000e1") == json(10000e1));
+        CHECK(parser_helper("10000e2") == json(10000e2));
+        CHECK(parser_helper("10000e3") == json(10000e3));
+        CHECK(parser_helper("10000e4") == json(10000e4));
+
+        CHECK(parser_helper("-0e1") == json(-0e1));
+        CHECK(parser_helper("-0E1") == json(-0e1));
+        CHECK(parser_helper("-0E123") == json(-0e123));
+
+        // numbers after exponent
+        CHECK(parser_helper("10E0") == json(10e0));
+        CHECK(parser_helper("10E1") == json(10e1));
+        CHECK(parser_helper("10E2") == json(10e2));
+        CHECK(parser_helper("10E3") == json(10e3));
+        CHECK(parser_helper("10E4") == json(10e4));
+        CHECK(parser_helper("10E5") == json(10e5));
+        CHECK(parser_helper("10E6") == json(10e6));
+        CHECK(parser_helper("10E7") == json(10e7));
+        CHECK(parser_helper("10E8") == json(10e8));
+        CHECK(parser_helper("10E9") == json(10e9));
+        CHECK(parser_helper("10E+0") == json(10e0));
+        CHECK(parser_helper("10E+1") == json(10e1));
+        CHECK(parser_helper("10E+2") == json(10e2));
+        CHECK(parser_helper("10E+3") == json(10e3));
+        CHECK(parser_helper("10E+4") == json(10e4));
+        CHECK(parser_helper("10E+5") == json(10e5));
+        CHECK(parser_helper("10E+6") == json(10e6));
+        CHECK(parser_helper("10E+7") == json(10e7));
+        CHECK(parser_helper("10E+8") == json(10e8));
+        CHECK(parser_helper("10E+9") == json(10e9));
+        CHECK(parser_helper("10E-1") == json(10e-1));
+        CHECK(parser_helper("10E-2") == json(10e-2));
+        CHECK(parser_helper("10E-3") == json(10e-3));
+        CHECK(parser_helper("10E-4") == json(10e-4));
+        CHECK(parser_helper("10E-5") == json(10e-5));
+        CHECK(parser_helper("10E-6") == json(10e-6));
+        CHECK(parser_helper("10E-7") == json(10e-7));
+        CHECK(parser_helper("10E-8") == json(10e-8));
+        CHECK(parser_helper("10E-9") == json(10e-9));
+    }
+
+    SECTION("edge cases")
+    {
+        // From RFC8259, Section 6:
+        // Note that when such software is used, numbers that are
+        // integers and are in the range [-(2**53)+1, (2**53)-1]
+        // are interoperable in the sense that implementations will
+        // agree exactly on their numeric values.
+
+        // -(2**53)+1
+        CHECK(parser_helper("-9007199254740991").get&lt;int64_t&gt;() == -9007199254740991);
+        // (2**53)-1
+        CHECK(parser_helper("9007199254740991").get&lt;int64_t&gt;() == 9007199254740991);
+    }
+
+    SECTION("over the edge cases")  // issue #178 - Integer conversion to unsigned (incorrect handling of 64-bit integers)
+    {
+        // While RFC8259, Section 6 specifies a preference for support
+        // for ranges in range of IEEE 754-2008 binary64 (double precision)
+        // this does not accommodate 64-bit integers without loss of accuracy.
+        // As 64-bit integers are now widely used in software, it is desirable
+        // to expand support to the full 64 bit (signed and unsigned) range
+        // i.e. -(2**63) -&gt; (2**64)-1.
+
+        // -(2**63)    ** Note: compilers see negative literals as negated positive numbers (hence the -1))
+        CHECK(parser_helper("-9223372036854775808").get&lt;int64_t&gt;() == -9223372036854775807 - 1);
+        // (2**63)-1
+        CHECK(parser_helper("9223372036854775807").get&lt;int64_t&gt;() == 9223372036854775807);
+        // (2**64)-1
+        CHECK(parser_helper("18446744073709551615").get&lt;uint64_t&gt;() == 18446744073709551615u);
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/PJD-04.svg)
+
+|date-time|PJD-04|
+|-|-|
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 

@@ -1,5 +1,5 @@
 
-### NJF-01 | Reviewed: ⨯ | Score: 0.0 
+### NJF-01 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library accepts the literal name null. 
 
 
@@ -7,7 +7,7 @@ The service provided by the nlohmann/json library accepts the literal name null.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -114,7 +114,7 @@ SECTION("null")
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function to verify whether a candidate literal coincides with its expected value; here called with literal_text = ['n','u','l','l'].
+	- Description: Function to verify whether a candidate literal coincides with its expected value; here called with literal_text = ['n','u','l','l'].
 
 
 	```cpp
@@ -153,13 +153,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-02 | Reviewed: ⨯ | Score: 0.0 
+### NJF-02 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library accepts the literal name true.
 
 
@@ -167,7 +174,7 @@ The service provided by the nlohmann/json library accepts the literal name true.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -377,7 +384,7 @@ SECTION("directly")
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function to verify whether a candidate literal coincides with its expected value; here called with literal_text = ['t','r','u','e'].
+	- Description: Function to verify whether a candidate literal coincides with its expected value; here called with literal_text = ['t','r','u','e'].
 
 
 	```cpp
@@ -416,13 +423,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-03 | Reviewed: ⨯ | Score: 0.0 
+### NJF-03 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library accepts the literal name false.
 
 
@@ -430,7 +444,7 @@ The service provided by the nlohmann/json library accepts the literal name false
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -537,7 +551,7 @@ SECTION("false")
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function to verify whether a candidate literal coincides with its expected value; here called with literal_text = ['f','a','l','s','e'].
+	- Description: Function to verify whether a candidate literal coincides with its expected value; here called with literal_text = ['f','a','l','s','e'].
 
 
 	```cpp
@@ -576,13 +590,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-04 | Reviewed: ⨯ | Score: 0.0 
+### NJF-04 | Reviewed: ✔ | Score: 0.96667 
 The service provided by the nlohmann/json library does not accept any other literal name.
 
 
@@ -590,7 +611,7 @@ The service provided by the nlohmann/json library does not accept any other lite
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-01](WFJ.md#wfj-01)  | The service provided by the nlohmann/json library checks the well-formedness of the literal names. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1741,7 +1762,7 @@ SECTION("illegal literals")
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function to verify whether a candidate literal coincides with its expected value; only ever called with the three admissible expected values
+	- Description: Function to verify whether a candidate literal coincides with its expected value; only ever called with the three admissible expected values.
 
 
 	```cpp
@@ -1780,13 +1801,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.97 |
+|2026-07-29 13:10:30.513740|0.97 |
 
 
 
 ---
 
-### NJF-05 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05 | Reviewed: ✔ | Score: 0.96979 
 The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5.
 
 
@@ -1794,20 +1822,20 @@ The service provided by the nlohmann/json library accepts and rejects arrays acc
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-04](WFJ.md#wfj-04)  | The service provided by the nlohmann/json library checks the well-formedness of array. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-04](WFJ.md#wfj-04)  | The service provided by the nlohmann/json library checks the well-formedness of array. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05.1](NJF.md#njf-05.1)  | The service provided by the nlohmann/json library accepts the empty array. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.2](NJF.md#njf-05.2)  | The service provided by the nlohmann/json library accepts the non-empty arrays. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.3](NJF.md#njf-05.3)  | If every value candidate of a properly bounded array is accepted as singleton, then the service provided by the nlohmann/json library accepts the array. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.4](NJF.md#njf-05.4)  | The service provided by the nlohmann/json library does not accept any improperly bounded arrays. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.5](NJF.md#njf-05.5)  | The service provided by the nlohmann/json library does not accept arrays with improper values. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.6](NJF.md#njf-05.6)  | The service provided by the nlohmann/json library accepts nested arrays. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.7](NJF.md#njf-05.7)  | The service provided by the nlohmann/json library does only accept comma as value separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.6.0](NJF.md#njf-05.6.0)  | The acceptance of nested arrays by the service provided by the nlohmann/json library does not depend on the depth of nesting. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05.1](NJF.md#njf-05.1)  | The service provided by the nlohmann/json library accepts the empty array. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.2](NJF.md#njf-05.2)  | The service provided by the nlohmann/json library accepts the non-empty arrays. | 0.92 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.3](NJF.md#njf-05.3)  | If every value candidate of a properly bounded array is accepted as singleton, then the service provided by the nlohmann/json library accepts the array. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.4](NJF.md#njf-05.4)  | The service provided by the nlohmann/json library does not accept any improperly bounded arrays. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.5](NJF.md#njf-05.5)  | The service provided by the nlohmann/json library does not accept arrays with improper values. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.6](NJF.md#njf-05.6)  | The service provided by the nlohmann/json library accepts nested arrays. | 0.95 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.7](NJF.md#njf-05.7)  | The service provided by the nlohmann/json library does only accept comma as value separator. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.6.0](NJF.md#njf-05.6.0)  | The acceptance of nested arrays by the service provided by the nlohmann/json library does not depend on the depth of nesting. | 0.94 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -1831,13 +1859,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.97 |1.00 |0.92 |1.00 |1.00 |0.97 |0.95 |0.98 |0.94 |
+|2026-07-29 13:10:30.513740|0.97 |1.00 |0.92 |1.00 |1.00 |0.97 |0.95 |0.98 |0.94 |
 
 
 
 ---
 
-### NJF-05.1 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.1 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library accepts the empty array.
 
 
@@ -1845,7 +1880,7 @@ The service provided by the nlohmann/json library accepts the empty array.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1967,7 +2002,7 @@ SECTION("empty array")
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function, which skips admissible whitespace during reading
+	- Description: Function that skips admissible whitespace during reading.
 
 
 	```cpp
@@ -2000,13 +2035,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-05.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.2 | Reviewed: ✔ | Score: 0.91667 
 The service provided by the nlohmann/json library accepts the non-empty arrays.
 
 
@@ -2014,7 +2056,7 @@ The service provided by the nlohmann/json library accepts the non-empty arrays.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -2335,13 +2377,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.92 |
+|2026-07-29 13:10:30.513740|0.92 |
 
 
 
 ---
 
-### NJF-05.3 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.3 | Reviewed: ✔ | Score: 1.0 
 If every value candidate of a properly bounded array is accepted as singleton, then the service provided by the nlohmann/json library accepts the array.
 
 
@@ -2349,7 +2398,7 @@ If every value candidate of a properly bounded array is accepted as singleton, t
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -2641,13 +2690,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-05.4 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.4 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept any improperly bounded arrays.
 
 
@@ -2655,7 +2711,7 @@ The service provided by the nlohmann/json library does not accept any improperly
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -3140,13 +3196,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-05.5 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.5 | Reviewed: ✔ | Score: 0.96667 
 The service provided by the nlohmann/json library does not accept arrays with improper values.
 
 
@@ -3154,7 +3217,7 @@ The service provided by the nlohmann/json library does not accept arrays with im
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -3305,7 +3368,14 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.97 |
+|2026-07-29 13:10:30.513740|0.97 |
 
 
 
@@ -3316,7 +3386,7 @@ An improper value is either an empty value within a non-empty array or an inadmi
 
 ---
 
-### NJF-05.6 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.6 | Reviewed: ✔ | Score: 0.95 
 The service provided by the nlohmann/json library accepts nested arrays.
 
 
@@ -3324,7 +3394,7 @@ The service provided by the nlohmann/json library accepts nested arrays.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -3430,13 +3500,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.95 |
+|2026-07-29 13:10:30.513740|0.95 |
 
 
 
 ---
 
-### NJF-05.6.0 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.6.0 | Reviewed: ✔ | Score: 0.94167 
 The acceptance of nested arrays by the service provided by the nlohmann/json library does not depend on the depth of nesting.
 
 
@@ -3444,7 +3521,7 @@ The acceptance of nested arrays by the service provided by the nlohmann/json lib
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -3515,13 +3592,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.94 |
+|2026-07-29 13:10:30.513740|0.94 |
 
 
 
 ---
 
-### NJF-05.7 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.7 | Reviewed: ✔ | Score: 0.98333 
 The service provided by the nlohmann/json library does only accept comma as value separator.
 
 
@@ -3529,14 +3613,14 @@ The service provided by the nlohmann/json library does only accept comma as valu
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05](NJF.md#njf-05)  | The service provided by the nlohmann/json library accepts and rejects arrays according to RFC8259 §5. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05.7.1](NJF.md#njf-05.7.1)  | The service provided by the nlohmann/json library does accept comma as value separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-05.7.2](NJF.md#njf-05.7.2)  | The service provided by the nlohmann/json library does not accept any other value separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05.7.1](NJF.md#njf-05.7.1)  | The service provided by the nlohmann/json library does accept comma as value separator. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-05.7.2](NJF.md#njf-05.7.2)  | The service provided by the nlohmann/json library does not accept any other value separator. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -3560,13 +3644,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.98 |1.00 |0.97 |
+|2026-07-29 13:10:30.513740|0.98 |1.00 |0.97 |
 
 
 
 ---
 
-### NJF-05.7.1 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.7.1 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does accept comma as value separator.
 
 
@@ -3574,7 +3665,7 @@ The service provided by the nlohmann/json library does accept comma as value sep
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05.7](NJF.md#njf-05.7)  | The service provided by the nlohmann/json library does only accept comma as value separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05.7](NJF.md#njf-05.7)  | The service provided by the nlohmann/json library does only accept comma as value separator. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -3698,13 +3789,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-05.7.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-05.7.2 | Reviewed: ✔ | Score: 0.96667 
 The service provided by the nlohmann/json library does not accept any other value separator.
 
 
@@ -3712,7 +3810,7 @@ The service provided by the nlohmann/json library does not accept any other valu
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-05.7](NJF.md#njf-05.7)  | The service provided by the nlohmann/json library does only accept comma as value separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-05.7](NJF.md#njf-05.7)  | The service provided by the nlohmann/json library does only accept comma as value separator. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -3731,7 +3829,7 @@ _None_
 - `cpp-testsuite: [/nst_json_testsuite2/test_parsing/n_array_colon_instead_of_comma.json]`
 
 
-	- Description: Tests whether colon as value separator is rejected.
+	- Description: Tests whether colon is rejected as value separator.
 	
 	
 	- JSON Testsuite: /nst_json_testsuite2/test_parsing/n_array_colon_instead_of_comma.json
@@ -3786,13 +3884,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.97 |
+|2026-07-29 13:10:30.513740|0.97 |
 
 
 
 ---
 
-### NJF-06 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06 | Reviewed: ✔ | Score: 0.97292 
 The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4.
 
 
@@ -3800,20 +3905,20 @@ The service provided by the nlohmann/json library accepts and rejects objects ac
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-05](WFJ.md#wfj-05)  | The service provided by the nlohmann/json library checks the well-formedness of objects. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-05](WFJ.md#wfj-05)  | The service provided by the nlohmann/json library checks the well-formedness of objects. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.1](NJF.md#njf-06.1)  | The service provided by the nlohmann/json library accepts the empty object. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.2](NJF.md#njf-06.2)  | The service provided by the nlohmann/json library does not accept improperly bounded objects. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.3](NJF.md#njf-06.3)  | The service provided by the nlohmann/json library accepts the non-empty objects. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.5](NJF.md#njf-06.5)  | The service provided by the nlohmann/json library does not accept objects with improper members. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.6](NJF.md#njf-06.6)  | The service provided by the nlohmann/json library accepts the nested objects. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.7](NJF.md#njf-06.7)  | The service provided by the nlohmann/json library does only accept comma as member separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.6.0](NJF.md#njf-06.6.0)  | The acceptance of nested objects inside the nlohmann/json library does not depend on the depth of nesting. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.1](NJF.md#njf-06.1)  | The service provided by the nlohmann/json library accepts the empty object. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.2](NJF.md#njf-06.2)  | The service provided by the nlohmann/json library does not accept improperly bounded objects. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.3](NJF.md#njf-06.3)  | The service provided by the nlohmann/json library accepts the non-empty objects. | 0.95 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.5](NJF.md#njf-06.5)  | The service provided by the nlohmann/json library does not accept objects with improper members. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.6](NJF.md#njf-06.6)  | The service provided by the nlohmann/json library accepts the nested objects. | 0.95 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.7](NJF.md#njf-06.7)  | The service provided by the nlohmann/json library does only accept comma as member separator. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.6.0](NJF.md#njf-06.6.0)  | The acceptance of nested objects inside the nlohmann/json library does not depend on the depth of nesting. | 0.93 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -3837,13 +3942,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.97 |1.00 |0.98 |0.95 |1.00 |0.98 |0.95 |0.99 |0.93 |
+|2026-07-29 13:10:30.513740|0.97 |1.00 |0.98 |0.95 |1.00 |0.98 |0.95 |0.99 |0.93 |
 
 
 
 ---
 
-### NJF-06.1 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.1 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library accepts the empty object.
 
 
@@ -3851,7 +3963,7 @@ The service provided by the nlohmann/json library accepts the empty object.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -3902,7 +4014,7 @@ SECTION("empty object")
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function, which skips admissible whitespace during reading
+	- Description: Function that skips admissible whitespace during reading.
 
 
 	```cpp
@@ -3935,13 +4047,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-06.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.2 | Reviewed: ✔ | Score: 0.98333 
 The service provided by the nlohmann/json library does not accept improperly bounded objects.
 
 
@@ -3949,7 +4068,7 @@ The service provided by the nlohmann/json library does not accept improperly bou
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -4067,13 +4186,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.98 |
+|2026-07-29 13:10:30.513740|0.98 |
 
 
 
 ---
 
-### NJF-06.3 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.3 | Reviewed: ✔ | Score: 0.95 
 The service provided by the nlohmann/json library accepts the non-empty objects.
 
 
@@ -4081,7 +4207,7 @@ The service provided by the nlohmann/json library accepts the non-empty objects.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -4177,13 +4303,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.95 |
+|2026-07-29 13:10:30.513740|0.95 |
 
 
 
 ---
 
-### NJF-06.4 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.4 | Reviewed: ✔ | Score: 1.0 
 The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value.
 
 
@@ -4191,15 +4324,15 @@ The admissible members of an object provided to the eclipse-score/inc_nlohmann_j
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.4.1](NJF.md#njf-06.4.1)  | If the service provided by the nlohmann/json library recognises the name candidate as string, then it accepts the name candidate. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.4.2](NJF.md#njf-06.4.2)  | The service provided by the nlohmann/json library does not accept any other token as name. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.4.3](NJF.md#njf-06.4.3)  | If the service provided by the nlohmann/json library accepts the value-candidate as a singleton, then the value-candidate is accepted. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.4.1](NJF.md#njf-06.4.1)  | If the service provided by the nlohmann/json library recognizes the name candidate as string, then it accepts the name candidate. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.4.2](NJF.md#njf-06.4.2)  | The service provided by the nlohmann/json library does not accept any other token as name. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.4.3](NJF.md#njf-06.4.3)  | If the service provided by the nlohmann/json library accepts the value-candidate as a singleton, then the value-candidate is accepted. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -4703,21 +4836,28 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|1.00 |1.00 |1.00 |1.00 |
+|2026-07-29 13:10:30.513740|1.00 |1.00 |1.00 |1.00 |
 
 
 
 ---
 
-### NJF-06.4.1 | Reviewed: ⨯ | Score: 0.0 
-If the service provided by the nlohmann/json library recognises the name candidate as string, then it accepts the name candidate.
+### NJF-06.4.1 | Reviewed: ✔ | Score: 1.0 
+If the service provided by the nlohmann/json library recognizes the name candidate as string, then it accepts the name candidate.
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -5020,13 +5160,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-06.4.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.4.2 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept any other token as name.
 
 
@@ -5034,7 +5181,7 @@ The service provided by the nlohmann/json library does not accept any other toke
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -5054,7 +5201,7 @@ _None_
 - `cpp-testsuite: [/nst_json_testsuite2/test_parsing/n_object_non_string_key.json, /nst_json_testsuite2/test_parsing/n_object_non_string_key_but_huge_number_instead.json]`
 
 
-	- Description: Checks that numbers as keys are rejected.
+	- Description: Checks that using numbers as keys is rejected.
 	
 	
 	- JSON Testsuite: /nst_json_testsuite2/test_parsing/n_object_non_string_key.json
@@ -5203,13 +5350,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-06.4.3 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.4.3 | Reviewed: ✔ | Score: 1.0 
 If the service provided by the nlohmann/json library accepts the value-candidate as a singleton, then the value-candidate is accepted.
 
 
@@ -5217,7 +5371,7 @@ If the service provided by the nlohmann/json library accepts the value-candidate
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.4](NJF.md#njf-06.4)  | The admissible members of an object provided to the eclipse-score/inc_nlohmann_json have the form name : value. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -5438,13 +5592,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-06.5 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.5 | Reviewed: ✔ | Score: 0.98333 
 The service provided by the nlohmann/json library does not accept objects with improper members.
 
 
@@ -5452,14 +5613,14 @@ The service provided by the nlohmann/json library does not accept objects with i
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.5.1](NJF.md#njf-06.5.1)  | If the service provided by the nlohmann/json library does not accept any name candidate as singleton, then the service does not accept the object candidate. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.5.2](NJF.md#njf-06.5.2)  | If the service provided by the nlohmann/json library does not accept any value candidate as singleton, then the service does not accept the object candidate. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.5.1](NJF.md#njf-06.5.1)  | If the service provided by the nlohmann/json library does not accept any name candidate as singleton, then the service does not accept the object candidate. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.5.2](NJF.md#njf-06.5.2)  | If the service provided by the nlohmann/json library does not accept any value candidate as singleton, then the service does not accept the object candidate. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -5534,13 +5695,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.98 |0.98 |0.98 |
+|2026-07-29 13:10:30.513740|0.98 |0.98 |0.98 |
 
 
 
 ---
 
-### NJF-06.5.1 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.5.1 | Reviewed: ✔ | Score: 0.98333 
 If the service provided by the nlohmann/json library does not accept any name candidate as singleton, then the service does not accept the object candidate.
 
 
@@ -5548,7 +5716,7 @@ If the service provided by the nlohmann/json library does not accept any name ca
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.5](NJF.md#njf-06.5)  | The service provided by the nlohmann/json library does not accept objects with improper members. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.5](NJF.md#njf-06.5)  | The service provided by the nlohmann/json library does not accept objects with improper members. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -5675,7 +5843,7 @@ _None_
 - `cpp-testsuite: [/nst_json_testsuite2/test_parsing/i_object_key_lone_2nd_surrogate.json]`
 
 
-	- Description: Checks that string with invalid utf16 surrogate is rejected as name
+	- Description: Checks that strings with invalid UTF-16 surrogates are rejected as name.
 	
 	
 	- JSON Testsuite: /nst_json_testsuite2/test_parsing/i_object_key_lone_2nd_surrogate.json
@@ -5751,13 +5919,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.98 |
+|2026-07-29 13:10:30.513740|0.98 |
 
 
 
 ---
 
-### NJF-06.5.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.5.2 | Reviewed: ✔ | Score: 0.98333 
 If the service provided by the nlohmann/json library does not accept any value candidate as singleton, then the service does not accept the object candidate.
 
 
@@ -5765,7 +5940,7 @@ If the service provided by the nlohmann/json library does not accept any value c
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.5](NJF.md#njf-06.5)  | The service provided by the nlohmann/json library does not accept objects with improper members. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.5](NJF.md#njf-06.5)  | The service provided by the nlohmann/json library does not accept objects with improper members. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -5785,7 +5960,7 @@ _None_
 - `cpp-testsuite: [/nst_json_testsuite2/test_parsing/n_object_bad_value.json]`
 
 
-	- Description: Checks that the invalid literal "truth" as value is rejected.
+	- Description: Checks that the invalid literal "truth" is rejected as value.
 	
 	
 	- JSON Testsuite: /nst_json_testsuite2/test_parsing/n_object_bad_value.json
@@ -5861,7 +6036,14 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.98 |
+|2026-07-29 13:10:30.513740|0.98 |
 
 
 
@@ -5874,7 +6056,7 @@ An improper value is either empty or an inadmissible token according to RFC8259.
 
 ---
 
-### NJF-06.6 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.6 | Reviewed: ✔ | Score: 0.95 
 The service provided by the nlohmann/json library accepts the nested objects.
 
 
@@ -5882,7 +6064,7 @@ The service provided by the nlohmann/json library accepts the nested objects.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -6103,13 +6285,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.95 |
+|2026-07-29 13:10:30.513740|0.95 |
 
 
 
 ---
 
-### NJF-06.6.0 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.6.0 | Reviewed: ✔ | Score: 0.925 
 The acceptance of nested objects inside the nlohmann/json library does not depend on the depth of nesting.
 
 
@@ -6117,7 +6306,7 @@ The acceptance of nested objects inside the nlohmann/json library does not depen
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -6338,13 +6527,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.93 |
+|2026-07-29 13:10:30.513740|0.93 |
 
 
 
 ---
 
-### NJF-06.7 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.7 | Reviewed: ✔ | Score: 0.99167 
 The service provided by the nlohmann/json library does only accept comma as member separator.
 
 
@@ -6352,14 +6548,14 @@ The service provided by the nlohmann/json library does only accept comma as memb
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06](NJF.md#njf-06)  | The service provided by the nlohmann/json library accepts and rejects objects according to RFC8259 §4. | 0.97 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.7.1](NJF.md#njf-06.7.1)  | The service provided by the nlohmann/json library accepts comma as member separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-06.7.2](NJF.md#njf-06.7.2)  | The service provided by the nlohmann/json library does not accept any other member separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.7.1](NJF.md#njf-06.7.1)  | The service provided by the nlohmann/json library accepts comma as member separator. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-06.7.2](NJF.md#njf-06.7.2)  | The service provided by the nlohmann/json library does not accept any other member separator. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -6383,13 +6579,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.99 |1.00 |0.98 |
+|2026-07-29 13:10:30.513740|0.99 |1.00 |0.98 |
 
 
 
 ---
 
-### NJF-06.7.1 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.7.1 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library accepts comma as member separator.
 
 
@@ -6397,7 +6600,7 @@ The service provided by the nlohmann/json library accepts comma as member separa
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.7](NJF.md#njf-06.7)  | The service provided by the nlohmann/json library does only accept comma as member separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.7](NJF.md#njf-06.7)  | The service provided by the nlohmann/json library does only accept comma as member separator. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -6698,13 +6901,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-06.7.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-06.7.2 | Reviewed: ✔ | Score: 0.98333 
 The service provided by the nlohmann/json library does not accept any other member separator.
 
 
@@ -6712,7 +6922,7 @@ The service provided by the nlohmann/json library does not accept any other memb
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-06.7](NJF.md#njf-06.7)  | The service provided by the nlohmann/json library does only accept comma as member separator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-06.7](NJF.md#njf-06.7)  | The service provided by the nlohmann/json library does only accept comma as member separator. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -6910,13 +7120,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.98 |
+|2026-07-29 13:10:30.513740|0.98 |
 
 
 
 ---
 
-### NJF-07 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07 | Reviewed: ✔ | Score: 0.95741 
 The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7.
 
 
@@ -6924,21 +7141,21 @@ The service provided by the nlohmann/json library accepts and rejects strings ac
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-02](WFJ.md#wfj-02)  | The service provided by the nlohmann/json library checks the well-formedness of strings. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-02](WFJ.md#wfj-02)  | The service provided by the nlohmann/json library checks the well-formedness of strings. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07.1](NJF.md#njf-07.1)  | The service provided by the nlohmann/json library does accept empty strings. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.2](NJF.md#njf-07.2)  | The service provided by the nlohmann/json library does not accept the improperly bounded strings. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.3](NJF.md#njf-07.3)  | The service provided by the nlohmann/json library does not accept unescaped control characters. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.4](NJF.md#njf-07.4)  | The service provided by the nlohmann/json library does accept escaped control characters. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.5](NJF.md#njf-07.5)  | The service provided by the nlohmann/json library accepts UTF-16 surrogate pairs. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.7](NJF.md#njf-07.7)  | The service provided by the nlohmann/json library does not accept escaped invalid characters. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.6](NJF.md#njf-07.6)  | The service provided by the nlohmann/json library does accept non-empty strings. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.8](NJF.md#njf-07.8)  | The service provided by the nlohmann/json library does not accept single unpaired utf-16 surrogates. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-07.9](NJF.md#njf-07.9)  | The service provided by the nlohmann/json library does not accept unescaped UTF-16 surrogate pairs. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07.1](NJF.md#njf-07.1)  | The service provided by the nlohmann/json library does accept empty strings. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.2](NJF.md#njf-07.2)  | The service provided by the nlohmann/json library does not accept the improperly bounded strings. | 0.67 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.3](NJF.md#njf-07.3)  | The service provided by the nlohmann/json library does not accept unescaped control characters. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.4](NJF.md#njf-07.4)  | The service provided by the nlohmann/json library does accept escaped control characters. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.5](NJF.md#njf-07.5)  | The service provided by the nlohmann/json library accepts UTF-16 surrogate pairs. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.7](NJF.md#njf-07.7)  | The service provided by the nlohmann/json library does not accept escaped invalid characters. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.6](NJF.md#njf-07.6)  | The service provided by the nlohmann/json library does accept non-empty strings. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.8](NJF.md#njf-07.8)  | The service provided by the nlohmann/json library does not accept single unpaired utf-16 surrogates. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-07.9](NJF.md#njf-07.9)  | The service provided by the nlohmann/json library does not accept unescaped UTF-16 surrogate pairs. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -6948,7 +7165,7 @@ The service provided by the nlohmann/json library accepts and rejects strings ac
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function which scans a string and verifies *en passant* that the string is in accordance with RFC8259
+	- Description: Function that scans a string and verifies *en passant* that the string is in accordance with RFC8259.
 
 
 	```cpp
@@ -7558,13 +7775,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.96 |1.00 |0.67 |1.00 |1.00 |1.00 |0.99 |0.96 |1.00 |1.00 |
+|2026-07-29 13:10:30.513740|0.96 |1.00 |0.67 |1.00 |1.00 |1.00 |0.99 |0.96 |1.00 |1.00 |
 
 
 
 ---
 
-### NJF-07.1 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.1 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does accept empty strings.
 
 
@@ -7572,7 +7796,7 @@ The service provided by the nlohmann/json library does accept empty strings.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -7734,13 +7958,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-07.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.2 | Reviewed: ✔ | Score: 0.66667 
 The service provided by the nlohmann/json library does not accept the improperly bounded strings.
 
 
@@ -7748,7 +7979,7 @@ The service provided by the nlohmann/json library does not accept the improperly
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -8334,13 +8565,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.67 |
+|2026-07-29 13:10:30.513740|0.67 |
 
 
 
 ---
 
-### NJF-07.3 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.3 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept unescaped control characters.
 
 
@@ -8348,7 +8586,7 @@ The service provided by the nlohmann/json library does not accept unescaped cont
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -8437,13 +8675,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-07.4 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.4 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does accept escaped control characters.
 
 
@@ -8451,7 +8696,7 @@ The service provided by the nlohmann/json library does accept escaped control ch
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -8772,13 +9017,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-07.5 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.5 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library accepts UTF-16 surrogate pairs.
 
 
@@ -8786,7 +9038,7 @@ The service provided by the nlohmann/json library accepts UTF-16 surrogate pairs
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -8853,7 +9105,7 @@ SECTION("escaped")
 - `cpp-testsuite: [/nst_json_testsuite2/test_parsing/y_string_accepted_surrogate_pair.json, /nst_json_testsuite2/test_parsing/y_string_accepted_surrogate_pairs.json]`
 
 
-	- Description: Checks that single and multiple surrogates are accepted.
+	- Description: Checks that both single and multiple surrogates are accepted.
 	
 	
 	- JSON Testsuite: /nst_json_testsuite2/test_parsing/y_string_accepted_surrogate_pair.json
@@ -8946,13 +9198,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-07.6 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.6 | Reviewed: ✔ | Score: 0.95833 
 The service provided by the nlohmann/json library does accept non-empty strings.
 
 
@@ -8960,7 +9219,7 @@ The service provided by the nlohmann/json library does accept non-empty strings.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -9508,13 +9767,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.96 |
+|2026-07-29 13:10:30.513740|0.96 |
 
 
 
 ---
 
-### NJF-07.7 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.7 | Reviewed: ✔ | Score: 0.99167 
 The service provided by the nlohmann/json library does not accept escaped invalid characters.
 
 
@@ -9522,7 +9788,7 @@ The service provided by the nlohmann/json library does not accept escaped invali
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -9542,7 +9808,7 @@ _None_
 - `cpp-testsuite: [/nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape.json, /nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape_u.json, /nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape_u1.json, /nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape_u1x.json, /nst_json_testsuite2/test_parsing/n_string_accentuated_char_no_quotes.json, /nst_json_testsuite2/test_parsing/n_string_backslash_00.json, /nst_json_testsuite2/test_parsing/n_string_escape_x.json, /nst_json_testsuite2/test_parsing/n_string_escaped_backslash_bad.json, /nst_json_testsuite2/test_parsing/n_string_escaped_ctrl_char_tab.json, /nst_json_testsuite2/test_parsing/n_string_escaped_emoji.json, /nst_json_testsuite2/test_parsing/n_string_incomplete_escape.json, /nst_json_testsuite2/test_parsing/n_string_incomplete_escaped_character.json, /nst_json_testsuite2/test_parsing/n_string_incomplete_surrogate.json, /nst_json_testsuite2/test_parsing/n_string_incomplete_surrogate_escape_invalid.json, /nst_json_testsuite2/test_parsing/n_string_invalid-utf-8-in-escape.json, /nst_json_testsuite2/test_parsing/n_string_invalid_backslash_esc.json, /nst_json_testsuite2/test_parsing/n_string_invalid_unicode_escape.json, /nst_json_testsuite2/test_parsing/n_string_invalid_utf8_after_escape.json]`
 
 
-	- Description: Checks that various illegal control characters and utf-8 characters are rejected.
+	- Description: Checks that various illegal control characters and UTF-8 characters are rejected.
 	
 	
 	- JSON Testsuite: /nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape.json
@@ -9819,13 +10085,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.99 |
+|2026-07-29 13:10:30.513740|0.99 |
 
 
 
 ---
 
-### NJF-07.8 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.8 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept single unpaired utf-16 surrogates.
 
 
@@ -9833,7 +10106,7 @@ The service provided by the nlohmann/json library does not accept single unpaire
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -9902,13 +10175,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-07.9 | Reviewed: ⨯ | Score: 0.0 
+### NJF-07.9 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept unescaped UTF-16 surrogate pairs.
 
 
@@ -9916,7 +10196,7 @@ The service provided by the nlohmann/json library does not accept unescaped UTF-
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-07](NJF.md#njf-07)  | The service provided by the nlohmann/json library accepts and rejects strings according to RFC8259 §7. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -9987,13 +10267,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08 | Reviewed: ✔ | Score: 0.99815 
 The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6.
 
 
@@ -10001,21 +10288,21 @@ The service provided by the nlohmann/json library accepts numbers according to R
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-03](WFJ.md#wfj-03)  | The service provided by the nlohmann/json library checks the well-formedness of numbers. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-03](WFJ.md#wfj-03)  | The service provided by the nlohmann/json library checks the well-formedness of numbers. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08.1](NJF.md#njf-08.1)  | The service provided by the nlohmann/json library does accept integers within the limits of 64-bit double. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.2](NJF.md#njf-08.2)  | The service provided by the nlohmann/json library does accept integers according to IEEE 754 binary64. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.3](NJF.md#njf-08.3)  | The service provided by the nlohmann/json library does not accept NaN and infinity. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.4](NJF.md#njf-08.4)  | The service provided by the nlohmann/json library does accept e or E for numbers with exponent within the bounds of double. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.5](NJF.md#njf-08.5)  | The service provided by the nlohmann/json library does not accept u0415 and u0436 (cyrillic e and E) as exponent signs in numbers with exponent. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.6](NJF.md#njf-08.6)  | The service provided by the nlohmann/json library does not accept invalid syntax for numbers. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.7](NJF.md#njf-08.7)  | The service provided by the nlohmann/json library does accept decimal points in numbers within the bounds of double. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.8](NJF.md#njf-08.8)  | The service provided by the nlohmann/json library does not accept leading zeroes. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-08.9](NJF.md#njf-08.9)  | The service provided by the nlohmann/json library does not accept any other digit symbol than 0-9. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08.1](NJF.md#njf-08.1)  | The service provided by the nlohmann/json library does accept integers within the limits of 64-bit double. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.2](NJF.md#njf-08.2)  | The service provided by the nlohmann/json library does accept integers according to IEEE 754 binary64. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.3](NJF.md#njf-08.3)  | The service provided by the nlohmann/json library does not accept NaN and infinity. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.4](NJF.md#njf-08.4)  | The service provided by the nlohmann/json library does accept e or E for numbers with exponent within the bounds of double. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.5](NJF.md#njf-08.5)  | The service provided by the nlohmann/json library does not accept u0415 and u0436 (cyrillic e and E) as exponent signs in numbers with exponent. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.6](NJF.md#njf-08.6)  | The service provided by the nlohmann/json library does not accept invalid syntax for numbers. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.7](NJF.md#njf-08.7)  | The service provided by the nlohmann/json library does accept decimal points in numbers within the bounds of double. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.8](NJF.md#njf-08.8)  | The service provided by the nlohmann/json library does not accept leading zeroes. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-08.9](NJF.md#njf-08.9)  | The service provided by the nlohmann/json library does not accept any other digit symbol than 0-9. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -10025,7 +10312,7 @@ The service provided by the nlohmann/json library accepts numbers according to R
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function, which scans numbers and verifies *en passant* that these number is in accordance with RFC8259
+	- Description: Function that scans numbers and verifies *en passant* that these numbers are in accordance with RFC8259.
 
 
 	```cpp
@@ -10376,13 +10663,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |0.98 |
+|2026-07-29 13:10:30.513740|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |0.98 |
 
 
 
 ---
 
-### NJF-08.1 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.1 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does accept integers within the limits of 64-bit double.
 
 
@@ -10390,7 +10684,7 @@ The service provided by the nlohmann/json library does accept integers within th
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -10504,13 +10798,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.2 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.2 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does accept integers according to IEEE 754 binary64.
 
 
@@ -10518,7 +10819,7 @@ The service provided by the nlohmann/json library does accept integers according
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -10574,13 +10875,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.3 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.3 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept NaN and infinity.
 
 
@@ -10588,7 +10896,7 @@ The service provided by the nlohmann/json library does not accept NaN and infini
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -10999,13 +11307,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.4 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.4 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does accept e or E for numbers with exponent within the bounds of double.
 
 
@@ -11013,7 +11328,7 @@ The service provided by the nlohmann/json library does accept e or E for numbers
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11192,13 +11507,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.5 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.5 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept u0415 and u0436 (cyrillic e and E) as exponent signs in numbers with exponent.
 
 
@@ -11206,7 +11528,7 @@ The service provided by the nlohmann/json library does not accept u0415 and u043
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -11274,13 +11596,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.6 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.6 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept invalid syntax for numbers.
 
 
@@ -11288,7 +11617,7 @@ The service provided by the nlohmann/json library does not accept invalid syntax
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -12017,13 +12346,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.7 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.7 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does accept decimal points in numbers within the bounds of double.
 
 
@@ -12031,7 +12367,7 @@ The service provided by the nlohmann/json library does accept decimal points in 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -12092,13 +12428,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.8 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.8 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept leading zeroes.
 
 
@@ -12106,7 +12449,7 @@ The service provided by the nlohmann/json library does not accept leading zeroes
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -12248,13 +12591,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-08.9 | Reviewed: ⨯ | Score: 0.0 
+### NJF-08.9 | Reviewed: ✔ | Score: 0.98333 
 The service provided by the nlohmann/json library does not accept any other digit symbol than 0-9.
 
 
@@ -12262,7 +12612,7 @@ The service provided by the nlohmann/json library does not accept any other digi
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-08](NJF.md#njf-08)  | The service provided by the nlohmann/json library accepts numbers according to RFC8259 §6. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -12362,7 +12712,7 @@ SECTION("integers")
 - `cpp-testsuite: [/nst_json_testsuite2/test_parsing/n_number_hex_1_digit.json, /nst_json_testsuite2/test_parsing/n_number_hex_2_digits.json, /nst_json_testsuite2/test_parsing/n_number_hex_2_digits.json]`
 
 
-	- Description: Rejects Hexadecimals
+	- Description: Rejects Hexadecimals.
 	
 	
 	- JSON Testsuite: /nst_json_testsuite2/test_parsing/n_number_hex_1_digit.json
@@ -12477,923 +12827,28 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.98 |
+|2026-07-29 13:10:30.513740|0.98 |
 
 
 
 ---
 
-### NJF-12 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library decodes UTF-8 data.
+### NJF-09 | Reviewed: ✔ | Score: 1.0 
+The service provided by the nlohmann/json library does accept the six structural characters.
 
 
 **Supported Requests:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [WFJ-07](WFJ.md#wfj-07)  | The service provided by the nlohmann/json library checks that JSON is only serialized using UTF-8. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-12.1](NJF.md#njf-12.1)  | The service provided by the nlohmann/json library rejects malformed UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-12.2](NJF.md#njf-12.2)  | The service provided by the nlohmann/json library rejects "overlong sequences". | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-12.3](NJF.md#njf-12.3)  | The service provided by the nlohmann/json library rejects single escaped and unescaped, and paired unescaped utf-16 surrogates. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-12.5](NJF.md#njf-12.5)  | The service provided by the nlohmann/json library accepts Non-Characters. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-12.6](NJF.md#njf-12.6)  | The service provided by the nlohmann/json library accepts well-formed UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-
-
-**References:**
-
-_None_
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-12.svg)
-
-|date-time|NJF-12|NJF-12.1|NJF-12.2|NJF-12.3|NJF-12.5|NJF-12.6|
-|-|-|-|-|-|-|-|
-|2026-02-20 12:44:32|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-
-
-
----
-
-### NJF-12.1 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library rejects malformed UTF-8 data.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-test: [accept;malformed sequences]
-(TSF/tests/unit-strings.cpp)`
-
-
-```cpp
-SECTION("malformed sequences")
-{
-    SECTION("Unexpected continuation bytes")
-    {
-        // Each unexpected continuation byte should be separately signalled as a
-        // malformed sequence of its own.
-
-        // 3.1.1  First continuation byte 0x80
-        CHECK(!json::accept("\"\x80\""));
-        // 3.1.2  Last  continuation byte 0xbf
-        CHECK(!json::accept("\"\xbf\""));
-
-        // 3.1.3  2 continuation bytes
-        CHECK(!json::accept("\"\x80\xbf\""));
-        // 3.1.4  3 continuation bytes
-        CHECK(!json::accept("\"\x80\xbf\x80\""));
-        // 3.1.5  4 continuation bytes
-        CHECK(!json::accept("\"\x80\xbf\x80\xbf\""));
-        // 3.1.6  5 continuation bytes
-        CHECK(!json::accept("\"\x80\xbf\x80\xbf\x80\""));
-        // 3.1.7  6 continuation bytes
-        CHECK(!json::accept("\"\x80\xbf\x80\xbf\x80\xbf\""));
-        // 3.1.8  7 continuation bytes
-        CHECK(!json::accept("\"\x80\xbf\x80\xbf\x80\xbf\x80\""));
-
-        // 3.1.9  Sequence of all 64 possible continuation bytes (0x80-0xbf)
-        CHECK(!json::accept("\"\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x8b\x8c\x8d\x8e\x8f\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9a\x9b\x9c\x9d\x9e\x9f\xa0\xa1\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xab\xac\xad\xae\xaf\xb0\xb1\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xbb\xbc\xbd\xbe\xbf\""));
-    }
-
-    SECTION("Lonely start characters")
-    {
-        // 3.2.1  All 32 first bytes of 2-byte sequences (0xc0-0xdf)
-        CHECK(!json::accept("\"\xc0 \xc1 \xc2 \xc3 \xc4 \xc5 \xc6 \xc7 \xc8 \xc9 \xca \xcb \xcc \xcd \xce \xcf \xd0 \xd1 \xd2 \xd3 \xd4 \xd5 \xd6 \xd7 \xd8 \xd9 \xda \xdb \xdc \xdd \xde \xdf\""));
-        // 3.2.2  All 16 first bytes of 3-byte sequences (0xe0-0xef)
-        CHECK(!json::accept("\"\xe0 \xe1 \xe2 \xe3 \xe4 \xe5 \xe6 \xe7 \xe8 \xe9 \xea \xeb \xec \xed \xee \xef\""));
-        // 3.2.3  All 8 first bytes of 4-byte sequences (0xf0-0xf7)
-        CHECK(!json::accept("\"\xf0 \xf1 \xf2 \xf3 \xf4 \xf5 \xf6 \xf7\""));
-        // 3.2.4  All 4 first bytes of 5-byte sequences (0xf8-0xfb)
-        CHECK(!json::accept("\"\xf8 \xf9 \xfa \xfb\""));
-        // 3.2.5  All 2 first bytes of 6-byte sequences (0xfc-0xfd)
-        CHECK(!json::accept("\"\xfc \xfd\""));
-    }
-
-    SECTION("Sequences with last continuation byte missing")
-    {
-        // All bytes of an incomplete sequence should be signalled as a single
-        // malformed sequence, i.e., you should see only a single replacement
-        // character in each of the next 10 tests. (Characters as in section 2)
-
-        // 3.3.1  2-byte sequence with last byte missing (U+0000)
-        CHECK(!json::accept("\"\xc0\""));
-        // 3.3.2  3-byte sequence with last byte missing (U+0000)
-        CHECK(!json::accept("\"\xe0\x80\""));
-        // 3.3.3  4-byte sequence with last byte missing (U+0000)
-        CHECK(!json::accept("\"\xf0\x80\x80\""));
-        // 3.3.4  5-byte sequence with last byte missing (U+0000)
-        CHECK(!json::accept("\"\xf8\x80\x80\x80\""));
-        // 3.3.5  6-byte sequence with last byte missing (U+0000)
-        CHECK(!json::accept("\"\xfc\x80\x80\x80\x80\""));
-        // 3.3.6  2-byte sequence with last byte missing (U-000007FF)
-        CHECK(!json::accept("\"\xdf\""));
-        // 3.3.7  3-byte sequence with last byte missing (U-0000FFFF)
-        CHECK(!json::accept("\"\xef\xbf\""));
-        // 3.3.8  4-byte sequence with last byte missing (U-001FFFFF)
-        CHECK(!json::accept("\"\xf7\xbf\xbf\""));
-        // 3.3.9  5-byte sequence with last byte missing (U-03FFFFFF)
-        CHECK(!json::accept("\"\xfb\xbf\xbf\xbf\""));
-        // 3.3.10 6-byte sequence with last byte missing (U-7FFFFFFF)
-        CHECK(!json::accept("\"\xfd\xbf\xbf\xbf\xbf\""));
-    }
-
-    SECTION("Concatenation of incomplete sequences")
-    {
-        // All the 10 sequences of 3.3 concatenated, you should see 10 malformed
-        // sequences being signalled:
-        CHECK(!json::accept("\"\xc0\xe0\x80\xf0\x80\x80\xf8\x80\x80\x80\xfc\x80\x80\x80\x80\xdf\xef\xbf\xf7\xbf\xbf\xfb\xbf\xbf\xbf\xfd\xbf\xbf\xbf\xbf\""));
-    }
-
-    SECTION("Impossible bytes")
-    {
-        // The following two bytes cannot appear in a correct UTF-8 string
-
-        // 3.5.1  fe
-        CHECK(!json::accept("\"\xfe\""));
-        // 3.5.2  ff
-        CHECK(!json::accept("\"\xff\""));
-        // 3.5.3  fe fe ff ff
-        CHECK(!json::accept("\"\xfe\xfe\xff\xff\""));
-    }
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-12.1.svg)
-
-|date-time|NJF-12.1|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-12.2 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library rejects "overlong sequences".
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-test: [accept;overlong sequences]
-(TSF/tests/unit-strings.cpp)`
-
-
-```cpp
-SECTION("overlong sequences")
-{
-    SECTION("Examples of an overlong ASCII character")
-    {
-        // 4.1.1 U+002F = c0 af
-        CHECK(!json::accept("\"\xc0\xaf\""));
-        // 4.1.2 U+002F = e0 80 af
-        CHECK(!json::accept("\"\xe0\x80\xaf\""));
-        // 4.1.3 U+002F = f0 80 80 af
-        CHECK(!json::accept("\"\xf0\x80\x80\xaf\""));
-        // 4.1.4 U+002F = f8 80 80 80 af
-        CHECK(!json::accept("\"\xf8\x80\x80\x80\xaf\""));
-        // 4.1.5 U+002F = fc 80 80 80 80 af
-        CHECK(!json::accept("\"\xfc\x80\x80\x80\x80\xaf\""));
-    }
-
-    SECTION("Maximum overlong sequences")
-    {
-        // Below you see the highest Unicode value that is still resulting in an
-        // overlong sequence if represented with the given number of bytes. This
-        // is a boundary test for safe UTF-8 decoders. All five characters should
-        // be rejected like malformed UTF-8 sequences.
-
-        // 4.2.1  U-0000007F = c1 bf
-        CHECK(!json::accept("\"\xc1\xbf\""));
-        // 4.2.2  U-000007FF = e0 9f bf
-        CHECK(!json::accept("\"\xe0\x9f\xbf\""));
-        // 4.2.3  U-0000FFFF = f0 8f bf bf
-        CHECK(!json::accept("\"\xf0\x8f\xbf\xbf\""));
-        // 4.2.4  U-001FFFFF = f8 87 bf bf bf
-        CHECK(!json::accept("\"\xf8\x87\xbf\xbf\xbf\""));
-        // 4.2.5  U-03FFFFFF = fc 83 bf bf bf bf
-        CHECK(!json::accept("\"\xfc\x83\xbf\xbf\xbf\xbf\""));
-    }
-
-    SECTION("Overlong representation of the NUL character")
-    {
-        // The following five sequences should also be rejected like malformed
-        // UTF-8 sequences and should not be treated like the ASCII NUL
-        // character.
-
-        // 4.3.1  U+0000 = c0 80
-        CHECK(!json::accept("\"\xc0\x80\""));
-        // 4.3.2  U+0000 = e0 80 80
-        CHECK(!json::accept("\"\xe0\x80\x80\""));
-        // 4.3.3  U+0000 = f0 80 80 80
-        CHECK(!json::accept("\"\xf0\x80\x80\x80\""));
-        // 4.3.4  U+0000 = f8 80 80 80 80
-        CHECK(!json::accept("\"\xf8\x80\x80\x80\x80\""));
-        // 4.3.5  U+0000 = fc 80 80 80 80 80
-        CHECK(!json::accept("\"\xfc\x80\x80\x80\x80\x80\""));
-    }
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-12.2.svg)
-
-|date-time|NJF-12.2|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-12.3 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library rejects single escaped and unescaped, and paired unescaped utf-16 surrogates.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-testsuite: [/nst_json_testsuite2/test_parsing/n_structure_lone-invalid-utf-8.json]`
-
-
-	- JSON Testsuite: /nst_json_testsuite2/test_parsing/n_structure_lone-invalid-utf-8.json
-	
-	
-	 ```json
-	V
-	```
-	
-	
-	- cpp-test: [nst's JSONTestSuite (2);test_parsing;n]
-	(tests/src/unit-testsuites.cpp)
-	
-	
-	```cpp
-	SECTION("n")
-	{
-	    for (const auto* filename :
-	            {
-	                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_lone-invalid-utf-8.json",
-	            }
-	        )
-	    {
-	        CAPTURE(filename)
-	        std::ifstream f(filename);
-	        json _;
-	        CHECK_THROWS_AS(_ = json::parse(f), json::parse_error&);
-	        std::ifstream f2(filename);
-	        CHECK(!json::accept(f2));
-	    }
-	}
-	
-	
-	 // Note: Other test data lines have been filtered out for conciseness.
-	```
-	
-
-- `cpp-test: [Unicode;unescaped unicode]
-(TSF/tests/unit-strings.cpp)`
-
-
-```cpp
-SECTION("unescaped unicode")
-{
-    for (uint32_t i = 0x0000; i&lt;=0x10FFFF; i++)
-    {
-        std::string temp = uint_to_utf8(i);
-        if ((i&gt;=0xD800 && i&lt;=0xDFFF)) {
-            // Unpaired utf-16 surrogates are illegal.
-            // Observe that this verbatim not what RFC8259 §7 prescribes;
-            // it appears, however, to be in the spirit of RFC8259, cf. §8.2
-            // The other characters are illegal if unescaped.
-            CHECK(!json::accept(temp));
-            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
-            if (i&lt;=0xDBFF){
-                for (uint32_t j = 0xDC00; j&lt;=0xDFFF; j++){
-                    temp += uint_to_utf8(j);
-                    CHECK(!json::accept(temp));
-                    CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
-                }
-            }
-        } else if (i&lt;0x0020||i==0x0022||i==0x005c){
-            CHECK(!json::accept(temp));
-            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
-        } else {
-            // All other characters are valid according to RFC8259
-            CHECK_NOTHROW(parser_helper(temp));
-        }
-    }
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-12.3.svg)
-
-|date-time|NJF-12.3|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-12.5 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library accepts Non-Characters.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-test: [accept;noncharacter code positions]
-(TSF/tests/unit-strings.cpp)`
-
-
-```cpp
-SECTION("noncharacter code positions")
-{
-    // 5.3.1  U+FFFE = ef bf be
-    CHECK(json::accept("\"\xef\xbf\xbe\""));
-    // 5.3.2  U+FFFF = ef bf bf
-    CHECK(json::accept("\"\xef\xbf\xbf\""));
-
-    // 5.3.3  U+FDD0 .. U+FDEF
-    CHECK(json::accept("\"\xEF\xB7\x90\""));
-    CHECK(json::accept("\"\xEF\xB7\x91\""));
-    CHECK(json::accept("\"\xEF\xB7\x92\""));
-    CHECK(json::accept("\"\xEF\xB7\x93\""));
-    CHECK(json::accept("\"\xEF\xB7\x94\""));
-    CHECK(json::accept("\"\xEF\xB7\x95\""));
-    CHECK(json::accept("\"\xEF\xB7\x96\""));
-    CHECK(json::accept("\"\xEF\xB7\x97\""));
-    CHECK(json::accept("\"\xEF\xB7\x98\""));
-    CHECK(json::accept("\"\xEF\xB7\x99\""));
-    CHECK(json::accept("\"\xEF\xB7\x9A\""));
-    CHECK(json::accept("\"\xEF\xB7\x9B\""));
-    CHECK(json::accept("\"\xEF\xB7\x9C\""));
-    CHECK(json::accept("\"\xEF\xB7\x9D\""));
-    CHECK(json::accept("\"\xEF\xB7\x9E\""));
-    CHECK(json::accept("\"\xEF\xB7\x9F\""));
-    CHECK(json::accept("\"\xEF\xB7\xA0\""));
-    CHECK(json::accept("\"\xEF\xB7\xA1\""));
-    CHECK(json::accept("\"\xEF\xB7\xA2\""));
-    CHECK(json::accept("\"\xEF\xB7\xA3\""));
-    CHECK(json::accept("\"\xEF\xB7\xA4\""));
-    CHECK(json::accept("\"\xEF\xB7\xA5\""));
-    CHECK(json::accept("\"\xEF\xB7\xA6\""));
-    CHECK(json::accept("\"\xEF\xB7\xA7\""));
-    CHECK(json::accept("\"\xEF\xB7\xA8\""));
-    CHECK(json::accept("\"\xEF\xB7\xA9\""));
-    CHECK(json::accept("\"\xEF\xB7\xAA\""));
-    CHECK(json::accept("\"\xEF\xB7\xAB\""));
-    CHECK(json::accept("\"\xEF\xB7\xAC\""));
-    CHECK(json::accept("\"\xEF\xB7\xAD\""));
-    CHECK(json::accept("\"\xEF\xB7\xAE\""));
-    CHECK(json::accept("\"\xEF\xB7\xAF\""));
-
-    // 5.3.4  U+nFFFE U+nFFFF (for n = 1..10)
-    CHECK(json::accept("\"\xF0\x9F\xBF\xBF\""));
-    CHECK(json::accept("\"\xF0\xAF\xBF\xBF\""));
-    CHECK(json::accept("\"\xF0\xBF\xBF\xBF\""));
-    CHECK(json::accept("\"\xF1\x8F\xBF\xBF\""));
-    CHECK(json::accept("\"\xF1\x9F\xBF\xBF\""));
-    CHECK(json::accept("\"\xF1\xAF\xBF\xBF\""));
-    CHECK(json::accept("\"\xF1\xBF\xBF\xBF\""));
-    CHECK(json::accept("\"\xF2\x8F\xBF\xBF\""));
-    CHECK(json::accept("\"\xF2\x9F\xBF\xBF\""));
-    CHECK(json::accept("\"\xF2\xAF\xBF\xBF\""));
-}
-
-```
-
-
-- `cpp-test: [Unicode;unescaped unicode]
-(TSF/tests/unit-strings.cpp)`
-
-
-```cpp
-SECTION("unescaped unicode")
-{
-    for (uint32_t i = 0x0000; i&lt;=0x10FFFF; i++)
-    {
-        std::string temp = uint_to_utf8(i);
-        if ((i&gt;=0xD800 && i&lt;=0xDFFF)) {
-            // Unpaired utf-16 surrogates are illegal.
-            // Observe that this verbatim not what RFC8259 §7 prescribes;
-            // it appears, however, to be in the spirit of RFC8259, cf. §8.2
-            // The other characters are illegal if unescaped.
-            CHECK(!json::accept(temp));
-            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
-            if (i&lt;=0xDBFF){
-                for (uint32_t j = 0xDC00; j&lt;=0xDFFF; j++){
-                    temp += uint_to_utf8(j);
-                    CHECK(!json::accept(temp));
-                    CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
-                }
-            }
-        } else if (i&lt;0x0020||i==0x0022||i==0x005c){
-            CHECK(!json::accept(temp));
-            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
-        } else {
-            // All other characters are valid according to RFC8259
-            CHECK_NOTHROW(parser_helper(temp));
-        }
-    }
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-12.5.svg)
-
-|date-time|NJF-12.5|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-12.6 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library accepts well-formed UTF-8 data.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-test: [Unicode;escaped unicode]
-(TSF/tests/unit-strings.cpp)`
-
-
-```cpp
-SECTION("escaped unicode")
-{
-    for (uint32_t i = 0x0000; i&lt;=0xFFFF; i++)
-    {
-        std::ostringstream temp;
-        std::ostringstream temp2;
-        temp &lt;&lt; "\"\\u" &lt;&lt; std::hex &lt;&lt; std::uppercase &lt;&lt; std::setfill('0') &lt;&lt; std::setw(4) &lt;&lt; i &lt;&lt; "\"";
-        temp2 &lt;&lt; "\"\\u" &lt;&lt; std::hex &lt;&lt; std::nouppercase &lt;&lt; std::setfill('0') &lt;&lt; std::setw(4) &lt;&lt; i &lt;&lt; "\"";
-        if (i&gt;=0xD800 && i&lt;=0xDFFF)
-        {
-            // Unpaired utf-16 surrogates are illegal.
-            // Observe that this verbatim not what RFC8259 §7 prescribes;
-            // it appears, however, to be in the spirit of RFC8259, cf. §8.2
-            // Illegal characters are not parsed anyway.
-            CHECK(!json::accept(temp.str()));
-            CHECK(!json::accept(temp2.str()));
-            CHECK_THROWS_AS(parser_helper(temp.str()),json::parse_error&);
-            CHECK_THROWS_AS(parser_helper(temp2.str()),json::parse_error&);
-        } else { 
-            // all other characters of the basic multilingual plane are accepted.
-            CHECK(json::accept(temp.str()));
-            CHECK(json::accept(temp2.str()));
-            CHECK(json::parse(temp.str())==json::parse(temp2.str()));
-        }
-    }
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-12.6.svg)
-
-|date-time|NJF-12.6|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-13 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library accepts JSON data consisting of combinations of the data types.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [WFJ-05](WFJ.md#wfj-05)  | The service provided by the nlohmann/json library checks the well-formedness of objects. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-test: [compliance tests from json.org;expected passes]
-(tests/src/unit-testsuites.cpp)`
-
-
-```cpp
-SECTION("expected passes")
-{
-    for (const auto* filename :
-            {
-                TEST_DATA_DIRECTORY "/json_tests/pass1.json",
-                TEST_DATA_DIRECTORY "/json_tests/pass2.json",
-                TEST_DATA_DIRECTORY "/json_tests/pass3.json"
-            })
-    {
-        CAPTURE(filename)
-        std::ifstream f(filename);
-        json j;
-        CHECK_NOTHROW(f &gt;&gt; j);
-    }
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-13.svg)
-
-|date-time|NJF-13|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-14 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [WFJ-08](WFJ.md#wfj-08)  | The service provided by the nlohmann/json library ignores byte order marks. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-14.1](NJF.md#njf-14.1)  | If the service provided by the nlohmann/json library accepts an input containing no BOM, then it accepts a single UTF-8 byte order mark followed by that input. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-14.2](NJF.md#njf-14.2)  | The service provided by the nlohmann/json library does not accept multiple UTF-8 byte order marks. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-14.3](NJF.md#njf-14.3)  | The service provided by the nlohmann/json library does not accept incomplete or perturbed UTF-8 byte order marks within the first three characters of the input. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-14.4](NJF.md#njf-14.4)  | The service provided by the nlohmann/json library does not accept UTF-16 and UTF-32 byte order marks instead of the UTF-8 byte order mark. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [NJF-14.5](NJF.md#njf-14.5)  | The service provided by the nlohmann/json library does not accept UTF-8 byte order mark outside of a string and outside of the first three characters of the input. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-
-
-**References:**
-
-_None_
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-14.svg)
-
-|date-time|NJF-14|NJF-14.1|NJF-14.2|NJF-14.3|NJF-14.4|NJF-14.5|
-|-|-|-|-|-|-|-|
-|2026-02-20 12:44:32|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-|2026-03-16 11:40:34.799271|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
-
-
-
----
-
-### NJF-14.1 | Reviewed: ⨯ | Score: 0.0 
-If the service provided by the nlohmann/json library accepts an input containing no BOM, then it accepts a single UTF-8 byte order mark followed by that input.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-test: [accept;UTF-8;single BOM]
-(TSF/tests/unit-byte_order_mark.cpp)`
-
-
-```cpp
-SECTION("single BOM")
-{
-    // a single byte order mark is treated as an empty token, which is not a valid json token.
-    CHECK(!json::accept("\xEF\xBB\xBF"));
-    CHECK(json::accept("\xEF\xBB\xBF\n\"foo\""));
-    CHECK(json::accept("\xEF\xBB\xBF\"foo\""));
-    CHECK(json::accept("\xEF\xBB\xBF 123"));
-    CHECK(json::accept("\xEF\xBB\xBF[1,2,3]"));
-    CHECK(json::accept("\xEF\xBB\xBF{\"foo\":1,\"bar\":2,\"test\":3}"));
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-14.1.svg)
-
-|date-time|NJF-14.1|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-14.2 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library does not accept multiple UTF-8 byte order marks.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-
-**Supporting Items:**
-
-_None_
-
-
-
-**References:**
-
-- `this item also refers to the references of item JLEX-01`
-
-
-	- see [here](JLEX.md#jlex-01) to find JLEX-01
-
-
-- `cpp-test: [accept;UTF-8;multiple BOM]
-(TSF/tests/unit-byte_order_mark.cpp)`
-
-
-```cpp
-SECTION("multiple BOM")
-{
-    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB\xBF"));
-    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB\xBF\xEF\xBB\xBF"));
-    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB\xBF\xEF\xBB\xBF\xEF\xBB\xBF"));
-    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB"));
-    CHECK(!json::accept("\xEF\xBB\xBF foo"));
-}
-
-```
-
-
-
-
-
-**Fallacies:**
-
-_None_
-
-**Graph:**
-
-![No Image](figs/NJF-14.2.svg)
-
-|date-time|NJF-14.2|
-|-|-|
-|2026-02-20 12:44:32|0.00 |
-|2026-03-16 08:31:01|0.00 |
-|2026-03-16 09:17:11|0.00 |
-|2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
-
-
-
----
-
-### NJF-14.3 | Reviewed: ⨯ | Score: 0.0 
-The service provided by the nlohmann/json library does not accept incomplete or perturbed UTF-8 byte order marks within the first three characters of the input.
-
-
-**Supported Requests:**
-
-| Item  | Summary  | Score  | Status  |
-| --- | --- | --- | --- |
-| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [WFJ-09](WFJ.md#wfj-09)  | The service provided by the nlohmann/json library accepts exactly the six JSON structural characters and insignificant leading and trailing whitespace permitted by RFC8259. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13413,7 +12868,7 @@ _None_
 (include/nlohmann/detail/input/parser.hpp)`
 
 
-	- Description: function, which implements the service to check for well-formed json
+	- Description: Function that implements the service to check for well-formed json.
 
 
 	```cpp
@@ -13430,7 +12885,7 @@ _None_
 (include/nlohmann/detail/input/parser.hpp)`
 
 
-	- Description: function, which is called by parser::accept
+	- Description: Function that is called by parser::accept.
 
 
 	```cpp
@@ -13457,7 +12912,7 @@ _None_
 (include/nlohmann/detail/input/parser.hpp)`
 
 
-	- Description: function, which is called by parser::sax_parse
+	- Description: Function that is called by parser::sax_parse.
 
 
 	```cpp
@@ -13760,7 +13215,2080 @@ _None_
 (include/nlohmann/detail/input/lexer.hpp)`
 
 
-	- Description: function, which is called by parser::sax_parse_internal to read input data
+	- Description: Function that is called by parser::sax_parse_internal to read input data.
+
+
+	```cpp
+	token_type scan()
+	{
+	    // initially, skip the BOM
+	    if (position.chars_read_total == 0 && !skip_bom())
+	    {
+	        error_message = "invalid BOM; must be 0xEF 0xBB 0xBF if given";
+	        return token_type::parse_error;
+	    }
+	
+	    // read next character and ignore whitespace
+	    skip_whitespace();
+	
+	    // ignore comments
+	    while (ignore_comments && current == '/')
+	    {
+	        if (!scan_comment())
+	        {
+	            return token_type::parse_error;
+	        }
+	
+	        // skip following whitespace
+	        skip_whitespace();
+	    }
+	
+	    switch (current)
+	    {
+	        // structural characters
+	        case '[':
+	            return token_type::begin_array;
+	        case ']':
+	            return token_type::end_array;
+	        case '{':
+	            return token_type::begin_object;
+	        case '}':
+	            return token_type::end_object;
+	        case ':':
+	            return token_type::name_separator;
+	        case ',':
+	            return token_type::value_separator;
+	
+	        // literals
+	        case 't':
+	        {
+	            std::array&lt;char_type, 4&gt; true_literal = {{static_cast&lt;char_type&gt;('t'), static_cast&lt;char_type&gt;('r'), static_cast&lt;char_type&gt;('u'), static_cast&lt;char_type&gt;('e')}};
+	            return scan_literal(true_literal.data(), true_literal.size(), token_type::literal_true);
+	        }
+	        case 'f':
+	        {
+	            std::array&lt;char_type, 5&gt; false_literal = {{static_cast&lt;char_type&gt;('f'), static_cast&lt;char_type&gt;('a'), static_cast&lt;char_type&gt;('l'), static_cast&lt;char_type&gt;('s'), static_cast&lt;char_type&gt;('e')}};
+	            return scan_literal(false_literal.data(), false_literal.size(), token_type::literal_false);
+	        }
+	        case 'n':
+	        {
+	            std::array&lt;char_type, 4&gt; null_literal = {{static_cast&lt;char_type&gt;('n'), static_cast&lt;char_type&gt;('u'), static_cast&lt;char_type&gt;('l'), static_cast&lt;char_type&gt;('l')}};
+	            return scan_literal(null_literal.data(), null_literal.size(), token_type::literal_null);
+	        }
+	
+	        // string
+	        case '\"':
+	            return scan_string();
+	
+	        // number
+	        case '-':
+	        case '0':
+	        case '1':
+	        case '2':
+	        case '3':
+	        case '4':
+	        case '5':
+	        case '6':
+	        case '7':
+	        case '8':
+	        case '9':
+	            return scan_number();
+	
+	        // end of input (the null byte is needed when parsing from
+	        // string literals)
+	        case '\0':
+	        case char_traits&lt;char_type&gt;::eof():
+	            return token_type::end_of_input;
+	
+	        // error
+	        default:
+	            error_message = "invalid literal";
+	            return token_type::parse_error;
+	    }
+	}
+	
+	```
+	
+
+- `cpp-testsuite: [/json.org/1.json]`
+
+
+	- Description: Checks that a valid json object containing all six structural characters is accepted.
+	
+	
+	- JSON Testsuite: /json.org/1.json
+	
+	
+	 ```json
+	{
+	    "glossary": {
+	        "title": "example glossary",
+			"GlossDiv": {
+	            "title": "S",
+				"GlossList": {
+	                "GlossEntry": {
+	                    "ID": "SGML",
+						"SortAs": "SGML",
+						"GlossTerm": "Standard Generalized Markup Language",
+						"Acronym": "SGML",
+						"Abbrev": "ISO 8879:1986",
+						"GlossDef": {
+	                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+							"GlossSeeAlso": ["GML", "XML"]
+	                    },
+						"GlossSee": "markup"
+	                }
+	            }
+	        }
+	    }
+	}
+	
+	```
+	
+	
+	- cpp-test: [json.org examples;1.json]
+	(tests/src/unit-testsuites.cpp)
+	
+	
+	```cpp
+	SECTION("1.json")
+	{
+	    std::ifstream f(TEST_DATA_DIRECTORY "/json.org/1.json");
+	    json j;
+	    CHECK_NOTHROW(f &gt;&gt; j);
+	}
+	
+	```
+	
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-09.svg)
+
+|date-time|NJF-09|
+|-|-|
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
+
+
+
+---
+
+### NJF-10 | Reviewed: ✔ | Score: 0.98333 
+The service provided by the nlohmann/json library does not accept any other structural characters.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [WFJ-09](WFJ.md#wfj-09)  | The service provided by the nlohmann/json library accepts exactly the six JSON structural characters and insignificant leading and trailing whitespace permitted by RFC8259. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [nst's JSONTestSuite (2);test_parsing;n]
+(tests/src/unit-testsuites.cpp)`
+
+
+```cpp
+SECTION("n")
+{
+    for (const auto* filename :
+            {
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_1_true_without_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_a_invalid_utf8.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_colon_instead_of_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_comma_after_close.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_comma_and_number.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_double_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_double_extra_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_extra_close.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_extra_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_incomplete.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_incomplete_invalid_value.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_inner_array_no_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_invalid_utf8.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_items_separated_by_semicolon.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_just_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_just_minus.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_missing_value.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_newlines_unclosed.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_number_and_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_number_and_several_commas.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_spaces_vertical_tab_formfeed.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_star_inside.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_unclosed.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_unclosed_trailing_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_unclosed_with_new_lines.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_array_unclosed_with_object_inside.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_incomplete_false.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_incomplete_null.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_incomplete_true.json",
+                //TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_multidigit_number_then_00.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_++.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_+1.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_+Inf.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_-01.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_-1.0..json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_-2..json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_-NaN.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_.-1.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_.2e-3.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0.1.2.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0.3e+.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0.3e.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0.e1.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0_capital_E+.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0_capital_E.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0e+.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_0e.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_1.0e+.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_1.0e-.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_1.0e.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_1_000.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_1eE2.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_2.e+3.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_2.e-3.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_2.e3.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_9.e+.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_Inf.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_NaN.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_U+FF11_fullwidth_digit_one.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_expression.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_hex_1_digit.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_hex_2_digits.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_infinity.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_invalid+-.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_invalid-negative-real.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_invalid-utf-8-in-bigger-int.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_invalid-utf-8-in-exponent.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_invalid-utf-8-in-int.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_minus_infinity.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_minus_sign_with_trailing_garbage.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_minus_space_1.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_neg_int_starting_with_zero.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_neg_real_without_int_part.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_neg_with_garbage_at_end.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_real_garbage_after_e.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_real_with_invalid_utf8_after_e.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_real_without_fractional_part.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_starting_with_dot.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_with_alpha.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_with_alpha_char.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_number_with_leading_zero.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_bad_value.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_bracket_key.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_comma_instead_of_colon.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_double_colon.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_emoji.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_garbage_at_end.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_key_with_single_quotes.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_lone_continuation_byte_in_key_and_trailing_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_missing_colon.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_missing_key.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_missing_semicolon.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_missing_value.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_no-colon.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_non_string_key.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_non_string_key_but_huge_number_instead.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_repeated_null_null.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_several_trailing_commas.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_single_quote.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_trailing_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_trailing_comment.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_trailing_comment_open.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_trailing_comment_slash_open.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_trailing_comment_slash_open_incomplete.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_two_commas_in_a_row.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_unquoted_key.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_unterminated-value.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_with_single_string.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_object_with_trailing_garbage.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_single_space.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape_u.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape_u1.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_1_surrogate_then_escape_u1x.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_accentuated_char_no_quotes.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_backslash_00.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_escape_x.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_escaped_backslash_bad.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_escaped_ctrl_char_tab.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_escaped_emoji.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_incomplete_escape.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_incomplete_escaped_character.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_incomplete_surrogate.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_incomplete_surrogate_escape_invalid.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_invalid-utf-8-in-escape.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_invalid_backslash_esc.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_invalid_unicode_escape.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_invalid_utf8_after_escape.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_leading_uescaped_thinspace.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_no_quotes_with_bad_escape.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_single_doublequote.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_single_quote.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_single_string_no_double_quotes.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_start_escape_unclosed.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_unescaped_crtl_char.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_unescaped_newline.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_unescaped_tab.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_unicode_CapitalU.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_string_with_trailing_garbage.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_U+2060_word_joined.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_UTF8_BOM_no_data.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_angle_bracket_..json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_angle_bracket_null.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_array_trailing_garbage.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_array_with_extra_array_close.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_array_with_unclosed_string.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_ascii-unicode-identifier.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_capitalized_True.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_close_unopened_array.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_comma_instead_of_closing_brace.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_double_array.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_end_array.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_incomplete_UTF8_BOM.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_lone-invalid-utf-8.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_lone-open-bracket.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_no_data.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_null-byte-outside-string.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_number_with_trailing_garbage.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_object_followed_by_closing_object.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_object_unclosed_no_value.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_object_with_comment.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_object_with_trailing_garbage.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_array_apostrophe.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_array_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_array_open_object.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_array_open_string.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_array_string.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_object.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_object_close_array.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_object_comma.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_object_open_array.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_object_open_string.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_object_string_with_apostrophes.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_open_open.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_single_eacute.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_single_star.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_trailing_#.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_uescaped_LF_before_string.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_unclosed_array.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_unclosed_array_partial_null.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_unclosed_array_unfinished_false.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_unclosed_array_unfinished_true.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_unclosed_object.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_unicode-identifier.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_whitespace_U+2060_word_joiner.json",
+                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_whitespace_formfeed.json"
+            }
+        )
+    {
+        CAPTURE(filename)
+        std::ifstream f(filename);
+        json _;
+        CHECK_THROWS_AS(_ = json::parse(f), json::parse_error&);
+        std::ifstream f2(filename);
+        CHECK(!json::accept(f2));
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-10.svg)
+
+|date-time|NJF-10|
+|-|-|
+|2026-07-29 12:21:26|0.98 |
+|2026-07-29 13:10:30.513740|0.98 |
+
+
+
+---
+
+### NJF-11 | Reviewed: ✔ | Score: 1.0 
+The service provided by the nlohmann/json library accepts leading and closing whitespaces.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [WFJ-09](WFJ.md#wfj-09)  | The service provided by the nlohmann/json library accepts exactly the six JSON structural characters and insignificant leading and trailing whitespace permitted by RFC8259. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `function: [lexer::skip_whitespace]
+(include/nlohmann/detail/input/lexer.hpp)`
+
+
+	- Description: Function that skips admissible whitespace during reading.
+
+
+	```cpp
+	void skip_whitespace()
+	{
+	    do
+	    {
+	        get();
+	    }
+	    while (current == ' ' || current == '\t' || current == '\n' || current == '\r');
+	}
+	
+	```
+	
+
+- `cpp-test: [accept;whitespace]
+(TSF/tests/unit-literals.cpp)`
+
+
+```cpp
+SECTION("whitespace")
+{
+    CHECK(json::parse(" false ")==json::parse("false"));
+    CHECK(json::parse(" false\t")==json::parse("false"));
+    CHECK(json::parse(" false\n")==json::parse("false"));
+    CHECK(json::parse(" false\u000d")==json::parse("false"));
+    CHECK(json::parse("\tfalse ")==json::parse("false"));
+    CHECK(json::parse("\tfalse\t")==json::parse("false"));
+    CHECK(json::parse("\tfalse\n")==json::parse("false"));
+    CHECK(json::parse("\tfalse\u000d")==json::parse("false"));
+    CHECK(json::parse("\nfalse ")==json::parse("false"));
+    CHECK(json::parse("\nfalse\t")==json::parse("false"));
+    CHECK(json::parse("\nfalse\n")==json::parse("false"));
+    CHECK(json::parse("\nfalse\u000d")==json::parse("false"));
+    CHECK(json::parse("\u000dfalse ")==json::parse("false"));
+    CHECK(json::parse("\u000dfalse\t")==json::parse("false"));
+    CHECK(json::parse("\u000dfalse\n")==json::parse("false"));
+    CHECK(json::parse("\u000dfalse\u000d")==json::parse("false"));
+    CHECK(json::parse(" null ")==json::parse("null"));
+    CHECK(json::parse(" null\t")==json::parse("null"));
+    CHECK(json::parse(" null\n")==json::parse("null"));
+    CHECK(json::parse(" null\u000d")==json::parse("null"));
+    CHECK(json::parse("\tnull ")==json::parse("null"));
+    CHECK(json::parse("\tnull\t")==json::parse("null"));
+    CHECK(json::parse("\tnull\n")==json::parse("null"));
+    CHECK(json::parse("\tnull\u000d")==json::parse("null"));
+    CHECK(json::parse("\nnull ")==json::parse("null"));
+    CHECK(json::parse("\nnull\t")==json::parse("null"));
+    CHECK(json::parse("\nnull\n")==json::parse("null"));
+    CHECK(json::parse("\nnull\u000d")==json::parse("null"));
+    CHECK(json::parse("\u000dnull ")==json::parse("null"));
+    CHECK(json::parse("\u000dnull\t")==json::parse("null"));
+    CHECK(json::parse("\u000dnull\n")==json::parse("null"));
+    CHECK(json::parse("\u000dnull\u000d")==json::parse("null"));
+    CHECK(json::parse(" true ")==json::parse("true"));
+    CHECK(json::parse(" true\t")==json::parse("true"));
+    CHECK(json::parse(" true\n")==json::parse("true"));
+    CHECK(json::parse(" true\u000d")==json::parse("true"));
+    CHECK(json::parse("\ttrue ")==json::parse("true"));
+    CHECK(json::parse("\ttrue\t")==json::parse("true"));
+    CHECK(json::parse("\ttrue\n")==json::parse("true"));
+    CHECK(json::parse("\ttrue\u000d")==json::parse("true"));
+    CHECK(json::parse("\ntrue ")==json::parse("true"));
+    CHECK(json::parse("\ntrue\t")==json::parse("true"));
+    CHECK(json::parse("\ntrue\n")==json::parse("true"));
+    CHECK(json::parse("\ntrue\u000d")==json::parse("true"));
+    CHECK(json::parse("\u000dtrue ")==json::parse("true"));
+    CHECK(json::parse("\u000dtrue\t")==json::parse("true"));
+    CHECK(json::parse("\u000dtrue\n")==json::parse("true"));
+    CHECK(json::parse("\u000dtrue\u000d")==json::parse("true"));
+}
+
+```
+
+
+- `cpp-test: [accept;whitespace;Leading and tailing]
+(TSF/tests/unit-numbers.cpp)`
+
+
+```cpp
+SECTION("Leading and tailing")
+{
+    SECTION("space")
+    {
+        CHECK(json::accept(" 123"));
+        CHECK(json::accept(" 123.23672"));
+        CHECK(json::accept(" 12\u004523"));
+        CHECK(json::accept(" 92\u006532"));
+        CHECK(json::accept("              123"));
+        CHECK(json::accept("            123.23672"));
+        CHECK(json::accept("     12\u004523"));
+        CHECK(json::accept("           92\u006532"));
+        CHECK(json::accept("123 "));
+        CHECK(json::accept("123.23672 "));
+        CHECK(json::accept("12\u004523 "));
+        CHECK(json::accept("92\u006532 "));
+        CHECK(json::accept("123                 "));
+        CHECK(json::accept("123.23672               "));
+        CHECK(json::accept("12\u004523                "));
+        CHECK(json::accept("92\u006532              "));
+    }
+    SECTION("tab")
+    {
+        CHECK(json::accept("\t123"));
+        CHECK(json::accept("\t123.23672"));
+        CHECK(json::accept("\t12\u004523"));
+        CHECK(json::accept("\t92\u006532"));
+        CHECK(json::accept("123\t"));
+        CHECK(json::accept("123.23672\t"));
+        CHECK(json::accept("12\u004523\t"));
+        CHECK(json::accept("92\u006532\t"));
+        CHECK(json::accept("\t\t\t\t\t\t\t123"));
+        CHECK(json::accept("\t\t\t\t\t\t\t\t123.23672"));
+        CHECK(json::accept("\t\t\t\t\t\t\t\t\t12\u004523"));
+        CHECK(json::accept("\t\t\t\t\t\t92\u006532"));
+        CHECK(json::accept("123\t\t\t\t\t\t"));
+        CHECK(json::accept("123.23672\t\t\t\t\t"));
+        CHECK(json::accept("12\u004523\t\t\t\t"));
+        CHECK(json::accept("92\u006532\t\t\t\t\t\t"));
+    }
+    SECTION("newline")
+    {
+        CHECK(json::accept("\n123"));
+        CHECK(json::accept("\n123.23672"));
+        CHECK(json::accept("\n12\u004523"));
+        CHECK(json::accept("\n92\u006532"));
+        CHECK(json::accept("123\n"));
+        CHECK(json::accept("123.23672\n"));
+        CHECK(json::accept("12\u004523\n"));
+        CHECK(json::accept("92\u006532\n"));
+        CHECK(json::accept("\n\n\n\n\n\n\n123"));
+        CHECK(json::accept("\n\n\n\n\n\n\n\n123.23672"));
+        CHECK(json::accept("\n\n\n\n\n\n\n\n12\u004523"));
+        CHECK(json::accept("\n\n\n\n\n\n92\u006532"));
+        CHECK(json::accept("123\n\n\n\n\n\n"));
+        CHECK(json::accept("123.23672\n\n\n\n\n"));
+        CHECK(json::accept("12\u004523\n\n\n\n"));
+        CHECK(json::accept("92\u006532\n\n\n\n\n\n"));
+    }
+    SECTION("Carriage return")
+    {
+        CHECK(json::accept("\u000d123"));
+        CHECK(json::accept("\u000d123.23672"));
+        CHECK(json::accept("\u000d12\u004523"));
+        CHECK(json::accept("\u000d92\u006532"));
+        CHECK(json::accept("123\u000d"));
+        CHECK(json::accept("123.23672\u000d"));
+        CHECK(json::accept("12\u004523\u000d"));
+        CHECK(json::accept("92\u006532\u000d"));
+        CHECK(json::accept("\u000d\u000d\u000d\u000d\u000d\u000d\u000d123"));
+        CHECK(json::accept("\u000d\u000d\u000d\u000d\u000d\u000d\u000d\u000d123.23672"));
+        CHECK(json::accept("\u000d\u000d\u000d\u000d\u000d\u000d\u000d\u000d\u000d12\u004523"));
+        CHECK(json::accept("\u000d\u000d\u000d\u000d\u000d\u000d92\u006532"));
+        CHECK(json::accept("123\u000d\u000d\u000d\u000d\u000d\u000d"));
+        CHECK(json::accept("123.23672\u000d\u000d\u000d\u000d\u000d"));
+        CHECK(json::accept("12\u004523\u000d\u000d\u000d\u000d"));
+        CHECK(json::accept("92\u006532\u000d\u000d\u000d\u000d\u000d\u000d"));
+    }
+    SECTION("Mixed")
+    {
+        CHECK(json::accept("\u000d\t\n  \t\n \u000d\u000d\t\t124234   \n\n\n\n\u000d\u000d\t\t"));
+        CHECK(json::accept("\u000d\t\n  \t\n \u000d\u000d\t\t1242.34   \n\n\n\n\u000d\u000d\t\t"));
+        CHECK(json::accept("\u000d\t\n  \t\n \u000d\u000d\t\t1242\u004534   \n\n\n\n\u000d\u000d\t\t"));
+        CHECK(json::accept("\u000d\t\n  \t\n \u000d\u000d\t\t1242\u006534   \n\n\n\n\u000d\u000d\t\t"));
+    }
+}
+
+```
+
+
+- `cpp-test: [accept;whitespace]
+(TSF/tests/unit-strings.cpp)`
+
+
+```cpp
+SECTION("whitespace")
+{
+    // leading and trailing whitespace is ignored.
+    CHECK(json::parse(" \"foo\" ")==json::parse("\"foo\""));
+    CHECK(json::parse(" \"foo\"\t")==json::parse("\"foo\""));
+    CHECK(json::parse(" \"foo\"\n")==json::parse("\"foo\""));
+    CHECK(json::parse(" \"foo\"\u000d")==json::parse("\"foo\""));
+    CHECK(json::parse("\t\"foo\" ")==json::parse("\"foo\""));
+    CHECK(json::parse("\t\"foo\"\t")==json::parse("\"foo\""));
+    CHECK(json::parse("\t\"foo\"\n")==json::parse("\"foo\""));
+    CHECK(json::parse("\t\"foo\"\u000d")==json::parse("\"foo\""));
+    CHECK(json::parse("\n\"foo\" ")==json::parse("\"foo\""));
+    CHECK(json::parse("\n\"foo\"\t")==json::parse("\"foo\""));
+    CHECK(json::parse("\n\"foo\"\n")==json::parse("\"foo\""));
+    CHECK(json::parse("\n\"foo\"\u000d")==json::parse("\"foo\""));
+    CHECK(json::parse("\u000d\"foo\" ")==json::parse("\"foo\""));
+    CHECK(json::parse("\u000d\"foo\"\t")==json::parse("\"foo\""));
+    CHECK(json::parse("\u000d\"foo\"\n")==json::parse("\"foo\""));
+    CHECK(json::parse("\u000d\"foo\"\u000d")==json::parse("\"foo\""));
+}
+
+```
+
+
+- `cpp-test: [accept;whitespace]
+(TSF/tests/unit-objects.cpp)`
+
+
+```cpp
+SECTION("whitespace")
+{
+    SECTION("empty object")
+    {
+        CHECK(json::accept("{          }"));
+        CHECK(json::accept("{\t}"));
+        CHECK(json::accept("{\n}"));
+        CHECK(json::accept("{\u000d}"));
+        CHECK(json::accept("{\u000d\u000d\u000d  \t\t\t\n\n   \u000d \n\t  \t \u000d}"));
+    }
+    SECTION("non-empty object")
+    {
+        CHECK(json::accept("{ \"foo\" : \"bar\" }"));
+        CHECK(json::accept("{\t\"foo\"\t:\t\"bar\"\t}"));
+        CHECK(json::accept("{\n\"foo\"\n:\n\"bar\"\n}"));
+        CHECK(json::accept("{\u000d\"foo\"\u000d:\u000d\"bar\"\u000d}"));
+        CHECK(json::accept("{ \"foo\"\t:\n\"bar\"\n}"));
+        CHECK(json::accept("{\t\t\t\t\t\n\n\u000d\"foo\"\t \t\t  \n\n  \u000d:\"bar\"}"));
+    }
+}
+
+```
+
+
+- `cpp-test: [accept;whitespace]
+(TSF/tests/unit-arrays.cpp)`
+
+
+```cpp
+SECTION("whitespace")
+{
+    CHECK(json::accept(" [true] "));
+    CHECK(json::accept(" [true]\t"));
+    CHECK(json::accept(" [true]\n"));
+    CHECK(json::accept(" [true]\u000d"));
+    CHECK(json::accept("\t[true] "));
+    CHECK(json::accept("\t[true]\t"));
+    CHECK(json::accept("\t[true]\n"));
+    CHECK(json::accept("\t[true]\u000d"));
+    CHECK(json::accept("\n[true] "));
+    CHECK(json::accept("\n[true]\t"));
+    CHECK(json::accept("\n[true]\n"));
+    CHECK(json::accept("\n[true]\u000d"));
+    CHECK(json::accept("\u000d[true] "));
+    CHECK(json::accept("\u000d[true]\t"));
+    CHECK(json::accept("\u000d[true]\n"));
+    CHECK(json::accept("\u000d[true]\u000d"));
+    CHECK(json::accept(" \n\t\t\n   \t\u000d[true]  \n\n\n  \t\t\u000d  \n"));
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-11.svg)
+
+|date-time|NJF-11|
+|-|-|
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
+
+
+
+---
+
+### NJF-12 | Reviewed: ✔ | Score: 0.9 
+The service provided by the nlohmann/json library decodes UTF-8 data.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [WFJ-07](WFJ.md#wfj-07)  | The service provided by the nlohmann/json library checks that JSON is only serialized using UTF-8. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-12.1](NJF.md#njf-12.1)  | The service provided by the nlohmann/json library rejects malformed UTF-8 data. | 0.92 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-12.2](NJF.md#njf-12.2)  | The service provided by the nlohmann/json library rejects "overlong sequences". | 0.80 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-12.3](NJF.md#njf-12.3)  | The service provided by the nlohmann/json library rejects single escaped and unescaped, and paired unescaped utf-16 surrogates. | 0.93 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-12.5](NJF.md#njf-12.5)  | The service provided by the nlohmann/json library accepts Non-Characters. | 0.92 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-12.6](NJF.md#njf-12.6)  | The service provided by the nlohmann/json library accepts well-formed UTF-8 data. | 0.93 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+
+
+**References:**
+
+_None_
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-12.svg)
+
+|date-time|NJF-12|NJF-12.1|NJF-12.2|NJF-12.3|NJF-12.5|NJF-12.6|
+|-|-|-|-|-|-|-|
+|2026-02-20 12:44:32|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|0.90 |0.92 |0.80 |0.93 |0.92 |0.93 |
+|2026-07-29 13:10:30.513740|0.90 |0.92 |0.80 |0.93 |0.92 |0.93 |
+
+
+
+---
+
+### NJF-12.1 | Reviewed: ✔ | Score: 0.91667 
+The service provided by the nlohmann/json library rejects malformed UTF-8 data.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [accept;malformed sequences]
+(TSF/tests/unit-strings.cpp)`
+
+
+```cpp
+SECTION("malformed sequences")
+{
+    SECTION("Unexpected continuation bytes")
+    {
+        // Each unexpected continuation byte should be separately signalled as a
+        // malformed sequence of its own.
+
+        // 3.1.1  First continuation byte 0x80
+        CHECK(!json::accept("\"\x80\""));
+        // 3.1.2  Last  continuation byte 0xbf
+        CHECK(!json::accept("\"\xbf\""));
+
+        // 3.1.3  2 continuation bytes
+        CHECK(!json::accept("\"\x80\xbf\""));
+        // 3.1.4  3 continuation bytes
+        CHECK(!json::accept("\"\x80\xbf\x80\""));
+        // 3.1.5  4 continuation bytes
+        CHECK(!json::accept("\"\x80\xbf\x80\xbf\""));
+        // 3.1.6  5 continuation bytes
+        CHECK(!json::accept("\"\x80\xbf\x80\xbf\x80\""));
+        // 3.1.7  6 continuation bytes
+        CHECK(!json::accept("\"\x80\xbf\x80\xbf\x80\xbf\""));
+        // 3.1.8  7 continuation bytes
+        CHECK(!json::accept("\"\x80\xbf\x80\xbf\x80\xbf\x80\""));
+
+        // 3.1.9  Sequence of all 64 possible continuation bytes (0x80-0xbf)
+        CHECK(!json::accept("\"\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x8b\x8c\x8d\x8e\x8f\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9a\x9b\x9c\x9d\x9e\x9f\xa0\xa1\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xab\xac\xad\xae\xaf\xb0\xb1\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xbb\xbc\xbd\xbe\xbf\""));
+    }
+
+    SECTION("Lonely start characters")
+    {
+        // 3.2.1  All 32 first bytes of 2-byte sequences (0xc0-0xdf)
+        CHECK(!json::accept("\"\xc0 \xc1 \xc2 \xc3 \xc4 \xc5 \xc6 \xc7 \xc8 \xc9 \xca \xcb \xcc \xcd \xce \xcf \xd0 \xd1 \xd2 \xd3 \xd4 \xd5 \xd6 \xd7 \xd8 \xd9 \xda \xdb \xdc \xdd \xde \xdf\""));
+        // 3.2.2  All 16 first bytes of 3-byte sequences (0xe0-0xef)
+        CHECK(!json::accept("\"\xe0 \xe1 \xe2 \xe3 \xe4 \xe5 \xe6 \xe7 \xe8 \xe9 \xea \xeb \xec \xed \xee \xef\""));
+        // 3.2.3  All 8 first bytes of 4-byte sequences (0xf0-0xf7)
+        CHECK(!json::accept("\"\xf0 \xf1 \xf2 \xf3 \xf4 \xf5 \xf6 \xf7\""));
+        // 3.2.4  All 4 first bytes of 5-byte sequences (0xf8-0xfb)
+        CHECK(!json::accept("\"\xf8 \xf9 \xfa \xfb\""));
+        // 3.2.5  All 2 first bytes of 6-byte sequences (0xfc-0xfd)
+        CHECK(!json::accept("\"\xfc \xfd\""));
+    }
+
+    SECTION("Sequences with last continuation byte missing")
+    {
+        // All bytes of an incomplete sequence should be signalled as a single
+        // malformed sequence, i.e., you should see only a single replacement
+        // character in each of the next 10 tests. (Characters as in section 2)
+
+        // 3.3.1  2-byte sequence with last byte missing (U+0000)
+        CHECK(!json::accept("\"\xc0\""));
+        // 3.3.2  3-byte sequence with last byte missing (U+0000)
+        CHECK(!json::accept("\"\xe0\x80\""));
+        // 3.3.3  4-byte sequence with last byte missing (U+0000)
+        CHECK(!json::accept("\"\xf0\x80\x80\""));
+        // 3.3.4  5-byte sequence with last byte missing (U+0000)
+        CHECK(!json::accept("\"\xf8\x80\x80\x80\""));
+        // 3.3.5  6-byte sequence with last byte missing (U+0000)
+        CHECK(!json::accept("\"\xfc\x80\x80\x80\x80\""));
+        // 3.3.6  2-byte sequence with last byte missing (U-000007FF)
+        CHECK(!json::accept("\"\xdf\""));
+        // 3.3.7  3-byte sequence with last byte missing (U-0000FFFF)
+        CHECK(!json::accept("\"\xef\xbf\""));
+        // 3.3.8  4-byte sequence with last byte missing (U-001FFFFF)
+        CHECK(!json::accept("\"\xf7\xbf\xbf\""));
+        // 3.3.9  5-byte sequence with last byte missing (U-03FFFFFF)
+        CHECK(!json::accept("\"\xfb\xbf\xbf\xbf\""));
+        // 3.3.10 6-byte sequence with last byte missing (U-7FFFFFFF)
+        CHECK(!json::accept("\"\xfd\xbf\xbf\xbf\xbf\""));
+    }
+
+    SECTION("Concatenation of incomplete sequences")
+    {
+        // All the 10 sequences of 3.3 concatenated, you should see 10 malformed
+        // sequences being signalled:
+        CHECK(!json::accept("\"\xc0\xe0\x80\xf0\x80\x80\xf8\x80\x80\x80\xfc\x80\x80\x80\x80\xdf\xef\xbf\xf7\xbf\xbf\xfb\xbf\xbf\xbf\xfd\xbf\xbf\xbf\xbf\""));
+    }
+
+    SECTION("Impossible bytes")
+    {
+        // The following two bytes cannot appear in a correct UTF-8 string
+
+        // 3.5.1  fe
+        CHECK(!json::accept("\"\xfe\""));
+        // 3.5.2  ff
+        CHECK(!json::accept("\"\xff\""));
+        // 3.5.3  fe fe ff ff
+        CHECK(!json::accept("\"\xfe\xfe\xff\xff\""));
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-12.1.svg)
+
+|date-time|NJF-12.1|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.92 |
+|2026-07-29 13:10:30.513740|0.92 |
+
+
+
+---
+
+### NJF-12.2 | Reviewed: ✔ | Score: 0.8 
+The service provided by the nlohmann/json library rejects "overlong sequences".
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [accept;overlong sequences]
+(TSF/tests/unit-strings.cpp)`
+
+
+```cpp
+SECTION("overlong sequences")
+{
+    SECTION("Examples of an overlong ASCII character")
+    {
+        // 4.1.1 U+002F = c0 af
+        CHECK(!json::accept("\"\xc0\xaf\""));
+        // 4.1.2 U+002F = e0 80 af
+        CHECK(!json::accept("\"\xe0\x80\xaf\""));
+        // 4.1.3 U+002F = f0 80 80 af
+        CHECK(!json::accept("\"\xf0\x80\x80\xaf\""));
+        // 4.1.4 U+002F = f8 80 80 80 af
+        CHECK(!json::accept("\"\xf8\x80\x80\x80\xaf\""));
+        // 4.1.5 U+002F = fc 80 80 80 80 af
+        CHECK(!json::accept("\"\xfc\x80\x80\x80\x80\xaf\""));
+    }
+
+    SECTION("Maximum overlong sequences")
+    {
+        // Below you see the highest Unicode value that is still resulting in an
+        // overlong sequence if represented with the given number of bytes. This
+        // is a boundary test for safe UTF-8 decoders. All five characters should
+        // be rejected like malformed UTF-8 sequences.
+
+        // 4.2.1  U-0000007F = c1 bf
+        CHECK(!json::accept("\"\xc1\xbf\""));
+        // 4.2.2  U-000007FF = e0 9f bf
+        CHECK(!json::accept("\"\xe0\x9f\xbf\""));
+        // 4.2.3  U-0000FFFF = f0 8f bf bf
+        CHECK(!json::accept("\"\xf0\x8f\xbf\xbf\""));
+        // 4.2.4  U-001FFFFF = f8 87 bf bf bf
+        CHECK(!json::accept("\"\xf8\x87\xbf\xbf\xbf\""));
+        // 4.2.5  U-03FFFFFF = fc 83 bf bf bf bf
+        CHECK(!json::accept("\"\xfc\x83\xbf\xbf\xbf\xbf\""));
+    }
+
+    SECTION("Overlong representation of the NUL character")
+    {
+        // The following five sequences should also be rejected like malformed
+        // UTF-8 sequences and should not be treated like the ASCII NUL
+        // character.
+
+        // 4.3.1  U+0000 = c0 80
+        CHECK(!json::accept("\"\xc0\x80\""));
+        // 4.3.2  U+0000 = e0 80 80
+        CHECK(!json::accept("\"\xe0\x80\x80\""));
+        // 4.3.3  U+0000 = f0 80 80 80
+        CHECK(!json::accept("\"\xf0\x80\x80\x80\""));
+        // 4.3.4  U+0000 = f8 80 80 80 80
+        CHECK(!json::accept("\"\xf8\x80\x80\x80\x80\""));
+        // 4.3.5  U+0000 = fc 80 80 80 80 80
+        CHECK(!json::accept("\"\xfc\x80\x80\x80\x80\x80\""));
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-12.2.svg)
+
+|date-time|NJF-12.2|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.80 |
+|2026-07-29 13:10:30.513740|0.80 |
+
+
+
+---
+
+### NJF-12.3 | Reviewed: ✔ | Score: 0.93333 
+The service provided by the nlohmann/json library rejects single escaped and unescaped, and paired unescaped utf-16 surrogates.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-testsuite: [/nst_json_testsuite2/test_parsing/n_structure_lone-invalid-utf-8.json]`
+
+
+	- JSON Testsuite: /nst_json_testsuite2/test_parsing/n_structure_lone-invalid-utf-8.json
+	
+	
+	 ```json
+	V
+	```
+	
+	
+	- cpp-test: [nst's JSONTestSuite (2);test_parsing;n]
+	(tests/src/unit-testsuites.cpp)
+	
+	
+	```cpp
+	SECTION("n")
+	{
+	    for (const auto* filename :
+	            {
+	                TEST_DATA_DIRECTORY "/nst_json_testsuite2/test_parsing/n_structure_lone-invalid-utf-8.json",
+	            }
+	        )
+	    {
+	        CAPTURE(filename)
+	        std::ifstream f(filename);
+	        json _;
+	        CHECK_THROWS_AS(_ = json::parse(f), json::parse_error&);
+	        std::ifstream f2(filename);
+	        CHECK(!json::accept(f2));
+	    }
+	}
+	
+	
+	 // Note: Other test data lines have been filtered out for conciseness.
+	```
+	
+
+- `cpp-test: [Unicode;unescaped unicode]
+(TSF/tests/unit-strings.cpp)`
+
+
+```cpp
+SECTION("unescaped unicode")
+{
+    for (uint32_t i = 0x0000; i&lt;=0x10FFFF; i++)
+    {
+        std::string temp = uint_to_utf8(i);
+        if ((i&gt;=0xD800 && i&lt;=0xDFFF)) {
+            // Unpaired utf-16 surrogates are illegal.
+            // Observe that this verbatim not what RFC8259 §7 prescribes;
+            // it appears, however, to be in the spirit of RFC8259, cf. §8.2
+            // The other characters are illegal if unescaped.
+            CHECK(!json::accept(temp));
+            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
+            if (i&lt;=0xDBFF){
+                for (uint32_t j = 0xDC00; j&lt;=0xDFFF; j++){
+                    temp += uint_to_utf8(j);
+                    CHECK(!json::accept(temp));
+                    CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
+                }
+            }
+        } else if (i&lt;0x0020||i==0x0022||i==0x005c){
+            CHECK(!json::accept(temp));
+            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
+        } else {
+            // All other characters are valid according to RFC8259
+            CHECK_NOTHROW(parser_helper(temp));
+        }
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-12.3.svg)
+
+|date-time|NJF-12.3|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.93 |
+|2026-07-29 13:10:30.513740|0.93 |
+
+
+
+---
+
+### NJF-12.5 | Reviewed: ✔ | Score: 0.91667 
+The service provided by the nlohmann/json library accepts Non-Characters.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [accept;noncharacter code positions]
+(TSF/tests/unit-strings.cpp)`
+
+
+```cpp
+SECTION("noncharacter code positions")
+{
+    // 5.3.1  U+FFFE = ef bf be
+    CHECK(json::accept("\"\xef\xbf\xbe\""));
+    // 5.3.2  U+FFFF = ef bf bf
+    CHECK(json::accept("\"\xef\xbf\xbf\""));
+
+    // 5.3.3  U+FDD0 .. U+FDEF
+    CHECK(json::accept("\"\xEF\xB7\x90\""));
+    CHECK(json::accept("\"\xEF\xB7\x91\""));
+    CHECK(json::accept("\"\xEF\xB7\x92\""));
+    CHECK(json::accept("\"\xEF\xB7\x93\""));
+    CHECK(json::accept("\"\xEF\xB7\x94\""));
+    CHECK(json::accept("\"\xEF\xB7\x95\""));
+    CHECK(json::accept("\"\xEF\xB7\x96\""));
+    CHECK(json::accept("\"\xEF\xB7\x97\""));
+    CHECK(json::accept("\"\xEF\xB7\x98\""));
+    CHECK(json::accept("\"\xEF\xB7\x99\""));
+    CHECK(json::accept("\"\xEF\xB7\x9A\""));
+    CHECK(json::accept("\"\xEF\xB7\x9B\""));
+    CHECK(json::accept("\"\xEF\xB7\x9C\""));
+    CHECK(json::accept("\"\xEF\xB7\x9D\""));
+    CHECK(json::accept("\"\xEF\xB7\x9E\""));
+    CHECK(json::accept("\"\xEF\xB7\x9F\""));
+    CHECK(json::accept("\"\xEF\xB7\xA0\""));
+    CHECK(json::accept("\"\xEF\xB7\xA1\""));
+    CHECK(json::accept("\"\xEF\xB7\xA2\""));
+    CHECK(json::accept("\"\xEF\xB7\xA3\""));
+    CHECK(json::accept("\"\xEF\xB7\xA4\""));
+    CHECK(json::accept("\"\xEF\xB7\xA5\""));
+    CHECK(json::accept("\"\xEF\xB7\xA6\""));
+    CHECK(json::accept("\"\xEF\xB7\xA7\""));
+    CHECK(json::accept("\"\xEF\xB7\xA8\""));
+    CHECK(json::accept("\"\xEF\xB7\xA9\""));
+    CHECK(json::accept("\"\xEF\xB7\xAA\""));
+    CHECK(json::accept("\"\xEF\xB7\xAB\""));
+    CHECK(json::accept("\"\xEF\xB7\xAC\""));
+    CHECK(json::accept("\"\xEF\xB7\xAD\""));
+    CHECK(json::accept("\"\xEF\xB7\xAE\""));
+    CHECK(json::accept("\"\xEF\xB7\xAF\""));
+
+    // 5.3.4  U+nFFFE U+nFFFF (for n = 1..10)
+    CHECK(json::accept("\"\xF0\x9F\xBF\xBF\""));
+    CHECK(json::accept("\"\xF0\xAF\xBF\xBF\""));
+    CHECK(json::accept("\"\xF0\xBF\xBF\xBF\""));
+    CHECK(json::accept("\"\xF1\x8F\xBF\xBF\""));
+    CHECK(json::accept("\"\xF1\x9F\xBF\xBF\""));
+    CHECK(json::accept("\"\xF1\xAF\xBF\xBF\""));
+    CHECK(json::accept("\"\xF1\xBF\xBF\xBF\""));
+    CHECK(json::accept("\"\xF2\x8F\xBF\xBF\""));
+    CHECK(json::accept("\"\xF2\x9F\xBF\xBF\""));
+    CHECK(json::accept("\"\xF2\xAF\xBF\xBF\""));
+}
+
+```
+
+
+- `cpp-test: [Unicode;unescaped unicode]
+(TSF/tests/unit-strings.cpp)`
+
+
+```cpp
+SECTION("unescaped unicode")
+{
+    for (uint32_t i = 0x0000; i&lt;=0x10FFFF; i++)
+    {
+        std::string temp = uint_to_utf8(i);
+        if ((i&gt;=0xD800 && i&lt;=0xDFFF)) {
+            // Unpaired utf-16 surrogates are illegal.
+            // Observe that this verbatim not what RFC8259 §7 prescribes;
+            // it appears, however, to be in the spirit of RFC8259, cf. §8.2
+            // The other characters are illegal if unescaped.
+            CHECK(!json::accept(temp));
+            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
+            if (i&lt;=0xDBFF){
+                for (uint32_t j = 0xDC00; j&lt;=0xDFFF; j++){
+                    temp += uint_to_utf8(j);
+                    CHECK(!json::accept(temp));
+                    CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
+                }
+            }
+        } else if (i&lt;0x0020||i==0x0022||i==0x005c){
+            CHECK(!json::accept(temp));
+            CHECK_THROWS_AS(parser_helper(temp),json::parse_error&);
+        } else {
+            // All other characters are valid according to RFC8259
+            CHECK_NOTHROW(parser_helper(temp));
+        }
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-12.5.svg)
+
+|date-time|NJF-12.5|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.92 |
+|2026-07-29 13:10:30.513740|0.92 |
+
+
+
+---
+
+### NJF-12.6 | Reviewed: ✔ | Score: 0.93333 
+The service provided by the nlohmann/json library accepts well-formed UTF-8 data.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-12](NJF.md#njf-12)  | The service provided by the nlohmann/json library decodes UTF-8 data. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [Unicode;escaped unicode]
+(TSF/tests/unit-strings.cpp)`
+
+
+```cpp
+SECTION("escaped unicode")
+{
+    for (uint32_t i = 0x0000; i&lt;=0xFFFF; i++)
+    {
+        std::ostringstream temp;
+        std::ostringstream temp2;
+        temp &lt;&lt; "\"\\u" &lt;&lt; std::hex &lt;&lt; std::uppercase &lt;&lt; std::setfill('0') &lt;&lt; std::setw(4) &lt;&lt; i &lt;&lt; "\"";
+        temp2 &lt;&lt; "\"\\u" &lt;&lt; std::hex &lt;&lt; std::nouppercase &lt;&lt; std::setfill('0') &lt;&lt; std::setw(4) &lt;&lt; i &lt;&lt; "\"";
+        if (i&gt;=0xD800 && i&lt;=0xDFFF)
+        {
+            // Unpaired utf-16 surrogates are illegal.
+            // Observe that this verbatim not what RFC8259 §7 prescribes;
+            // it appears, however, to be in the spirit of RFC8259, cf. §8.2
+            // Illegal characters are not parsed anyway.
+            CHECK(!json::accept(temp.str()));
+            CHECK(!json::accept(temp2.str()));
+            CHECK_THROWS_AS(parser_helper(temp.str()),json::parse_error&);
+            CHECK_THROWS_AS(parser_helper(temp2.str()),json::parse_error&);
+        } else { 
+            // all other characters of the basic multilingual plane are accepted.
+            CHECK(json::accept(temp.str()));
+            CHECK(json::accept(temp2.str()));
+            CHECK(json::parse(temp.str())==json::parse(temp2.str()));
+        }
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-12.6.svg)
+
+|date-time|NJF-12.6|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.93 |
+|2026-07-29 13:10:30.513740|0.93 |
+
+
+
+---
+
+### NJF-13 | Reviewed: ✔ | Score: 0.95 
+The service provided by the nlohmann/json library accepts JSON data consisting of combinations of the data types.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [WFJ-05](WFJ.md#wfj-05)  | The service provided by the nlohmann/json library checks the well-formedness of objects. | 0.96 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [compliance tests from json.org;expected passes]
+(tests/src/unit-testsuites.cpp)`
+
+
+```cpp
+SECTION("expected passes")
+{
+    for (const auto* filename :
+            {
+                TEST_DATA_DIRECTORY "/json_tests/pass1.json",
+                TEST_DATA_DIRECTORY "/json_tests/pass2.json",
+                TEST_DATA_DIRECTORY "/json_tests/pass3.json"
+            })
+    {
+        CAPTURE(filename)
+        std::ifstream f(filename);
+        json j;
+        CHECK_NOTHROW(f &gt;&gt; j);
+    }
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-13.svg)
+
+|date-time|NJF-13|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|0.95 |
+|2026-07-29 13:10:30.513740|0.95 |
+
+
+
+---
+
+### NJF-14 | Reviewed: ✔ | Score: 1.0 
+The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [WFJ-08](WFJ.md#wfj-08)  | The service provided by the nlohmann/json library ignores byte order marks. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-14.1](NJF.md#njf-14.1)  | If the service provided by the nlohmann/json library accepts an input containing no BOM, then it accepts a single UTF-8 byte order mark followed by that input. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-14.2](NJF.md#njf-14.2)  | The service provided by the nlohmann/json library does not accept multiple UTF-8 byte order marks. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-14.3](NJF.md#njf-14.3)  | The service provided by the nlohmann/json library does not accept incomplete or perturbed UTF-8 byte order marks within the first three characters of the input. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-14.4](NJF.md#njf-14.4)  | The service provided by the nlohmann/json library does not accept UTF-16 and UTF-32 byte order marks instead of the UTF-8 byte order mark. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [NJF-14.5](NJF.md#njf-14.5)  | The service provided by the nlohmann/json library does not accept UTF-8 byte order mark outside of a string and outside of the first three characters of the input. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+
+
+**References:**
+
+_None_
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-14.svg)
+
+|date-time|NJF-14|NJF-14.1|NJF-14.2|NJF-14.3|NJF-14.4|NJF-14.5|
+|-|-|-|-|-|-|-|
+|2026-02-20 12:44:32|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 08:31:01|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 09:17:11|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-16 10:51:53|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-17 16:20:15|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-28 06:12:35|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-03-31 13:08:48|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-07 14:58:44|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
+|2026-07-29 12:21:26|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
+|2026-07-29 13:10:30.513740|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
+
+
+
+---
+
+### NJF-14.1 | Reviewed: ✔ | Score: 1.0 
+If the service provided by the nlohmann/json library accepts an input containing no BOM, then it accepts a single UTF-8 byte order mark followed by that input.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [accept;UTF-8;single BOM]
+(TSF/tests/unit-byte_order_mark.cpp)`
+
+
+```cpp
+SECTION("single BOM")
+{
+    // a single byte order mark is treated as an empty token, which is not a valid json token.
+    CHECK(!json::accept("\xEF\xBB\xBF"));
+    CHECK(json::accept("\xEF\xBB\xBF\n\"foo\""));
+    CHECK(json::accept("\xEF\xBB\xBF\"foo\""));
+    CHECK(json::accept("\xEF\xBB\xBF 123"));
+    CHECK(json::accept("\xEF\xBB\xBF[1,2,3]"));
+    CHECK(json::accept("\xEF\xBB\xBF{\"foo\":1,\"bar\":2,\"test\":3}"));
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-14.1.svg)
+
+|date-time|NJF-14.1|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
+
+
+
+---
+
+### NJF-14.2 | Reviewed: ✔ | Score: 1.0 
+The service provided by the nlohmann/json library does not accept multiple UTF-8 byte order marks.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `cpp-test: [accept;UTF-8;multiple BOM]
+(TSF/tests/unit-byte_order_mark.cpp)`
+
+
+```cpp
+SECTION("multiple BOM")
+{
+    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB\xBF"));
+    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB\xBF\xEF\xBB\xBF"));
+    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB\xBF\xEF\xBB\xBF\xEF\xBB\xBF"));
+    CHECK(!json::accept("\xEF\xBB\xBF\xEF\xBB"));
+    CHECK(!json::accept("\xEF\xBB\xBF foo"));
+}
+
+```
+
+
+
+
+
+**Fallacies:**
+
+_None_
+
+**Graph:**
+
+![No Image](figs/NJF-14.2.svg)
+
+|date-time|NJF-14.2|
+|-|-|
+|2026-02-20 12:44:32|0.00 |
+|2026-03-16 08:31:01|0.00 |
+|2026-03-16 09:17:11|0.00 |
+|2026-03-16 10:51:53|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
+
+
+
+---
+
+### NJF-14.3 | Reviewed: ✔ | Score: 1.0 
+The service provided by the nlohmann/json library does not accept incomplete or perturbed UTF-8 byte order marks within the first three characters of the input.
+
+
+**Supported Requests:**
+
+| Item  | Summary  | Score  | Status  |
+| --- | --- | --- | --- |
+| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+
+**Supporting Items:**
+
+_None_
+
+
+
+**References:**
+
+- `this item also refers to the references of item JLEX-01`
+
+
+	- see [here](JLEX.md#jlex-01) to find JLEX-01
+
+
+- `function: [parser::accept]
+(include/nlohmann/detail/input/parser.hpp)`
+
+
+	- Description: Function that implements the service to check for well-formed json.
+
+
+	```cpp
+	bool accept(const bool strict = true)
+	{
+	    json_sax_acceptor&lt;BasicJsonType&gt; sax_acceptor;
+	    return sax_parse(&sax_acceptor, strict);
+	}
+	
+	```
+	
+
+- `function: [parser::sax_parse]
+(include/nlohmann/detail/input/parser.hpp)`
+
+
+	- Description: Function that is called by parser::accept.
+
+
+	```cpp
+	bool sax_parse(SAX* sax, const bool strict = true)
+	{
+	    (void)detail::is_sax_static_asserts&lt;SAX, BasicJsonType&gt; {};
+	    const bool result = sax_parse_internal(sax);
+	
+	    // strict mode: next byte must be EOF
+	    if (result && strict && (get_token() != token_type::end_of_input))
+	    {
+	        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                m_lexer.get_token_string(),
+	                                parse_error::create(101, m_lexer.get_position(), exception_message(token_type::end_of_input, "value"), nullptr));
+	    }
+	
+	    return result;
+	}
+	
+	```
+	
+
+- `function: [parser::sax_parse_internal]
+(include/nlohmann/detail/input/parser.hpp)`
+
+
+	- Description: Function that is called by parser::sax_parse.
+
+
+	```cpp
+	bool sax_parse_internal(SAX* sax)
+	{
+	    // stack to remember the hierarchy of structured values we are parsing
+	    // true = array; false = object
+	    std::vector&lt;bool&gt; states;
+	    // value to avoid a goto (see comment where set to true)
+	    bool skip_to_state_evaluation = false;
+	
+	    while (true)
+	    {
+	        if (!skip_to_state_evaluation)
+	        {
+	            // invariant: get_token() was called before each iteration
+	            switch (last_token)
+	            {
+	                case token_type::begin_object:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;start_object(detail::unknown_size())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    // closing } -&gt; we are done
+	                    if (get_token() == token_type::end_object)
+	                    {
+	                        if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_object()))
+	                        {
+	                            return false;
+	                        }
+	                        break;
+	                    }
+	
+	                    // parse key
+	                    if (JSON_HEDLEY_UNLIKELY(last_token != token_type::value_string))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                parse_error::create(101, m_lexer.get_position(), exception_message(token_type::value_string, "object key"), nullptr));
+	                    }
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;key(m_lexer.get_string())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    // parse separator (:)
+	                    if (JSON_HEDLEY_UNLIKELY(get_token() != token_type::name_separator))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                parse_error::create(101, m_lexer.get_position(), exception_message(token_type::name_separator, "object separator"), nullptr));
+	                    }
+	
+	                    // remember we are now inside an object
+	                    states.push_back(false);
+	
+	                    // parse values
+	                    get_token();
+	                    continue;
+	                }
+	
+	                case token_type::begin_array:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;start_array(detail::unknown_size())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    // closing ] -&gt; we are done
+	                    if (get_token() == token_type::end_array)
+	                    {
+	                        if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_array()))
+	                        {
+	                            return false;
+	                        }
+	                        break;
+	                    }
+	
+	                    // remember we are now inside an array
+	                    states.push_back(true);
+	
+	                    // parse values (no need to call get_token)
+	                    continue;
+	                }
+	
+	                case token_type::value_float:
+	                {
+	                    const auto res = m_lexer.get_number_float();
+	
+	                    if (JSON_HEDLEY_UNLIKELY(!std::isfinite(res)))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                out_of_range::create(406, concat("number overflow parsing '", m_lexer.get_token_string(), '\''), nullptr));
+	                    }
+	
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;number_float(res, m_lexer.get_string())))
+	                    {
+	                        return false;
+	                    }
+	
+	                    break;
+	                }
+	
+	                case token_type::literal_false:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;boolean(false)))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::literal_null:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;null()))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::literal_true:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;boolean(true)))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::value_integer:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;number_integer(m_lexer.get_number_integer())))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::value_string:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;string(m_lexer.get_string())))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::value_unsigned:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(!sax-&gt;number_unsigned(m_lexer.get_number_unsigned())))
+	                    {
+	                        return false;
+	                    }
+	                    break;
+	                }
+	
+	                case token_type::parse_error:
+	                {
+	                    // using "uninitialized" to avoid "expected" message
+	                    return sax-&gt;parse_error(m_lexer.get_position(),
+	                                            m_lexer.get_token_string(),
+	                                            parse_error::create(101, m_lexer.get_position(), exception_message(token_type::uninitialized, "value"), nullptr));
+	                }
+	                case token_type::end_of_input:
+	                {
+	                    if (JSON_HEDLEY_UNLIKELY(m_lexer.get_position().chars_read_total == 1))
+	                    {
+	                        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                                m_lexer.get_token_string(),
+	                                                parse_error::create(101, m_lexer.get_position(),
+	                                                        "attempting to parse an empty input; check that your input string or stream contains the expected JSON", nullptr));
+	                    }
+	
+	                    return sax-&gt;parse_error(m_lexer.get_position(),
+	                                            m_lexer.get_token_string(),
+	                                            parse_error::create(101, m_lexer.get_position(), exception_message(token_type::literal_or_value, "value"), nullptr));
+	                }
+	                case token_type::uninitialized:
+	                case token_type::end_array:
+	                case token_type::end_object:
+	                case token_type::name_separator:
+	                case token_type::value_separator:
+	                case token_type::literal_or_value:
+	                default: // the last token was unexpected
+	                {
+	                    return sax-&gt;parse_error(m_lexer.get_position(),
+	                                            m_lexer.get_token_string(),
+	                                            parse_error::create(101, m_lexer.get_position(), exception_message(token_type::literal_or_value, "value"), nullptr));
+	                }
+	            }
+	        }
+	        else
+	        {
+	            skip_to_state_evaluation = false;
+	        }
+	
+	        // we reached this line after we successfully parsed a value
+	        if (states.empty())
+	        {
+	            // empty stack: we reached the end of the hierarchy: done
+	            return true;
+	        }
+	
+	        if (states.back())  // array
+	        {
+	            // comma -&gt; next value
+	            if (get_token() == token_type::value_separator)
+	            {
+	                // parse a new value
+	                get_token();
+	                continue;
+	            }
+	
+	            // closing ]
+	            if (JSON_HEDLEY_LIKELY(last_token == token_type::end_array))
+	            {
+	                if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_array()))
+	                {
+	                    return false;
+	                }
+	
+	                // We are done with this array. Before we can parse a
+	                // new value, we need to evaluate the new state first.
+	                // By setting skip_to_state_evaluation to false, we
+	                // are effectively jumping to the beginning of this if.
+	                JSON_ASSERT(!states.empty());
+	                states.pop_back();
+	                skip_to_state_evaluation = true;
+	                continue;
+	            }
+	
+	            return sax-&gt;parse_error(m_lexer.get_position(),
+	                                    m_lexer.get_token_string(),
+	                                    parse_error::create(101, m_lexer.get_position(), exception_message(token_type::end_array, "array"), nullptr));
+	        }
+	
+	        // states.back() is false -&gt; object
+	
+	        // comma -&gt; next value
+	        if (get_token() == token_type::value_separator)
+	        {
+	            // parse key
+	            if (JSON_HEDLEY_UNLIKELY(get_token() != token_type::value_string))
+	            {
+	                return sax-&gt;parse_error(m_lexer.get_position(),
+	                                        m_lexer.get_token_string(),
+	                                        parse_error::create(101, m_lexer.get_position(), exception_message(token_type::value_string, "object key"), nullptr));
+	            }
+	
+	            if (JSON_HEDLEY_UNLIKELY(!sax-&gt;key(m_lexer.get_string())))
+	            {
+	                return false;
+	            }
+	
+	            // parse separator (:)
+	            if (JSON_HEDLEY_UNLIKELY(get_token() != token_type::name_separator))
+	            {
+	                return sax-&gt;parse_error(m_lexer.get_position(),
+	                                        m_lexer.get_token_string(),
+	                                        parse_error::create(101, m_lexer.get_position(), exception_message(token_type::name_separator, "object separator"), nullptr));
+	            }
+	
+	            // parse values
+	            get_token();
+	            continue;
+	        }
+	
+	        // closing }
+	        if (JSON_HEDLEY_LIKELY(last_token == token_type::end_object))
+	        {
+	            if (JSON_HEDLEY_UNLIKELY(!sax-&gt;end_object()))
+	            {
+	                return false;
+	            }
+	
+	            // We are done with this object. Before we can parse a
+	            // new value, we need to evaluate the new state first.
+	            // By setting skip_to_state_evaluation to false, we
+	            // are effectively jumping to the beginning of this if.
+	            JSON_ASSERT(!states.empty());
+	            states.pop_back();
+	            skip_to_state_evaluation = true;
+	            continue;
+	        }
+	
+	        return sax-&gt;parse_error(m_lexer.get_position(),
+	                                m_lexer.get_token_string(),
+	                                parse_error::create(101, m_lexer.get_position(), exception_message(token_type::end_object, "object"), nullptr));
+	    }
+	}
+	
+	```
+	
+
+- `function: [lexer::scan]
+(include/nlohmann/detail/input/lexer.hpp)`
+
+
+	- Description: Function that is called by parser::sax_parse_internal to read input data.
 
 
 	```cpp
@@ -13872,13 +15400,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-14.4 | Reviewed: ⨯ | Score: 0.0 
+### NJF-14.4 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept UTF-16 and UTF-32 byte order marks instead of the UTF-8 byte order mark.
 
 
@@ -13886,7 +15421,7 @@ The service provided by the nlohmann/json library does not accept UTF-16 and UTF
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13935,13 +15470,20 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 
 
 
 ---
 
-### NJF-14.5 | Reviewed: ⨯ | Score: 0.0 
+### NJF-14.5 | Reviewed: ✔ | Score: 1.0 
 The service provided by the nlohmann/json library does not accept UTF-8 byte order mark outside of a string and outside of the first three characters of the input.
 
 
@@ -13949,7 +15491,7 @@ The service provided by the nlohmann/json library does not accept UTF-8 byte ord
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [NJF-14](NJF.md#njf-14)  | The service provided by the nlohmann/json library accepts a single complete UTF-8 byte order mark at the beginning of the input only. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -14003,5 +15545,12 @@ _None_
 |2026-03-16 08:31:01|0.00 |
 |2026-03-16 09:17:11|0.00 |
 |2026-03-16 10:51:53|0.00 |
-|2026-03-16 11:40:34.799271|0.00 |
+|2026-03-17 16:20:15|0.00 |
+|2026-03-28 06:12:35|0.00 |
+|2026-03-31 13:08:48|0.00 |
+|2026-04-07 14:58:44|0.00 |
+|2026-04-15 09:58:18|0.00 |
+|2026-04-29 07:48:13|0.00 |
+|2026-07-29 12:21:26|1.00 |
+|2026-07-29 13:10:30.513740|1.00 |
 

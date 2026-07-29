@@ -1,0 +1,1161 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Risk Analysis for nlohmann/json 3.12.0 within eclipse-score/nlohmann_json &#8212; S-CORE NLOHMANN JSON LIBRARY FORK  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="_static/css/score.css?v=6e51530f" />
+    <link rel="stylesheet" type="text/css" href="_static/css/score_needs.css?v=e97392eb" />
+    <link rel="stylesheet" type="text/css" href="_static/css/score_design.css?v=d9fd870c" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/modern.css?v=803738c0" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/jquery.js?v=5d32c60e"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/sphinx-data-viewer/jsonview.bundle.js?v=18cd53c5"></script>
+    <script src="_static/sphinx-data-viewer/jsonview_loader.js?v=f7ff7e7d"></script>
+    <script src="_static/sphinx-needs/libs/html/datatables.min.js?v=8a4aee21"></script>
+    <script src="_static/sphinx-needs/libs/html/datatables_loader.js?v=a2cae175"></script>
+    <script src="_static/sphinx-needs/libs/html/sphinx_needs_collapse.js?v=dca66431"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'risk_analysis';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://eclipse-score.github.io/nlohmann_json/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = '';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner =
+            false;
+        </script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="3.12.0" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Eclipse S-CORE</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="introduction/index.html">
+    Introduction
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="concept.html">
+    Concept
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="report.html">
+    Report
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://projects.eclipse.org/projects/automotive.score">
+    Eclipse S-CORE Home-Page
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/eclipse-score" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+        <div class="navbar-item">
+<div class="version-switcher__container dropdown pst-js-only">
+  <button id="pst-version-switcher-button-2"
+    type="button"
+    class="version-switcher__button btn btn-sm dropdown-toggle"
+    data-bs-toggle="dropdown"
+    aria-haspopup="listbox"
+    aria-controls="pst-version-switcher-list-2"
+    aria-label="Version switcher list"
+  >
+    Choose version  <!-- this text may get changed later by javascript -->
+    <span class="caret"></span>
+  </button>
+  <div id="pst-version-switcher-list-2"
+    class="version-switcher__menu dropdown-menu list-group-flush py-0"
+    role="listbox" aria-labelledby="pst-version-switcher-button-2">
+    <!-- dropdown will be populated by javascript on page load -->
+  </div>
+</div></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="introduction/index.html">
+    Introduction
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="concept.html">
+    Concept
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="report.html">
+    Report
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://projects.eclipse.org/projects/automotive.score">
+    Eclipse S-CORE Home-Page
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/eclipse-score" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+          <div class="navbar-item">
+<div class="version-switcher__container dropdown pst-js-only">
+  <button id="pst-version-switcher-button-3"
+    type="button"
+    class="version-switcher__button btn btn-sm dropdown-toggle"
+    data-bs-toggle="dropdown"
+    aria-haspopup="listbox"
+    aria-controls="pst-version-switcher-list-3"
+    aria-label="Version switcher list"
+  >
+    Choose version  <!-- this text may get changed later by javascript -->
+    <span class="caret"></span>
+  </button>
+  <div id="pst-version-switcher-list-3"
+    class="version-switcher__menu dropdown-menu list-group-flush py-0"
+    role="listbox" aria-labelledby="pst-version-switcher-button-3">
+    <!-- dropdown will be populated by javascript on page load -->
+  </div>
+</div></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Risk Analysis for nlohmann/json 3.12.0 within eclipse-score/nlohmann_json</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="risk-analysis-for-nlohmann-json-3-12-0-within-eclipse-score-nlohmann-json">
+<h1>Risk Analysis for nlohmann/json 3.12.0 within eclipse-score/nlohmann_json<a class="headerlink" href="#risk-analysis-for-nlohmann-json-3-12-0-within-eclipse-score-nlohmann-json" title="Link to this heading">#</a></h1>
+<p>This document provides a <strong>risk analysis</strong> for the <strong>eclipse-score/nlohmann_json</strong> repository following the risk analysis approach of the Trustable Software Framework (TSF) <a class="reference external" href="https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html">RAFIA: Risk Analysis</a>.</p>
+<section id="methodology-rafia-stpa-what-is-being-done-and-why">
+<h2>0. Methodology (RAFIA / STPA) – What is being done and why<a class="headerlink" href="#methodology-rafia-stpa-what-is-being-done-and-why" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/stpa/procedure.html">RAFIA STPA procedure</a> defines ten steps which are followed here and the outcome documented below for every step.</p>
+</section>
+<section id="define-the-scope-of-analysis">
+<h2>1. Define the scope of analysis<a class="headerlink" href="#define-the-scope-of-analysis" title="Link to this heading">#</a></h2>
+<p>The system boundary, environment, and boundary-crossing interactions assumed for this scope are summarised in the control structure diagram in Section 3.0.</p>
+<section id="software-under-analysis">
+<h3>1.1 Software Under Analysis<a class="headerlink" href="#software-under-analysis" title="Link to this heading">#</a></h3>
+<p>The software under analysis (SUA) is the <strong>header-only C++ JSON library `nlohmann/json` (v3.12.0)</strong>, with:</p>
+<ul>
+<li><p><strong>Implementation</strong>
+- <a class="reference external" href="https://github.com/nlohmann/json/blob/develop/include/nlohmann/json.hpp">primary include</a> (and internal headers under <a class="reference external" href="https://github.com/nlohmann/json/tree/develop/include/nlohmann/detail">include/nlohmann/detail</a>)
+- optional amalgamated single-include header <a class="reference external" href="https://github.com/nlohmann/json/blob/develop/single_include/nlohmann/json.hpp">single_include/nlohmann/json.hpp</a>
+- C++11, no external code dependencies</p></li>
+<li><p><strong>Purpose</strong>
+- provide JSON parsing and validation per <strong>RFC 8259</strong></p></li>
+<li><p><strong>Evidence</strong>
+- captured extensively in <cite>WFJ-*</cite>, <cite>TIJ-*</cite>, <cite>NJF-*</cite>, <cite>NPF-*</cite>, and <cite>PJD-*</cite> statements, which are connected in the trustable graph to the expectation <cite>JLEX-02</cite>. See <a class="reference external" href="https://eclipse-score.github.io/nlohmann_json/main/_images/custom_JLEX-02_graph.svg">Trustable Graph (JLEX-02)</a>.</p>
+<blockquote>
+<div><p>Finding: the trustable graph contains JLEX-01, which is not a S-CORE requirement any more (to be fixed with <a class="reference external" href="https://github.com/eclipse-score/score/issues/2686">Bug #2686</a>).</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="system">
+<h3>1.2 System<a class="headerlink" href="#system" title="Link to this heading">#</a></h3>
+<p>The system containing the SUA is expected to contain multiple users which incorporate the SW library.
+It is typically an ECU containing driving functions and the necessary supporting platform functions.</p>
+</section>
+<section id="design-assumptions">
+<h3>1.3 Design Assumptions<a class="headerlink" href="#design-assumptions" title="Link to this heading">#</a></h3>
+<p>Assumptions of Use are captured in the TSF elements:</p>
+<ul class="simple">
+<li><p><cite>TA-CONSTRAINTS</cite> → <cite>AOU-01..AOU-31</cite> (see <a class="reference external" href="https://eclipse-score.github.io/nlohmann_json/main/_images/custom_TA-CONSTRAINTS_graph.svg">Trustable Graph (TA-CONSTRAINTS)</a>.</p></li>
+</ul>
+</section>
+</section>
+<section id="purpose-of-the-analysis">
+<h2>2. Purpose of the analysis<a class="headerlink" href="#purpose-of-the-analysis" title="Link to this heading">#</a></h2>
+<section id="losses-outcomes-that-are-unacceptable-for-the-system-s-stakeholders">
+<h3>2.1 Losses (outcomes that are unacceptable for the System’s stakeholders)<a class="headerlink" href="#losses-outcomes-that-are-unacceptable-for-the-system-s-stakeholders" title="Link to this heading">#</a></h3>
+<p>Although <cite>nlohmann/json</cite> is a library, its misbehaviour can contribute to unacceptable outcomes in it’s using applications.
+Two use cases should be considered:</p>
+<ul class="simple">
+<li><p>Configuration of the system during startup phase</p></li>
+<li><p>Use of JSON encoded data during normal operation of the system</p></li>
+</ul>
+<p>Rationale for the chosen losses:</p>
+<p>As the expected system the SUA is used in is a vehicle control unit, the assumption is there are safety relevant functions in it.
+The loss(es) are constrained to the scope of S-CORE.</p>
+<div class="pst-scrollable-table-container"><table class="table" id="id8">
+<caption><span class="caption-text">Losses</span><a class="headerlink" href="#id8" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Loss Id</p></th>
+<th class="head"><p>Loss description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>L1</p></td>
+<td><p>Loss of safety related applications, realizing functions or parts of them e.g. for driving function..</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="hazards-system-level-conditions-that-can-lead-to-these-losses">
+<h3>2.2 Hazards (System-Level Conditions that can lead to these Losses)<a class="headerlink" href="#hazards-system-level-conditions-that-can-lead-to-these-losses" title="Link to this heading">#</a></h3>
+<p>Using the Losses, we define <strong>Hazards (H*)</strong> :</p>
+<div class="pst-scrollable-table-container"><table class="table" id="id9">
+<caption><span class="caption-text">Hazards</span><a class="headerlink" href="#id9" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Hazard Id</p></th>
+<th class="head"><p>Hazard description</p></th>
+<th class="head"><p>Link to loss(es)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>H1</p></td>
+<td><p>System is wrongly configured during startup and by this violates safety/security (e.g. system starts in a “debug” mode).</p></td>
+<td><p>L1</p></td>
+</tr>
+<tr class="row-odd"><td><p>H2</p></td>
+<td><p>System reaction in normal mode is unsafe due to corrupted input data (e.g. system steers into wrong direction).</p></td>
+<td><p>L1</p></td>
+</tr>
+<tr class="row-even"><td><p>H3</p></td>
+<td><p>System reaction in normal mode is delayed (e.g. breaking too late).</p></td>
+<td><p>L1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Note: Use cases during shutdown or crash are not taken into account, as the expectation is that in these states the system is already in safe state or
+shortly before, so that the JSON lib can not have safety relevant errors. Butt even if not, the hazards would be similar to the above.</p>
+</section>
+<section id="system-level-constraints-system-conditions-or-behaviours-that-need-to-be-satisfied-to-prevent-hazards">
+<h3>2.3 System-level Constraints (system conditions or behaviours that need to be satisfied to prevent hazards)<a class="headerlink" href="#system-level-constraints-system-conditions-or-behaviours-that-need-to-be-satisfied-to-prevent-hazards" title="Link to this heading">#</a></h3>
+<p>In RAFIA/STPA, constraints are “statements that must be true” to avoid a hazard, Unsafe Control Actions (UCA), or causal scenario <a class="reference external" href="https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/rafia/risk-analysis.html">RAFIA: Risk Analysis</a>. In TSF terms, these constraints are captured as (or mapped onto existing) <strong>Items</strong>, and are supported by <strong>Evidence</strong>.</p>
+<div class="pst-scrollable-table-container"><table class="table" id="id10">
+<caption><span class="caption-text">System Level Constraints (SLCs)</span><a class="headerlink" href="#id10" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Constraint Id</p></th>
+<th class="head"><p>Constraint Type</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Link to Hazard(s)</p></th>
+<th class="head"><p>Link to UCA</p></th>
+<th class="head"><p>Links to TSF</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>C1</p></td>
+<td><p>SLC</p></td>
+<td><p>Provision of wrongly decoded JSON data by the SUA to applications is avoided.</p></td>
+<td><p>H1; H2</p></td>
+<td><p>UCA-I3-MM</p></td>
+<td><p>JLEX-02</p></td>
+</tr>
+<tr class="row-odd"><td><p>C2</p></td>
+<td><p>SLC</p></td>
+<td><p>Provision of corrupt JSON data input to the SUA is avoided.</p></td>
+<td><p>H1; H2</p></td>
+<td><p>UCA-I3-PR</p></td>
+<td><p>AOU-23;AOU-24;JLS-24</p></td>
+</tr>
+<tr class="row-even"><td><p>C3</p></td>
+<td><p>SLC</p></td>
+<td><p>In case of safety relevant timing constraints are violated, the system is detecting this and will go to safe state.</p></td>
+<td><p>H3</p></td>
+<td><p>UCA-I1-TL; UCA-I3-TL</p></td>
+<td><p><a class="reference external" href="https://github.com/eclipse-score/score/issues/2686">Bug #2686</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Note: Column “Link to UCA” is filled in step 5.</p>
+</section>
+</section>
+<section id="control-structure">
+<h2>3. Control structure<a class="headerlink" href="#control-structure" title="Link to this heading">#</a></h2>
+<p>Here, a control structure is defined:</p>
+<ul class="simple">
+<li><p><strong>CL1 (Functional validation/parsing)</strong>: Application calls <cite>accept</cite>/<cite>parse</cite> and reacts to Boolean results and exceptions.</p></li>
+</ul>
+<section id="control-structure-diagram-scope-interactions">
+<h3>3.0 Control structure diagram (scope + interactions)<a class="headerlink" href="#control-structure-diagram-scope-interactions" title="Link to this heading">#</a></h3>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/STPA_diagram_nlohmann.drawio.svg"><img alt="STPA control structure and scope boundary" src="_images/STPA_diagram_nlohmann.drawio.svg" style="width: 100%;" />
+</a>
+</figure>
+<p>This diagram is used both to define the <strong>scope of analysis</strong> (system boundary and environment) and to describe the <strong>control structure</strong> (elements and interactions). Control actions are shown as solid arrows, feedback as dashed arrows, and boundary/other interactions as a distinct dashed style (see legend). The diagram is a functional abstraction (not a physical or executable model) and does not assume that control actions or feedback are always delivered as intended.</p>
+</section>
+<section id="elements">
+<h3>3.1 Elements<a class="headerlink" href="#elements" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table" id="id11">
+<caption><span class="caption-text">Elements</span><a class="headerlink" href="#id11" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Element Id</p></th>
+<th class="head"><p>Element name</p></th>
+<th class="head"><p>Responsibilities</p></th>
+<th class="head"><p>Roles</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>E1</p></td>
+<td><p>JSON caller</p></td>
+<td><p>Calls <cite>accept</cite>/<cite>parse</cite>, interprets results, handles errors</p></td>
+<td><p>Controller</p></td>
+</tr>
+<tr class="row-odd"><td><p>E2</p></td>
+<td><p><cite>nlohmann/json</cite> service</p></td>
+<td><p>Validates/parses input, returns Boolean/value or throws</p></td>
+<td><p>Controlled Process</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="interactions-control-actions-and-feedback">
+<h3>3.2 Interactions (control actions and feedback)<a class="headerlink" href="#interactions-control-actions-and-feedback" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table" id="id12">
+<caption><span class="caption-text">Interactions</span><a class="headerlink" href="#id12" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Interaction Id</p></th>
+<th class="head"><p>Interaction description</p></th>
+<th class="head"><p>IType</p></th>
+<th class="head"><p>Provider Id</p></th>
+<th class="head"><p>Receiver Id</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>I1</p></td>
+<td><p>Call <cite>basic_json::accept</cite> on input text</p></td>
+<td><p>C</p></td>
+<td><p>E1</p></td>
+<td><p>E2</p></td>
+</tr>
+<tr class="row-odd"><td><p>I2</p></td>
+<td><p>Return Boolean <cite>accept</cite> result</p></td>
+<td><p>F</p></td>
+<td><p>E2</p></td>
+<td><p>E1</p></td>
+</tr>
+<tr class="row-even"><td><p>I3</p></td>
+<td><p>Call <cite>basic_json::parse</cite> on input text</p></td>
+<td><p>C</p></td>
+<td><p>E1</p></td>
+<td><p>E2</p></td>
+</tr>
+<tr class="row-odd"><td><p>I4</p></td>
+<td><p>Return parsed value or throw exception</p></td>
+<td><p>F</p></td>
+<td><p>E2</p></td>
+<td><p>E1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Note: In this and other tables definitions from <a class="reference external" href="https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/stpa/schema.html">STPA results schema</a> are used, e.g. IType.</p>
+</section>
+</section>
+<section id="unsafe-control-actions-ucas">
+<h2>4. Unsafe Control Actions (UCAs)<a class="headerlink" href="#unsafe-control-actions-ucas" title="Link to this heading">#</a></h2>
+<p>Using the control structure, we identify <strong>Unsafe Control Actions (UCA*)</strong>:</p>
+<p>A UCA is an interaction between a controller and a controlled process that can lead to a hazard. In this analysis we use the interactions provided by the SUA
+and not the control actions done by the JSON caller for the UCA analysis.</p>
+<p>Per the RAFIA STPA procedure, the normative Step 4 record is the <strong>CA-Analysis</strong> table (UCAType × context × control action), from which the <strong>UCA</strong> table is derived.</p>
+<section id="uca-contexts">
+<h3>4.1 UCA-Contexts<a class="headerlink" href="#uca-contexts" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table" id="id13">
+<caption><span class="caption-text">UCA-Contexts</span><a class="headerlink" href="#id13" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Context Id</p></th>
+<th class="head"><p>Unsafe Context</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>UCX1</p></td>
+<td><p>WHEN in system startup</p></td>
+</tr>
+<tr class="row-odd"><td><p>UCX2</p></td>
+<td><p>WHEN in system normal mode</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="ca-analysis">
+<h3>4.2 CA-Analysis<a class="headerlink" href="#ca-analysis" title="Link to this heading">#</a></h3>
+<p>The RAFIA STPA procedure requires a CA-Analysis table keyed by control actions (here: <strong>I1</strong>, <strong>I3</strong>) and including a full set of rows for each defined <strong>UCAType</strong>
+for the SUA provided feedback.</p>
+<div class="pst-scrollable-table-container"><table class="table" id="id14">
+<caption><span class="caption-text">CA Analysis</span><a class="headerlink" href="#id14" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>CA Analysis ID</p></th>
+<th class="head"><p>CA Id</p></th>
+<th class="head"><p>UCAType</p></th>
+<th class="head"><p>UCA Context</p></th>
+<th class="head"><p>Analysis Result</p></th>
+<th class="head"><p>Hazard(s)</p></th>
+<th class="head"><p>Justification</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CAA-I1-NP</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>NP</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>Safe</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>Not calling <cite>accept</cite> does not introduce a new hazard.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I1-PR</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>PR</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>Safe</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>calling <cite>accept</cite> can not cause any problem.</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I1-MM</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>MM</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>Safe</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>If <cite>accept</cite> returns <cite>true</cite> for ill-formed JSON, it is not a problem as the successive call of <cite>parse</cite> will end in an exception leading to safe state.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I1-ML</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>ML</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>UCA</p></td>
+<td><p>H1; H3</p></td>
+<td><p>If <cite>accept</cite> returns <cite>false</cite> for well-formed JSON, the caller has to perform a safe action as he expects unavailability of data.</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I1-DS</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>DS</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>Duration (too short) is not meaningful for this discrete call; any timing-related unsafe outcome is captured under TE/TL.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I1-DL</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>DL</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>Duration (too long) is captured as “too late” (TL) for this discrete call outcome at the boundary. |</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I1-TE</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>TE</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>“Too early” does not apply: <cite>accept</cite> is invoked explicitly by the caller, and there is no earlier unsafe timing context defined for UCX1.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I1-TL</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>TL</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>UCA</p></td>
+<td><p>H3</p></td>
+<td><p>If <cite>accept</cite> is slow, the system-level effect is availability impact rather than an unsafe acceptance decision; covered by C3</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I1-SO</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>SO</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>Sequence/order does not apply to this single, synchronous call in isolation, nlohman_json is a library so no influence from other callers..</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I3-NP</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>NP</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>Safe</p></td>
+<td></td>
+<td><p>If <cite>parse</cite> is not invoked then no parsed value is produced and this specific hazard mechanism (semantic mismatch) cannot occur.</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I3-PR</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>PR</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>UCA</p></td>
+<td><p>H1; H2</p></td>
+<td><p>If <cite>parse</cite> is called with arbitrarily or systematically corrupted input, only a error in the JSON schema can be detected, but not of JSON data content.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I3-ML</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>ML</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>UCA</p></td>
+<td><p>H1; H3</p></td>
+<td><p>If <cite>parse</cite> throws an exception on a well-formed JSON, the caller has to perform a safe action due to unavailability of data.</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I3-MM</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>MM</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>UCA</p></td>
+<td><p>H1; H2</p></td>
+<td><p>If <cite>parse</cite> returns a value inconsistent with the input JSON then the system may act on incorrect data.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I3-DS</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>DS</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>Duration (too short) is not meaningful for this discrete call</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I3-DL</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>DL</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>Duration (too long) is captured as “too late” (TL) for completion within practical constraints.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I3-TE</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>TE</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>“Too early” does not apply: <cite>parse</cite> is invoked explicitly by the caller in response to system needs.</p></td>
+</tr>
+<tr class="row-even"><td><p>CAA-I3-TL</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>TL</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>UCA</p></td>
+<td><p>H3</p></td>
+<td><p>Timing issues for <cite>parse</cite> are covered in C3.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAA-I3-SO</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>SO</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>N/A</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>Sequence/order is not applicable to a single <cite>parse</cite> call in isolation, nlohman_json is a library so no influence from other callers.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Note: In this and other tables definitions from <a class="reference external" href="https://pages.eclipse.dev/eclipse/tsf/tsf/extensions/stpa/schema.html">STPA results schema</a> are used, e.g. UCAType.</p>
+</section>
+<section id="ucas">
+<h3>4.3 UCAs<a class="headerlink" href="#ucas" title="Link to this heading">#</a></h3>
+<p>The UCA identified in the above analysis are:</p>
+<div class="pst-scrollable-table-container"><table class="table" id="id15">
+<caption><span class="caption-text">Unsafe Control Actions (UCAs)</span><a class="headerlink" href="#id15" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>UCA Id</p></th>
+<th class="head"><p>CA</p></th>
+<th class="head"><p>UCA Type</p></th>
+<th class="head"><p>UCA Context</p></th>
+<th class="head"><p>Hazard Id</p></th>
+<th class="head"><p>UCA Description</p></th>
+<th class="head"><p>Constraint Id</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>UCA-I1-ML</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>ML</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>H1; H3</p></td>
+<td><p><cite>accept</cite> returns <cite>false</cite> for well-formed JSON</p></td>
+<td><p>C4</p></td>
+</tr>
+<tr class="row-odd"><td><p>UCA-I1-TL</p></td>
+<td><p>I1&gt;I2</p></td>
+<td><p>TL</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>H3</p></td>
+<td><p><cite>accept</cite> is slow</p></td>
+<td><p>C3</p></td>
+</tr>
+<tr class="row-even"><td><p>UCA-I3-PR</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>PR</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>H1; H2</p></td>
+<td><p><cite>parse</cite> is called with arbitrarily or systematically corrupted input</p></td>
+<td><p>C2</p></td>
+</tr>
+<tr class="row-odd"><td><p>UCA-I3-ML</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>ML</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>H1; H3</p></td>
+<td><p><cite>parse</cite> throws an exception on a well-formed JSON</p></td>
+<td><p>C4</p></td>
+</tr>
+<tr class="row-even"><td><p>UCA-I3-MM</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>MM</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>H1; H2</p></td>
+<td><p><cite>parse</cite> returns a value inconsistent with the input JSON</p></td>
+<td><p>C1</p></td>
+</tr>
+<tr class="row-odd"><td><p>UCA-I3-TL</p></td>
+<td><p>I3&gt;I4</p></td>
+<td><p>TL</p></td>
+<td><p>UCX1; UCX2</p></td>
+<td><p>H3</p></td>
+<td><p>Timing issues for <cite>parse</cite></p></td>
+<td><p>C3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section id="controller-functional-constraints">
+<h2>5. Controller (Functional) Constraints<a class="headerlink" href="#controller-functional-constraints" title="Link to this heading">#</a></h2>
+<p>This step records the <strong>Controller (Functional) Constraints (CFC)</strong> derived from the UCA results. This adds to the above constraint table</p>
+<div class="pst-scrollable-table-container"><table class="table" id="id16">
+<caption><span class="caption-text">Controller (Functional) Constraints (CFCs)</span><a class="headerlink" href="#id16" title="Link to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Constraint Id</p></th>
+<th class="head"><p>Constraint Type</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Link to Hazard(s)</p></th>
+<th class="head"><p>Link to UCA</p></th>
+<th class="head"><p>Links to TSF</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>C4</p></td>
+<td><p>CFC</p></td>
+<td><p>Non availability of return data is treated by the caller (e.g. by default data, or safe state).</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+<td><p>UCA-I1-ML; UCA-I3-ML</p></td>
+<td><p><a class="reference external" href="https://github.com/eclipse-score/score/issues/2686">Bug #2686</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="control-loops-and-sequences">
+<h2>6. Control Loops and Sequences<a class="headerlink" href="#control-loops-and-sequences" title="Link to this heading">#</a></h2>
+<p>This step is tailored out due to low complexity of the SUA (simple caller/callee interacttion).</p>
+</section>
+<section id="causal-scenarios">
+<h2>7. Causal Scenarios<a class="headerlink" href="#causal-scenarios" title="Link to this heading">#</a></h2>
+<p>This step is tailored out due to low complexity of the SUA (simple caller/callee interacttion).</p>
+</section>
+<section id="causal-scenario-constraints">
+<h2>8. Causal Scenario Constraints<a class="headerlink" href="#causal-scenario-constraints" title="Link to this heading">#</a></h2>
+<p>This step is tailored out due to low complexity of the SUA (simple caller/callee interacttion).</p>
+</section>
+<section id="misbehaviours-and-expectations">
+<h2>9. Misbehaviours and Expectations<a class="headerlink" href="#misbehaviours-and-expectations" title="Link to this heading">#</a></h2>
+<section id="misbehaviours">
+<h3>9.1 Misbehaviours<a class="headerlink" href="#misbehaviours" title="Link to this heading">#</a></h3>
+<p>In TSF terms, misbehaviours are <strong>anything that can cause a deviation from Expected Behaviour</strong> (<cite>TA-MISBEHAVIOURS_CONTEXT.md</cite>).</p>
+<p><a class="reference external" href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-24">JLS-24</a> partly but not fully covers C2. As this misbehaviour leads to an exception, this needs to be covered by the user (see <a class="reference external" href="https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-04">AOU-04</a>).</p>
+<p>But AOU-04 is formulated in a wrong way (“exceptions are … turned off”) and has to be corrected (to be fixed with <a class="reference external" href="https://github.com/eclipse-score/score/issues/2686">Bug #2686</a>)</p>
+</section>
+<section id="expectations">
+<h3>9.2 Expectations<a class="headerlink" href="#expectations" title="Link to this heading">#</a></h3>
+<p>Here, expectations are recorded as explicit, change-controlled statements about the SUA where it is responsible for preventing or mitigating a risk (Hazard, UCA, Causal Scenario) or Misbehaviour.
+The key SUA expectations already exist as TSF Expectation (<a class="reference external" href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLEX.html#jlex-02">JLEX-02</a>) covering C1.</p>
+</section>
+<section id="assumptions">
+<h3>9.3 Assumptions<a class="headerlink" href="#assumptions" title="Link to this heading">#</a></h3>
+<p>Assumptions record conditions for integrators and other system elements (outside the SUA) that are responsible for preventing or mitigating a risk or misbehaviour.
+Again, assumptions are already covered under TSF as Assumptions of Use (<a class="reference external" href="https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-23">AOU-23</a>, <a class="reference external" href="https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-24">AOU-24</a>).</p>
+<p>To make sure C3 is covered by the system a new AOU has to be formulated (to be fixed with <a class="reference external" href="https://github.com/eclipse-score/score/issues/2686">Bug #2686</a>).
+It is not possible to be covered by the SUA, because it has no control over the size of the JSON data provided.</p>
+<p>If the uses <cite>accept</cite> before using <cite>parse</cite> on a JSON to be deserialized he can avoid an exception due to mal-formed JSON, but he still needs to care for the missing
+deserialized data in a safe way. AOU for this is missing which will cover C4 (to be fixed with <a class="reference external" href="https://github.com/eclipse-score/score/issues/2686">Bug #2686</a>).</p>
+</section>
+</section>
+<section id="review-stpa-results">
+<h2>10. Review STPA results<a class="headerlink" href="#review-stpa-results" title="Link to this heading">#</a></h2>
+<p>The review is in three steps:</p>
+<ul class="simple">
+<li><p>review by a subject matter expert (i.e. someone familiar with nlohman_Json) - documented within github pull request</p></li>
+<li><p>review by a safety analysis expert - documented within github pull request</p></li>
+<li><p>audit by external auditor (which is also a STPA practicioner) - documented in audit report</p></li>
+</ul>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methodology-rafia-stpa-what-is-being-done-and-why">0. Methodology (RAFIA / STPA) – What is being done and why</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#define-the-scope-of-analysis">1. Define the scope of analysis</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-under-analysis">1.1 Software Under Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#system">1.2 System</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#design-assumptions">1.3 Design Assumptions</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose-of-the-analysis">2. Purpose of the analysis</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#losses-outcomes-that-are-unacceptable-for-the-system-s-stakeholders">2.1 Losses (outcomes that are unacceptable for the System’s stakeholders)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hazards-system-level-conditions-that-can-lead-to-these-losses">2.2 Hazards (System-Level Conditions that can lead to these Losses)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#system-level-constraints-system-conditions-or-behaviours-that-need-to-be-satisfied-to-prevent-hazards">2.3 System-level Constraints (system conditions or behaviours that need to be satisfied to prevent hazards)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#control-structure">3. Control structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#control-structure-diagram-scope-interactions">3.0 Control structure diagram (scope + interactions)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#elements">3.1 Elements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interactions-control-actions-and-feedback">3.2 Interactions (control actions and feedback)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unsafe-control-actions-ucas">4. Unsafe Control Actions (UCAs)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uca-contexts">4.1 UCA-Contexts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ca-analysis">4.2 CA-Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ucas">4.3 UCAs</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#controller-functional-constraints">5. Controller (Functional) Constraints</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#control-loops-and-sequences">6. Control Loops and Sequences</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#causal-scenarios">7. Causal Scenarios</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#causal-scenario-constraints">8. Causal Scenario Constraints</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#misbehaviours-and-expectations">9. Misbehaviours and Expectations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#misbehaviours">9.1 Misbehaviours</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#expectations">9.2 Expectations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions">9.3 Assumptions</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-stpa-results">10. Review STPA results</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/eclipse-score/nlohmann_json/edit/main/TSF/docs/risk_analysis.rst">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/risk_analysis.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

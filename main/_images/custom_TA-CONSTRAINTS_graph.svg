@@ -452,12 +452,12 @@
 <!-- AOU&#45;29 -->
 <g id="node27" class="node">
 <title>AOU&#45;29</title>
-<g id="a_node27"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-29" xlink:title="AOU&#45;29: The integrator\nshall check the security\ntab in the GitHub UI\non a regular basis, analyze\nand either fix or dismiss\nany outstanding CVEs.\n" target="_top">
+<g id="a_node27"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/AOU.html#aou-29" xlink:title="AOU&#45;29: The integrator\nshall check the security\ntab in the GitHub UI\non a regular basis, analyse\nand either fix or dismiss\nany outstanding CVEs.\n" target="_top">
 <polygon fill="none" stroke="black" points="7753.5,-225.5 7550.5,-225.5 7550.5,-127.5 7753.5,-127.5 7753.5,-225.5"/>
 <text text-anchor="middle" x="7652" y="-210.3" font-family="Open Sans" font-size="14.00">AOU&#45;29: The integrator</text>
 <text text-anchor="middle" x="7652" y="-195.3" font-family="Open Sans" font-size="14.00">shall check the security</text>
 <text text-anchor="middle" x="7652" y="-180.3" font-family="Open Sans" font-size="14.00">tab in the GitHub UI</text>
-<text text-anchor="middle" x="7652" y="-165.3" font-family="Open Sans" font-size="14.00">on a regular basis, analyze</text>
+<text text-anchor="middle" x="7652" y="-165.3" font-family="Open Sans" font-size="14.00">on a regular basis, analyse</text>
 <text text-anchor="middle" x="7652" y="-150.3" font-family="Open Sans" font-size="14.00">and either fix or dismiss</text>
 <text text-anchor="middle" x="7652" y="-135.3" font-family="Open Sans" font-size="14.00">any outstanding CVEs.</text>
 </a>
@@ -532,14 +532,14 @@
 <!-- JLS&#45;72 -->
 <g id="node32" class="node">
 <title>JLS&#45;72</title>
-<g id="a_node32"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-72" xlink:title="JLS&#45;72: The nlohmann/json\nproject documents the\nintended scope and design\ntrade&#45;offs of the library\nand specifies the documented\ninterface and behavior\nof its core JSON type\nvia its API reference.\n" target="_top">
+<g id="a_node32"><a xlink:href="https://eclipse-score.github.io/nlohmann_json/main/generated/JLS.html#jls-72" xlink:title="JLS&#45;72: The nlohmann/json\nproject documents the\nintended scope and design\ntrade&#45;offs of the library\nand specifies the documented\ninterface and behaviour\nof its core JSON type\nvia its API reference.\n" target="_top">
 <polygon fill="none" stroke="black" points="9326.5,-240.5 9099.5,-240.5 9099.5,-112.5 9326.5,-112.5 9326.5,-240.5"/>
 <text text-anchor="middle" x="9213" y="-225.3" font-family="Open Sans" font-size="14.00">JLS&#45;72: The nlohmann/json</text>
 <text text-anchor="middle" x="9213" y="-210.3" font-family="Open Sans" font-size="14.00">project documents the</text>
 <text text-anchor="middle" x="9213" y="-195.3" font-family="Open Sans" font-size="14.00">intended scope and design</text>
 <text text-anchor="middle" x="9213" y="-180.3" font-family="Open Sans" font-size="14.00">trade&#45;offs of the library</text>
 <text text-anchor="middle" x="9213" y="-165.3" font-family="Open Sans" font-size="14.00">and specifies the documented</text>
-<text text-anchor="middle" x="9213" y="-150.3" font-family="Open Sans" font-size="14.00">interface and behavior</text>
+<text text-anchor="middle" x="9213" y="-150.3" font-family="Open Sans" font-size="14.00">interface and behaviour</text>
 <text text-anchor="middle" x="9213" y="-135.3" font-family="Open Sans" font-size="14.00">of its core JSON type</text>
 <text text-anchor="middle" x="9213" y="-120.3" font-family="Open Sans" font-size="14.00">via its API reference.</text>
 </a>

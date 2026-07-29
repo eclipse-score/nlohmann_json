@@ -8,16 +8,16 @@ The distribution of scores for evidence nodes across the graph.
 
 |bin|count|
 |-|-|
-|0.0-0.1  |197|
+|0.0-0.1  |35|
 |0.1-0.2  |0|
 |0.2-0.3  |0|
 |0.3-0.4  |0|
-|0.4-0.5  |0|
+|0.4-0.5  |1|
 |0.5-0.6  |0|
-|0.6-0.7  |0|
-|0.7-0.8  |1|
-|0.8-0.9  |0|
-|0.9-1.0  |6|
+|0.6-0.7  |3|
+|0.7-0.8  |4|
+|0.8-0.9  |6|
+|0.9-1.0  |159|
 ## Expectations Score Distribution
 
 The distribution of scores for expectations nodes across the graph.
@@ -27,7 +27,7 @@ The distribution of scores for expectations nodes across the graph.
 
 |bin|count|
 |-|-|
-|0.0-0.1  |1|
+|0.0-0.1  |0|
 |0.1-0.2  |0|
 |0.2-0.3  |0|
 |0.3-0.4  |0|
@@ -35,8 +35,8 @@ The distribution of scores for expectations nodes across the graph.
 |0.5-0.6  |0|
 |0.6-0.7  |0|
 |0.7-0.8  |0|
-|0.8-0.9  |0|
-|0.9-1.0  |0|
+|0.8-0.9  |1|
+|0.9-1.0  |2|
 ## All Score Distribution
 
 The distribution of scores for all nodes across the graph.
@@ -46,16 +46,16 @@ The distribution of scores for all nodes across the graph.
 
 |bin|count|
 |-|-|
-|0.0-0.1  |251|
+|0.0-0.1  |35|
 |0.1-0.2  |1|
-|0.2-0.3  |1|
-|0.3-0.4  |2|
+|0.2-0.3  |0|
+|0.3-0.4  |0|
 |0.4-0.5  |1|
-|0.5-0.6  |0|
-|0.6-0.7  |1|
-|0.7-0.8  |1|
-|0.8-0.9  |0|
-|0.9-1.0  |6|
+|0.5-0.6  |2|
+|0.6-0.7  |8|
+|0.7-0.8  |6|
+|0.8-0.9  |11|
+|0.9-1.0  |205|
 ## Jonas-Kirchhoff SME Score Distribution
 
 ![No Image](figs/Jonas-Kirchhoff_hist.svg)
@@ -70,9 +70,9 @@ The distribution of scores for all nodes across the graph.
 |0.4-0.5  |0|
 |0.5-0.6  |0|
 |0.6-0.7  |1|
-|0.7-0.8  |2|
+|0.7-0.8  |1|
 |0.8-0.9  |0|
-|0.9-1.0  |119|
+|0.9-1.0  |123|
 ## Erikhu1 SME Score Distribution
 
 ![No Image](figs/Erikhu1_hist.svg)
@@ -89,7 +89,41 @@ The distribution of scores for all nodes across the graph.
 |0.6-0.7  |0|
 |0.7-0.8  |1|
 |0.8-0.9  |2|
-|0.9-1.0  |127|
+|0.9-1.0  |131|
+## Thomasclausnitzer SME Score Distribution
+
+![No Image](figs/ThomasClausnitzer_hist.svg)
+
+
+|bin|count|
+|-|-|
+|0.0-0.1  |1|
+|0.1-0.2  |0|
+|0.2-0.3  |0|
+|0.3-0.4  |0|
+|0.4-0.5  |0|
+|0.5-0.6  |1|
+|0.6-0.7  |3|
+|0.7-0.8  |1|
+|0.8-0.9  |9|
+|0.9-1.0  |165|
+## Lucafue SME Score Distribution
+
+![No Image](figs/LucaFue_hist.svg)
+
+
+|bin|count|
+|-|-|
+|0.0-0.1  |1|
+|0.1-0.2  |0|
+|0.2-0.3  |0|
+|0.3-0.4  |0|
+|0.4-0.5  |1|
+|0.5-0.6  |0|
+|0.6-0.7  |1|
+|0.7-0.8  |3|
+|0.8-0.9  |3|
+|0.9-1.0  |54|
 ## Aschemmel-Tech SME Score Distribution
 
 ![No Image](figs/aschemmel-tech_hist.svg)
@@ -129,10 +163,10 @@ The distribution of scores for all nodes across the graph.
 
 | Category | Count |
 |----------|-------|
-|statements|284|
-|reviewed statements|15|
-|unreviewed statements|269|
-|orphaned statements|0|
-|statements with evidence|46|
-|evidence|204|
-|expectations|1|
+|statements|289|
+|reviewed statements|286|
+|unreviewed statements|3|
+|orphaned statements|1|
+|statements with evidence|47|
+|evidence|208|
+|expectations|3|
