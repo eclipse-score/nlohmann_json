@@ -39,7 +39,7 @@
 # Swift Package Manager build directory
 /.build
 # docs:incremental and docs:ide_support build artifacts
-/_build
+_build
 /build
 
 venv
@@ -63,3 +63,4 @@ user.bazelrc
 /.venv
 
 __pycache__/
+ubproject.toml
