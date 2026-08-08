@@ -1,5 +1,5 @@
 
-### TT-CHANGES | Reviewed: ✔ | Score: 0.77005 
+### TT-CHANGES | Reviewed: ✔ | Score: 0.7695 
 The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions.
 
 
@@ -7,7 +7,7 @@ The nlohmann/json library is actively maintained, with regular updates to depend
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.81 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.78 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -45,13 +45,14 @@ _None_
 |2026-04-15 09:58:18|0.50 |0.34 |0.65 |
 |2026-04-29 07:48:13|0.50 |0.34 |0.65 |
 |2026-07-29 12:21:26|0.77 |0.65 |0.89 |
-|2026-07-29 13:10:30.513740|0.77 |0.65 |0.89 |
+|2026-08-08 15:44:48|0.77 |0.65 |0.89 |
+|2026-08-08 16:35:31.948951|0.77 |0.65 |0.89 |
 
 
 
 ---
 
-### TT-CONFIDENCE | Reviewed: ✔ | Score: 0.86392 
+### TT-CONFIDENCE | Reviewed: ✔ | Score: 0.65357 
 Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json.
 
 
@@ -59,14 +60,14 @@ Confidence in the nlohmann/json library is achieved by measuring and analysing b
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.81 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.78 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-METHODOLOGIES](TA.md#ta-methodologies)  | Manual methodologies applied for the nlohmann/json library by contributors, and their results, are managed according to specified objectives. | 0.80 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [TA-CONFIDENCE](TA.md#ta-confidence)  | Confidence in the nlohmann/json library is measured based on results of analysis. | 0.93 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-METHODOLOGIES](TA.md#ta-methodologies)  | Manual methodologies applied for the nlohmann/json library by contributors, and their results, are managed according to specified objectives. | 0.81 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-CONFIDENCE](TA.md#ta-confidence)  | Confidence in the nlohmann/json library is measured based on results of analysis. | 0.50 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -97,7 +98,8 @@ _None_
 |2026-04-15 09:58:18|0.00 |0.00 |0.00 |
 |2026-04-29 07:48:13|0.00 |0.00 |0.00 |
 |2026-07-29 12:21:26|0.86 |0.80 |0.93 |
-|2026-07-29 13:10:30.513740|0.86 |0.80 |0.93 |
+|2026-08-08 15:44:48|0.65 |0.81 |0.50 |
+|2026-08-08 16:35:31.948951|0.65 |0.81 |0.50 |
 
 
 
@@ -111,7 +113,7 @@ Tools are provided to build the nlohmann/json library from trusted sources (also
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.81 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.78 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -150,7 +152,8 @@ _None_
 |2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |
 |2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |
 |2026-07-29 12:21:26|0.67 |0.78 |0.58 |0.66 |
-|2026-07-29 13:10:30.513740|0.67 |0.78 |0.58 |0.66 |
+|2026-08-08 15:44:48|0.67 |0.78 |0.58 |0.66 |
+|2026-08-08 16:35:31.948951|0.67 |0.78 |0.58 |0.66 |
 
 
 
@@ -164,7 +167,7 @@ Documentation is provided within eclipse-score/inc_nlohmann_json, specifying wha
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.81 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.78 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -204,7 +207,8 @@ _None_
 |2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-07-29 12:21:26|0.58 |0.92 |0.64 |0.12 |0.65 |
-|2026-07-29 13:10:30.513740|0.58 |0.92 |0.64 |0.12 |0.65 |
+|2026-08-08 15:44:48|0.58 |0.92 |0.64 |0.12 |0.65 |
+|2026-08-08 16:35:31.948951|0.58 |0.92 |0.64 |0.12 |0.65 |
 
 
 
@@ -218,7 +222,7 @@ All inputs (and attestations for claims) for the nlohmann/json library are provi
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.81 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.78 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -256,7 +260,8 @@ _None_
 |2026-04-15 09:58:18|0.25 |0.18 |0.32 |
 |2026-04-29 07:48:13|0.25 |0.18 |0.32 |
 |2026-07-29 12:21:26|0.99 |0.99 |0.99 |
-|2026-07-29 13:10:30.513740|0.99 |0.99 |0.99 |
+|2026-08-08 15:44:48|0.99 |0.99 |0.99 |
+|2026-08-08 16:35:31.948951|0.99 |0.99 |0.99 |
 
 
 
@@ -270,7 +275,7 @@ Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.81 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.78 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -309,5 +314,6 @@ _None_
 |2026-04-15 09:58:18|0.00 |0.00 |0.00 |0.00 |
 |2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |
 |2026-07-29 12:21:26|1.00 |1.00 |0.99 |1.00 |
-|2026-07-29 13:10:30.513740|1.00 |1.00 |0.99 |1.00 |
+|2026-08-08 15:44:48|1.00 |1.00 |0.99 |1.00 |
+|2026-08-08 16:35:31.948951|1.00 |1.00 |0.99 |1.00 |
 
