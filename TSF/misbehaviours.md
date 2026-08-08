@@ -5,13 +5,6 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
-### [#5288](https://github.com/nlohmann/json/issues/5288)
-- **Title:** Deprecation warning for operator== when using ordered_json when building with clang
-- **State:** OPEN
-- **Created At:** 2026-07-22T10:06:53Z
-
-
-
 ### [#5256](https://github.com/nlohmann/json/issues/5256)
 - **Title:** Int and uint compare equal but hashes do not
 - **State:** OPEN
@@ -121,6 +114,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 ## Closed Issues (since version 3.12.0)
+
+### [#5288](https://github.com/nlohmann/json/issues/5288)
+- **Title:** Deprecation warning for operator== when using ordered_json when building with clang
+- **State:** CLOSED
+- **Created At:** 2026-07-22T10:06:53Z
+
+
 
 ### [#5197](https://github.com/nlohmann/json/issues/5197)
 - **Title:** MSVC std c++23 u8string can not be correctly stored in json
