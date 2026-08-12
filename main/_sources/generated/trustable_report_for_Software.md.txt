@@ -72,7 +72,7 @@ This presents the compliance for the _JSON-Library Statements_ (JLS) in tabular 
 | [JLS-02](JLS.md#jls-02)  | Fuzz testing is used in the nlohmann/json repository to uncover edge cases and failure modes throughout development. | 0.00 | ⨯ Item Reviewed<br>✔ All Children Linked |
 | [JLS-03](JLS.md#jls-03)  | Automated tests within the TSF documentation are reviewed by a Subject Matter Expert to verify they test the properties they claim to. | 0.70 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-04](JLS.md#jls-04)  | External dependencies within nlohmann/json are checked for potential security vulnerabilities with each pull request to main. Merging is blocked until all warnings are resolved. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [JLS-05](JLS.md#jls-05)  | The nlohmann/json library is widely used and actively maintained; bugs and misbehaviours are tracked publicly and transparently. | 0.99 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [JLS-05](JLS.md#jls-05)  | The nlohmann/json library is widely used and actively maintained; bugs and misbehaviours are tracked publicly and transparently. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-06](JLS.md#jls-06)  | Pull requests in the nlohmann/json repository are merged only after code review. | 0.42 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-07](JLS.md#jls-07)  | The develop branch of nlohmann/json is protected, i.e. no direct commits are possible. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-08](JLS.md#jls-08)  | Each leaf node in the Trustable Graph that is not an Assumption-of-Use (AoU) is scored either based on SME review(s) alone or on a combination of SME review(s) and an automatic validator. | 0.00 | ⨯ Item Reviewed<br>✔ All Children Linked |
@@ -92,11 +92,11 @@ This presents the compliance for the _JSON-Library Statements_ (JLS) in tabular 
 | [JLS-24](JLS.md#jls-24)  | The nlohmann/json library recognizes malformed JSON and returns an exception or a discarded value. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-25](JLS.md#jls-25)  | Malicious code changes in nlohmann/json are mitigated by code reviews, adhering to the contribution guidelines and security policy specified by nlohmann/json. | 0.85 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-26](JLS.md#jls-26)  | Any failed CI pipeline executions in the master branch of the nlohmann/json repository are analysed and fixed. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [JLS-27](JLS.md#jls-27)  | The test coverage for this version of nlohmann/json is monitored using Coveralls and is not decreasing over time, unless reasonably justified. | 0.97 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [JLS-27](JLS.md#jls-27)  | The test coverage for this version of nlohmann/json is monitored using Coveralls and is not decreasing over time, unless reasonably justified. | 0.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-28](JLS.md#jls-28)  | Outstanding bugs and misbehaviours are triaged in the nlohmann/json repository. | 0.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-29](JLS.md#jls-29)  | Known bugs, misbehaviours and CVEs are analysed and either fixed or mitigated in the nlohmann/json repository. | 0.79 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-30](JLS.md#jls-30)  | Outstanding CVEs are analysed within eclipse-score/nlohmann_json to determine whether they can be dismissed, and/or are relevant for S-CORE's use cases of the nlohmann/json library. | 0.75 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [JLS-31](JLS.md#jls-31)  | The nlohmann/json repository uses static code analysis tools and sanitizers. | 0.97 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [JLS-31](JLS.md#jls-31)  | The nlohmann/json repository uses static code analysis tools and sanitizers. | 0.72 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-32](JLS.md#jls-32)  | All pull requests to the develop branch in the nlohmann/json repository trigger a request for review from Niels Lohmann (@nlohmann). | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-33](JLS.md#jls-33)  | Outstanding CVEs are triaged in the nlohmann/json repository. | 0.65 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-34](JLS.md#jls-34)  | The nlohmann/json library has no external components or dependencies besides the C++ standard components. | 0.95 | ✔ Item Reviewed<br>✔ All Children Linked |
@@ -115,7 +115,7 @@ This presents the compliance for the _JSON-Library Statements_ (JLS) in tabular 
 | [JLS-49](JLS.md#jls-49)  | The eclipse-score/nlohmann_json project mirrors the external nlohmann/json_test_data repository, containing test data used by the unit tests in nlohmann/json, such that the test suite can be executed without internet connectivity. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-50](JLS.md#jls-50)  | All third party tools used in nlohmann/json for building, testing and documenting the project are assessed within eclipse-score/nlohmann_json. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-51](JLS.md#jls-51)  | All source code of the nlohmann/json library is mirrored within eclipse-score/inc_nlohmann_json. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [JLS-52](JLS.md#jls-52)  | Releases of the nlohmann/json library contain a comprehensive set of attestations. | 0.88 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [JLS-52](JLS.md#jls-52)  | Releases of the nlohmann/json library contain a comprehensive set of attestations. | 0.77 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-53](JLS.md#jls-53)  | Given the same version of the repository, configuration, and documented environment, the build process shall produce identical single-include header files. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-54](JLS.md#jls-54)  | In the eclipse-score/inc_nlohmann_json repository, code coverage is measured in CI and a minimum threshold is enforced for pull requests into main and pushes to main. If coverage falls below the threshold, the coverage_gate check fails and blocks merging into main until coverage is restored. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-55](JLS.md#jls-55)  | In eclipse-score/inc_nlohmann_json, a GitHub Actions workflow checks the number of open pull requests in the main branch. If the number exceeds a defined threshold, the workflow fails and blocks further merges until the number of open pull requests is reduced below that threshold. | 0.00 | ✔ Item Reviewed<br>✔ All Children Linked |
@@ -126,7 +126,7 @@ This presents the compliance for the _JSON-Library Statements_ (JLS) in tabular 
 | [JLS-62](JLS.md#jls-62)  | All tests except the ones which are excluded when using the flag "ctest -LE not_reproducible" are reproducible. | 0.90 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-63](JLS.md#jls-63)  | Releases of the nlohmann/json library contain commit sign-offs. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-64](JLS.md#jls-64)  | Releases of the nlohmann/json library contain GitHub pull request approvals. | 0.65 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [JLS-65](JLS.md#jls-65)  | Releases of the nlohmann/json library contain continuous-integration test reports such as coverage reports, fuzzing reports & OpenSSF scorecard reports. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [JLS-65](JLS.md#jls-65)  | Releases of the nlohmann/json library contain continuous-integration test reports such as coverage reports, fuzzing reports & OpenSSF scorecard reports. | 0.67 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-66](JLS.md#jls-66)  | The mirror of nlohmann/json is configured via infrastructure under direct control, and rejects history rewrites. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-70](JLS.md#jls-70)  | The nlohmann/json library provides installation manuals with worked examples. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [JLS-71](JLS.md#jls-71)  | The nlohmann/json library provides configuration manuals with worked examples. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
@@ -273,17 +273,17 @@ This presents the compliance for the _Trustable Assertions_ (TA) in tabular form
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-ANALYSIS](TA.md#ta-analysis)  | Collected data from tests and monitoring of deployed software in eclipse-score/inc_nlohmann_json is analysed according to specified objectives. | 0.99 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.92 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [TA-ANALYSIS](TA.md#ta-analysis)  | Collected data from tests and monitoring of deployed software in eclipse-score/inc_nlohmann_json is analysed according to specified objectives. | 0.74 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.72 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TA-CONFIDENCE](TA.md#ta-confidence)  | Confidence in the nlohmann/json library is measured based on results of analysis. | 0.50 | ✔ Item Reviewed<br>⨯ All Children Linked |
 | [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TA-DATA](TA.md#ta-data)  | Data in eclipse-score/inc_nlohmann_json is collected from tests, and from monitoring of deployed software, according to specified objectives. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TA-FIXES](TA.md#ta-fixes)  | In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied. | 0.65 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TA-INDICATORS](TA.md#ta-indicators)  | In eclipse-score/inc_nlohmann_json, advanced warning indicators for misbehaviours are identified, and monitoring mechanisms are specified, verified and validated based on analysis. | 0.65 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.99 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.66 | ✔ Item Reviewed<br>⨯ All Children Linked |
+| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.63 | ✔ Item Reviewed<br>⨯ All Children Linked |
 | [TA-METHODOLOGIES](TA.md#ta-methodologies)  | Manual methodologies applied for the nlohmann/json library by contributors, and their results, are managed according to specified objectives. | 0.81 | ✔ Item Reviewed<br>⨯ All Children Linked |
-| [TA-MISBEHAVIOURS](TA.md#ta-misbehaviours)  | Prohibited misbehaviours for the nlohmann/json library are identified, and mitigations are specified, verified and validated based on analysis. | 0.64 | ✔ Item Reviewed<br>⨯ All Children Linked |
+| [TA-MISBEHAVIOURS](TA.md#ta-misbehaviours)  | Prohibited misbehaviours for the nlohmann/json library are identified, and mitigations are specified, verified and validated based on analysis. | 0.60 | ✔ Item Reviewed<br>⨯ All Children Linked |
 | [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.78 | ✔ Item Reviewed<br>⨯ All Children Linked |
 | [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.99 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TA-TESTS](TA.md#ta-tests)  | All tests for the nlohmann/json library, and its build and test environments, are constructed from controlled/mirrored sources and are reproducible, with any exceptions documented. | 0.58 | ✔ Item Reviewed<br>⨯ All Children Linked |
@@ -327,7 +327,7 @@ This presents the ultimate trustability score for nlohmann/json.
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.78 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.75 | ✔ Item Reviewed<br>✔ All Children Linked |
 
 ## Compliance for TT 
 This presents the compliance for the _Trustable Tenets_ (TT) in tabular form.
@@ -336,10 +336,10 @@ This presents the compliance for the _Trustable Tenets_ (TT) in tabular form.
 | --- | --- | --- | --- |
 | [TT-CHANGES](TT.md#tt-changes)  | The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions. | 0.77 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TT-CONFIDENCE](TT.md#tt-confidence)  | Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json. | 0.65 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.67 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.58 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.66 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.52 | ✔ Item Reviewed<br>✔ All Children Linked |
 | [TT-PROVENANCE](TT.md#tt-provenance)  | All inputs (and attestations for claims) for the nlohmann/json library are provided with known provenance. | 0.99 | ✔ Item Reviewed<br>✔ All Children Linked |
-| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 1.00 | ✔ Item Reviewed<br>✔ All Children Linked |
+| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.92 | ✔ Item Reviewed<br>✔ All Children Linked |
 
 ## Compliance for WFJ 
 This presents the compliance for _Well Formed JSON_ (WFJ) in tabular form.
@@ -362,6 +362,6 @@ This presents the compliance for _Well Formed JSON_ (WFJ) in tabular form.
 _Generated for: Software_
 
 * _Repository root: /home/runner/work/nlohmann_json/nlohmann_json_
-* _Commit SHA: 5e4eb2316842d607085e77858837d89decc63915_
-* _Commit date/time: 2026-08-08 15:44:48 UTC_
-* _Commit tag: 5e4eb23_
+* _Commit SHA: aabf1fd990e0004b1b046cd1ce60ba3e10c40f8a_
+* _Commit date/time: 2026-08-12 07:29:01 UTC_
+* _Commit tag: aabf1fd_

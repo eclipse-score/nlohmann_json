@@ -7,7 +7,7 @@ The requirement regarding [JSON Validation](https://eclipse-score.github.io/scor
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.92 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.72 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -549,7 +549,8 @@ _None_
 |2026-04-29 07:48:13|0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |
 |2026-07-29 12:21:26|0.97 |0.99 |0.96 |1.00 |0.97 |0.96 |1.00 |0.90 |1.00 |
 |2026-08-08 15:44:48|0.97 |0.99 |0.96 |1.00 |0.97 |0.96 |1.00 |0.90 |1.00 |
-|2026-08-08 16:35:31.948951|0.97 |0.99 |0.96 |1.00 |0.97 |0.96 |1.00 |0.90 |1.00 |
+|2026-08-12 07:29:01|0.97 |0.99 |0.96 |1.00 |0.97 |0.96 |1.00 |0.90 |1.00 |
+|2026-08-12 08:21:48.938499|0.97 |0.99 |0.96 |1.00 |0.97 |0.96 |1.00 |0.90 |1.00 |
 
 
 
@@ -563,7 +564,7 @@ The requirement regarding [JSON Deserialization](https://eclipse-score.github.io
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.92 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.72 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1160,5 +1161,6 @@ _None_
 |2026-04-29 07:48:13|0.00 |0.00 |0.00 |
 |2026-07-29 12:21:26|1.00 |1.00 |0.99 |
 |2026-08-08 15:44:48|1.00 |1.00 |0.99 |
-|2026-08-08 16:35:31.948951|1.00 |1.00 |0.99 |
+|2026-08-12 07:29:01|1.00 |1.00 |0.99 |
+|2026-08-12 08:21:48.938499|1.00 |1.00 |0.99 |
 
