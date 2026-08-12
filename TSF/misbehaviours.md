@@ -12,13 +12,6 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
-### [#5210](https://github.com/nlohmann/json/issues/5210)
-- **Title:** Mixed comparison bug: number_unsigned (INT64_MAX+1~UINT64_MAX) vs number_integer
-- **State:** OPEN
-- **Created At:** 2026-06-17T16:49:21Z
-
-
-
 ### [#5198](https://github.com/nlohmann/json/issues/5198)
 - **Title:** TOCTOU race between lexer construction and locale changes causes float truncation
 - **State:** OPEN
@@ -115,10 +108,24 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Closed Issues (since version 3.12.0)
 
+### [#5371](https://github.com/nlohmann/json/issues/5371)
+- **Title:** C28619 warning in lexer.hpp with Visual Studio 2022 / C++20
+- **State:** CLOSED
+- **Created At:** 2026-08-10T08:38:48Z
+
+
+
 ### [#5288](https://github.com/nlohmann/json/issues/5288)
 - **Title:** Deprecation warning for operator== when using ordered_json when building with clang
 - **State:** CLOSED
 - **Created At:** 2026-07-22T10:06:53Z
+
+
+
+### [#5210](https://github.com/nlohmann/json/issues/5210)
+- **Title:** Mixed comparison bug: number_unsigned (INT64_MAX+1~UINT64_MAX) vs number_integer
+- **State:** CLOSED
+- **Created At:** 2026-06-17T16:49:21Z
 
 
 
