@@ -7,7 +7,7 @@ The nlohmann/json library is actively maintained, with regular updates to depend
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.79 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -47,7 +47,8 @@ _None_
 |2026-07-29 12:21:26|0.77 |0.65 |0.89 |
 |2026-08-08 15:44:48|0.77 |0.65 |0.89 |
 |2026-08-12 07:29:01|0.77 |0.65 |0.89 |
-|2026-08-12 08:21:48.938499|0.77 |0.65 |0.89 |
+|2026-10-03 05:46:44|0.77 |0.65 |0.89 |
+|2026-10-03 06:31:36.876563|0.77 |0.65 |0.89 |
 
 
 
@@ -61,7 +62,7 @@ Confidence in the nlohmann/json library is achieved by measuring and analysing b
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.79 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -101,7 +102,8 @@ _None_
 |2026-07-29 12:21:26|0.86 |0.80 |0.93 |
 |2026-08-08 15:44:48|0.65 |0.81 |0.50 |
 |2026-08-12 07:29:01|0.65 |0.81 |0.50 |
-|2026-08-12 08:21:48.938499|0.65 |0.81 |0.50 |
+|2026-10-03 05:46:44|0.65 |0.81 |0.50 |
+|2026-10-03 06:31:36.876563|0.65 |0.81 |0.50 |
 
 
 
@@ -115,7 +117,7 @@ Tools are provided to build the nlohmann/json library from trusted sources (also
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.79 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -156,13 +158,14 @@ _None_
 |2026-07-29 12:21:26|0.67 |0.78 |0.58 |0.66 |
 |2026-08-08 15:44:48|0.67 |0.78 |0.58 |0.66 |
 |2026-08-12 07:29:01|0.66 |0.78 |0.58 |0.63 |
-|2026-08-12 08:21:48.938499|0.66 |0.78 |0.58 |0.63 |
+|2026-10-03 05:46:44|0.66 |0.78 |0.58 |0.63 |
+|2026-10-03 06:31:36.876563|0.66 |0.78 |0.58 |0.63 |
 
 
 
 ---
 
-### TT-EXPECTATIONS | Reviewed: ✔ | Score: 0.52364 
+### TT-EXPECTATIONS | Reviewed: ✔ | Score: 0.65573 
 Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified.
 
 
@@ -170,16 +173,16 @@ Documentation is provided within eclipse-score/inc_nlohmann_json, specifying wha
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.79 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.72 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-BEHAVIOURS](TA.md#ta-behaviours)  | Expected or required behaviours for the nlohmann/json library are identified, specified, verified and validated based on analysis. | 0.92 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TA-MISBEHAVIOURS](TA.md#ta-misbehaviours)  | Prohibited misbehaviours for the nlohmann/json library are identified, and mitigations are specified, verified and validated based on analysis. | 0.60 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TA-CONSTRAINTS](TA.md#ta-constraints)  | Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are specified. | 0.12 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [TA-INDICATORS](TA.md#ta-indicators)  | In eclipse-score/inc_nlohmann_json, advanced warning indicators for misbehaviours are identified, and monitoring mechanisms are specified, verified and validated based on analysis. | 0.65 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-INDICATORS](TA.md#ta-indicators)  | In eclipse-score/inc_nlohmann_json, advanced warning indicators for misbehaviours are identified, and monitoring mechanisms are specified, verified and validated based on analysis. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -212,7 +215,8 @@ _None_
 |2026-07-29 12:21:26|0.58 |0.92 |0.64 |0.12 |0.65 |
 |2026-08-08 15:44:48|0.58 |0.92 |0.64 |0.12 |0.65 |
 |2026-08-12 07:29:01|0.52 |0.72 |0.60 |0.12 |0.65 |
-|2026-08-12 08:21:48.938499|0.52 |0.72 |0.60 |0.12 |0.65 |
+|2026-10-03 05:46:44|0.66 |0.92 |0.60 |0.12 |0.98 |
+|2026-10-03 06:31:36.876563|0.66 |0.92 |0.60 |0.12 |0.98 |
 
 
 
@@ -226,7 +230,7 @@ All inputs (and attestations for claims) for the nlohmann/json library are provi
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.79 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -266,13 +270,14 @@ _None_
 |2026-07-29 12:21:26|0.99 |0.99 |0.99 |
 |2026-08-08 15:44:48|0.99 |0.99 |0.99 |
 |2026-08-12 07:29:01|0.99 |0.99 |0.99 |
-|2026-08-12 08:21:48.938499|0.99 |0.99 |0.99 |
+|2026-10-03 05:46:44|0.99 |0.99 |0.99 |
+|2026-10-03 06:31:36.876563|0.99 |0.99 |0.99 |
 
 
 
 ---
 
-### TT-RESULTS | Reviewed: ✔ | Score: 0.915 
+### TT-RESULTS | Reviewed: ✔ | Score: 0.98 
 Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do.
 
 
@@ -280,14 +285,14 @@ Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TRUSTABLE-SOFTWARE](TRUSTABLE.md#trustable-software)  | This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable. | 0.79 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
 | [TA-DATA](TA.md#ta-data)  | Data in eclipse-score/inc_nlohmann_json is collected from tests, and from monitoring of deployed software, according to specified objectives. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [TA-ANALYSIS](TA.md#ta-analysis)  | Collected data from tests and monitoring of deployed software in eclipse-score/inc_nlohmann_json is analysed according to specified objectives. | 0.74 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-ANALYSIS](TA.md#ta-analysis)  | Collected data from tests and monitoring of deployed software in eclipse-score/inc_nlohmann_json is analysed according to specified objectives. | 0.94 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TA-VALIDATION](TA.md#ta-validation)  | All specified tests are executed repeatedly, under defined conditions in controlled environments, according to specified objectives. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
@@ -321,5 +326,6 @@ _None_
 |2026-07-29 12:21:26|1.00 |1.00 |0.99 |1.00 |
 |2026-08-08 15:44:48|1.00 |1.00 |0.99 |1.00 |
 |2026-08-12 07:29:01|0.92 |1.00 |0.74 |1.00 |
-|2026-08-12 08:21:48.938499|0.92 |1.00 |0.74 |1.00 |
+|2026-10-03 05:46:44|0.98 |1.00 |0.94 |1.00 |
+|2026-10-03 06:31:36.876563|0.98 |1.00 |0.94 |1.00 |
 
