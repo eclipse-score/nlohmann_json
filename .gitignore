@@ -39,7 +39,13 @@
 # Swift Package Manager build directory
 /.build
 # docs:incremental and docs:ide_support build artifacts
-_build
+
+# docs-as-code build artifacts
+# Please don't edit locally; repo_policy_sync keeps this block in sync from score_tools.
+_build/
+ubproject.toml
+# end docs-as-code build artifacts
+
 /build
 
 venv
@@ -63,4 +69,3 @@ user.bazelrc
 /.venv
 
 __pycache__/
-ubproject.toml
