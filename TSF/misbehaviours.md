@@ -5,191 +5,11 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
-### [#5742](https://github.com/nlohmann/json/issues/5742)
-- **Title:** Release build fails when JSON diagnostics enabled
+### [#5917](https://github.com/nlohmann/json/issues/5917)
+- **Title:** JSON Patch add into a null parent converts it to an object instead of throwing out_of_range.411
 - **State:** OPEN
-- **Created At:** 2026-09-30T21:24:40Z
+- **Created At:** 2026-10-25T12:47:23Z
 
-
-
-### [#5674](https://github.com/nlohmann/json/issues/5674)
-- **Title:** Copy-constructing basic_json now requires an assignable CustomBaseClass (compile regression)
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:55:26Z
-
-
-
-### [#5673](https://github.com/nlohmann/json/issues/5673)
-- **Title:** ordered_json::emplace(key, value) does not compile when value is an lvalue
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:55:20Z
-
-
-
-### [#5672](https://github.com/nlohmann/json/issues/5672)
-- **Title:** With JSON_NOEXCEPTION, value(json_pointer, default) aborts for some array tokens
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:55:13Z
-
-
-
-### [#5665](https://github.com/nlohmann/json/issues/5665)
-- **Title:** Legacy discarded comparison in C++20: scalar <= discarded and scalar >= discarded yield false
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:54:27Z
-
-
-
-### [#5663](https://github.com/nlohmann/json/issues/5663)
-- **Title:** Keys convertible to std::string_view break at/find/contains, including keys that worked in 3.12.0
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:54:14Z
-
-
-
-### [#5662](https://github.com/nlohmann/json/issues/5662)
-- **Title:** JSON_BRACE_INIT_COPY_SEMANTICS: json j{arr} turns an array like ["key", 42] into an object
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:54:07Z
-
-
-
-### [#5661](https://github.com/nlohmann/json/issues/5661)
-- **Title:** BJData ND-array annotations are not parsed back into the same object ("single" precision, ordered_json key order)
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:54:00Z
-
-
-
-### [#5660](https://github.com/nlohmann/json/issues/5660)
-- **Title:** Floats are truncated at the decimal point under locales with a multi-byte decimal point (fa_IR.UTF-8)
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:53:53Z
-
-
-
-### [#5659](https://github.com/nlohmann/json/issues/5659)
-- **Title:** A NUL byte that ends a // comment does not end the input with the default NUL handling
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:53:47Z
-
-
-
-### [#5654](https://github.com/nlohmann/json/issues/5654)
-- **Title:** C++20 operator<=> result depends on nesting depth when binary values differ only in subtype
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:53:14Z
-
-
-
-### [#5651](https://github.com/nlohmann/json/issues/5651)
-- **Title:** Binary writers emit strings with ill-formed UTF-8 that the corresponding readers reject
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:52:54Z
-
-
-
-### [#5649](https://github.com/nlohmann/json/issues/5649)
-- **Title:** Deep copy (nested 128+ levels) drops the object comparator's state: keys reordered or lost
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:52:41Z
-
-
-
-### [#5648](https://github.com/nlohmann/json/issues/5648)
-- **Title:** from_bon8(ptr, len) and from_bjdata(ptr, len) compile without a warning and read ptr as a NUL-terminated string
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:52:35Z
-
-
-
-### [#5645](https://github.com/nlohmann/json/issues/5645)
-- **Title:** Wide-string input: lone UTF-16 surrogates and negative wchar_t units are accepted or end the input
-- **State:** OPEN
-- **Created At:** 2026-09-29T17:52:15Z
-
-
-
-### [#5529](https://github.com/nlohmann/json/issues/5529)
-- **Title:** from_cbor()/from_msgpack() do not validate UTF-8 in text strings at decode time (only dump() does)
-- **State:** OPEN
-- **Created At:** 2026-09-15T05:12:35Z
-
-
-
-### [#5400](https://github.com/nlohmann/json/issues/5400)
-- **Title:** std::hash<basic_json> is inconsistent with operator== for equal cross-type numbers (breaks unordered containers)
-- **State:** OPEN
-- **Created At:** 2026-08-25T23:00:36Z
-
-
-
-### [#5256](https://github.com/nlohmann/json/issues/5256)
-- **Title:** Int and uint compare equal but hashes do not
-- **State:** OPEN
-- **Created At:** 2026-07-09T11:02:19Z
-
-
-
-### [#5135](https://github.com/nlohmann/json/issues/5135)
-- **Title:** basic_json destructor allocates memory, violating noexcept semantics
-- **State:** OPEN
-- **Created At:** 2026-04-13T20:56:36Z
-
-
-
-### [#5066](https://github.com/nlohmann/json/issues/5066)
-- **Title:** MSVC: unexpected behaviour converting from json to a rvalue reference of a variant containing a type that can be constructed from a string
-- **State:** OPEN
-- **Created At:** 2026-01-30T13:18:53Z
-
-
-
-### [#4972](https://github.com/nlohmann/json/issues/4972)
-- **Title:** Natvis file for version 3.12.0 does not contain a type definition for detail::json_default_base
-- **State:** OPEN
-- **Created At:** 2025-10-29T16:05:32Z
-
-
-
-### [#4842](https://github.com/nlohmann/json/issues/4842)
-- **Title:** json destructor does not use the provided allocator
-- **State:** OPEN
-- **Created At:** 2025-07-04T10:02:34Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Instead of the provided allocator, the standard allocator is used in the non-recursive destructor.
-
-
-### [#4714](https://github.com/nlohmann/json/issues/4714)
-- **Title:** Binary formats invalid encoding for <discarded> values in arrays and objects
-- **State:** OPEN
-- **Created At:** 2025-04-01T14:14:30Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Binary formats are creating broken outputs when discarded values are included in arrays/objects.
-
-
-### [#3885](https://github.com/nlohmann/json/issues/3885)
-- **Title:** meson build does not install nlohmann_json*.cmake files
-- **State:** OPEN
-- **Created At:** 2022-12-17T09:28:11Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Using meson instead of cmake to build the library does not work; use cmake to guarantee the expected outcome.
-
-
-### [#3669](https://github.com/nlohmann/json/issues/3669)
-- **Title:** invalid use of incomplete type (boost::optional) / compile error
-- **State:** OPEN
-- **Created At:** 2022-08-04T10:09:34Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This issue was observed in version 3.10.3; it appears fixed in version 3.12.0.
-
-
-### [#3583](https://github.com/nlohmann/json/issues/3583)
-- **Title:** json destructor quite slow
-- **State:** OPEN
-- **Created At:** 2022-07-16T11:21:47Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. The performance of destroy() is quite slow.
 
 
 ### [#3578](https://github.com/nlohmann/json/issues/3578)
@@ -200,21 +20,48 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Custom number types with non-trivial destructors and move-constructors are not permitted.
 
 
-### [#2649](https://github.com/nlohmann/json/issues/2649)
-- **Title:** String type change breaks C++ type matching
-- **State:** OPEN
-- **Created At:** 2021-02-18T12:44:56Z
-
-- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. This issue was observed in version 3.9.1; it appears fixed in version 3.12.0.
-
-
 
 ## Closed Issues (since version 3.12.0)
+
+### [#5865](https://github.com/nlohmann/json/issues/5865)
+- **Title:** prefix_tree::slots collides with Qt’s slots macro
+- **State:** CLOSED
+- **Created At:** 2026-10-17T11:56:42Z
+
+
+
+### [#5742](https://github.com/nlohmann/json/issues/5742)
+- **Title:** Release build fails when JSON diagnostics enabled
+- **State:** CLOSED
+- **Created At:** 2026-09-30T21:24:40Z
+
+
 
 ### [#5675](https://github.com/nlohmann/json/issues/5675)
 - **Title:** to_bson: out_of_range.415 has no JSON_DIAGNOSTICS context and is thrown after part of the document was written
 - **State:** CLOSED
 - **Created At:** 2026-09-29T17:55:33Z
+
+
+
+### [#5674](https://github.com/nlohmann/json/issues/5674)
+- **Title:** Copy-constructing basic_json now requires an assignable CustomBaseClass (compile regression)
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:55:26Z
+
+
+
+### [#5673](https://github.com/nlohmann/json/issues/5673)
+- **Title:** ordered_json::emplace(key, value) does not compile when value is an lvalue
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:55:20Z
+
+
+
+### [#5672](https://github.com/nlohmann/json/issues/5672)
+- **Title:** With JSON_NOEXCEPTION, value(json_pointer, default) aborts for some array tokens
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:55:13Z
 
 
 
@@ -260,10 +107,52 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
+### [#5665](https://github.com/nlohmann/json/issues/5665)
+- **Title:** Legacy discarded comparison in C++20: scalar <= discarded and scalar >= discarded yield false
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:54:27Z
+
+
+
 ### [#5664](https://github.com/nlohmann/json/issues/5664)
 - **Title:** ordered_json::value(json_pointer, default) emits the deprecated json_pointer/string operator== warning
 - **State:** CLOSED
 - **Created At:** 2026-09-29T17:54:20Z
+
+
+
+### [#5663](https://github.com/nlohmann/json/issues/5663)
+- **Title:** Keys convertible to std::string_view break at/find/contains, including keys that worked in 3.12.0
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:54:14Z
+
+
+
+### [#5662](https://github.com/nlohmann/json/issues/5662)
+- **Title:** JSON_BRACE_INIT_COPY_SEMANTICS: json j{arr} turns an array like ["key", 42] into an object
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:54:07Z
+
+
+
+### [#5661](https://github.com/nlohmann/json/issues/5661)
+- **Title:** BJData ND-array annotations are not parsed back into the same object ("single" precision, ordered_json key order)
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:54:00Z
+
+
+
+### [#5660](https://github.com/nlohmann/json/issues/5660)
+- **Title:** Floats are truncated at the decimal point under locales with a multi-byte decimal point (fa_IR.UTF-8)
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:53:53Z
+
+
+
+### [#5659](https://github.com/nlohmann/json/issues/5659)
+- **Title:** A NUL byte that ends a // comment does not end the input with the default NUL handling
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:53:47Z
 
 
 
@@ -295,6 +184,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
+### [#5654](https://github.com/nlohmann/json/issues/5654)
+- **Title:** C++20 operator<=> result depends on nesting depth when binary values differ only in subtype
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:53:14Z
+
+
+
 ### [#5653](https://github.com/nlohmann/json/issues/5653)
 - **Title:** swap() does not exchange the CustomBaseClass subobject, unlike copy and assignment
 - **State:** CLOSED
@@ -309,10 +205,24 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
+### [#5651](https://github.com/nlohmann/json/issues/5651)
+- **Title:** Binary writers emit strings with ill-formed UTF-8 that the corresponding readers reject
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:52:54Z
+
+
+
 ### [#5650](https://github.com/nlohmann/json/issues/5650)
 - **Title:** Converting between basic_json specializations (e.g. json to ordered_json) overflows the stack on deep input
 - **State:** CLOSED
 - **Created At:** 2026-09-29T17:52:48Z
+
+
+
+### [#5649](https://github.com/nlohmann/json/issues/5649)
+- **Title:** Deep copy (nested 128+ levels) drops the object comparator's state: keys reordered or lost
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:52:41Z
 
 
 
@@ -327,6 +237,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Title:** Parsing an istream: std::terminate with exceptions(eofbit), null dereference without a streambuf
 - **State:** CLOSED
 - **Created At:** 2026-09-29T17:52:22Z
+
+
+
+### [#5645](https://github.com/nlohmann/json/issues/5645)
+- **Title:** Wide-string input: lone UTF-16 surrogates and negative wchar_t units are accepted or end the input
+- **State:** CLOSED
+- **Created At:** 2026-09-29T17:52:15Z
 
 
 
@@ -376,6 +293,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Title:** A trailing NUL byte after a complete JSON value silently truncates parsing instead of raising a trailing-data error
 - **State:** CLOSED
 - **Created At:** 2026-09-15T05:12:50Z
+
+
+
+### [#5529](https://github.com/nlohmann/json/issues/5529)
+- **Title:** from_cbor()/from_msgpack() do not validate UTF-8 in text strings at decode time (only dump() does)
+- **State:** CLOSED
+- **Created At:** 2026-09-15T05:12:35Z
 
 
 
@@ -442,6 +366,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 
+### [#5400](https://github.com/nlohmann/json/issues/5400)
+- **Title:** std::hash<basic_json> is inconsistent with operator== for equal cross-type numbers (breaks unordered containers)
+- **State:** CLOSED
+- **Created At:** 2026-08-25T23:00:36Z
+
+
+
 ### [#5399](https://github.com/nlohmann/json/issues/5399)
 - **Title:** to_bjdata() emits output it cannot itself parse when _ArraySize_ is null or an object (round-trip guarantee violated)
 - **State:** CLOSED
@@ -495,6 +426,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Title:** Deprecation warning for operator== when using ordered_json when building with clang
 - **State:** CLOSED
 - **Created At:** 2026-07-22T10:06:53Z
+
+
+
+### [#5256](https://github.com/nlohmann/json/issues/5256)
+- **Title:** Int and uint compare equal but hashes do not
+- **State:** CLOSED
+- **Created At:** 2026-07-09T11:02:19Z
 
 
 
@@ -558,6 +496,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Title:** Using json_pointer causes the warning of deprecated declarations
 - **State:** CLOSED
 - **Created At:** 2026-02-04T04:05:50Z
+
+
+
+### [#5066](https://github.com/nlohmann/json/issues/5066)
+- **Title:** MSVC: unexpected behaviour converting from json to a rvalue reference of a variant containing a type that can be constructed from a string
+- **State:** CLOSED
+- **Created At:** 2026-01-30T13:18:53Z
 
 
 
@@ -642,6 +587,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Title:** [MSVC][build] JSON failed with error C2672: 'nlohmann::json_abi_v3_12_0::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,
 - **State:** CLOSED
 - **Created At:** 2025-10-30T10:01:39Z
+
+
+
+### [#4972](https://github.com/nlohmann/json/issues/4972)
+- **Title:** Natvis file for version 3.12.0 does not contain a type definition for detail::json_default_base
+- **State:** CLOSED
+- **Created At:** 2025-10-29T16:05:32Z
 
 
 
@@ -754,6 +706,14 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 - **Created At:** 2025-07-23T02:12:06Z
 
 - **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. CONTRIBUTING.md does not mention the code style that is enforced for this project.
+
+
+### [#4842](https://github.com/nlohmann/json/issues/4842)
+- **Title:** json destructor does not use the provided allocator
+- **State:** CLOSED
+- **Created At:** 2025-07-04T10:02:34Z
+
+- **Comment:** This issue does not apply to the use of nlohmann/json in Eclipse S-CORE. Instead of the provided allocator, the standard allocator is used in the non-recursive destructor.
 
 
 ### [#4834](https://github.com/nlohmann/json/issues/4834)
