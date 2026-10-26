@@ -51,7 +51,8 @@ _None_
 |2026-08-08 15:44:48|0.99 |1.00 |1.00 |1.00 |0.97 |0.97 |
 |2026-08-12 07:29:01|0.74 |1.00 |1.00 |1.00 |0.72 |0.00 |
 |2026-10-03 05:46:44|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
-|2026-10-03 06:31:36.876563|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
+|2026-10-26 10:18:05|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
+|2026-10-26 11:10:03.062199|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
 
 
 
@@ -156,7 +157,7 @@ Expected or required behaviours for the nlohmann/json library are identified, sp
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -200,7 +201,8 @@ _None_
 |2026-08-08 15:44:48|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
 |2026-08-12 07:29:01|0.72 |0.97 |1.00 |0.70 |0.00 |0.95 |
 |2026-10-03 05:46:44|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
-|2026-10-03 06:31:36.876563|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
+|2026-10-26 10:18:05|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
+|2026-10-26 11:10:03.062199|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
 
 
 
@@ -345,7 +347,8 @@ _None_
 |2026-08-08 15:44:48|0.50 |0.00 |0.00 |1.00 |1.00 |
 |2026-08-12 07:29:01|0.50 |0.00 |0.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.50 |0.00 |0.00 |1.00 |1.00 |
-|2026-10-03 06:31:36.876563|0.50 |0.00 |0.00 |1.00 |1.00 |
+|2026-10-26 10:18:05|0.50 |0.00 |0.00 |1.00 |1.00 |
+|2026-10-26 11:10:03.062199|0.50 |0.00 |0.00 |1.00 |1.00 |
 
 
 
@@ -405,7 +408,7 @@ Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -476,7 +479,8 @@ _None_
 |2026-08-08 15:44:48|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 |2026-08-12 07:29:01|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 |2026-10-03 05:46:44|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
-|2026-10-03 06:31:36.876563|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
+|2026-10-26 10:18:05|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
+|2026-10-26 11:10:03.062199|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 
 
 
@@ -620,7 +624,8 @@ _None_
 |2026-08-08 15:44:48|1.00 |1.00 |1.00 |
 |2026-08-12 07:29:01|1.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|1.00 |1.00 |1.00 |
-|2026-10-03 06:31:36.876563|1.00 |1.00 |1.00 |
+|2026-10-26 10:18:05|1.00 |1.00 |1.00 |
+|2026-10-26 11:10:03.062199|1.00 |1.00 |1.00 |
 
 
 
@@ -745,7 +750,8 @@ _None_
 |2026-08-08 15:44:48|0.65 |0.99 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 |2026-08-12 07:29:01|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 |2026-10-03 05:46:44|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
-|2026-10-03 06:31:36.876563|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
+|2026-10-26 10:18:05|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
+|2026-10-26 11:10:03.062199|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 
 
 
@@ -856,7 +862,7 @@ Each iteration, we should improve the algorithm based on measurements
 
 ---
 
-### TA-INDICATORS | Reviewed: ✔ | Score: 0.98333 
+### TA-INDICATORS | Reviewed: ✔ | Score: 0.65 
 In eclipse-score/inc_nlohmann_json, advanced warning indicators for misbehaviours are identified, and monitoring mechanisms are specified, verified and validated based on analysis.
 
 
@@ -864,14 +870,14 @@ In eclipse-score/inc_nlohmann_json, advanced warning indicators for misbehaviour
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
 | [JLS-54](JLS.md#jls-54)  | In the eclipse-score/inc_nlohmann_json repository, code coverage is measured in CI and a minimum threshold is enforced for pull requests into main and pushes to main. If coverage falls below the threshold, the coverage_gate check fails and blocks merging into main until coverage is restored. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [JLS-55](JLS.md#jls-55)  | In eclipse-score/inc_nlohmann_json, a GitHub Actions workflow checks the number of open pull requests in the main branch. If the number exceeds a defined threshold, the workflow fails and blocks further merges until the number of open pull requests is reduced below that threshold. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-55](JLS.md#jls-55)  | In eclipse-score/inc_nlohmann_json, a GitHub Actions workflow checks the number of open pull requests in the main branch. If the number exceeds a defined threshold, the workflow fails and blocks further merges until the number of open pull requests is reduced below that threshold. | 0.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-56](JLS.md#jls-56)  | The expected behaviour of the expectations JLEX-01 and JLEX-02 is sufficiently broken-down. | 0.95 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
@@ -906,7 +912,8 @@ _None_
 |2026-08-08 15:44:48|0.65 |1.00 |0.00 |0.95 |
 |2026-08-12 07:29:01|0.65 |1.00 |0.00 |0.95 |
 |2026-10-03 05:46:44|0.98 |1.00 |1.00 |0.95 |
-|2026-10-03 06:31:36.876563|0.98 |1.00 |1.00 |0.95 |
+|2026-10-26 10:18:05|0.65 |1.00 |0.00 |0.95 |
+|2026-10-26 11:10:03.062199|0.65 |1.00 |0.00 |0.95 |
 
 
 
@@ -1074,7 +1081,8 @@ _None_
 |2026-08-08 15:44:48|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 |2026-08-12 07:29:01|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
-|2026-10-03 06:31:36.876563|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
+|2026-10-26 10:18:05|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
+|2026-10-26 11:10:03.062199|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 
 
 
@@ -1249,7 +1257,8 @@ _None_
 |2026-08-08 15:44:48|0.66 |0.75 |0.00 |0.88 |1.00 |
 |2026-08-12 07:29:01|0.63 |0.75 |0.00 |0.77 |1.00 |
 |2026-10-03 05:46:44|0.63 |0.75 |0.00 |0.77 |1.00 |
-|2026-10-03 06:31:36.876563|0.63 |0.75 |0.00 |0.77 |1.00 |
+|2026-10-26 10:18:05|0.63 |0.75 |0.00 |0.77 |1.00 |
+|2026-10-26 11:10:03.062199|0.63 |0.75 |0.00 |0.77 |1.00 |
 
 
 
@@ -1385,7 +1394,8 @@ _None_
 |2026-08-08 15:44:48|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 |2026-08-12 07:29:01|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 |2026-10-03 05:46:44|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
-|2026-10-03 06:31:36.876563|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
+|2026-10-26 10:18:05|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
+|2026-10-26 11:10:03.062199|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 
 
 
@@ -1472,7 +1482,7 @@ Prohibited misbehaviours for the nlohmann/json library are identified, and mitig
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1517,7 +1527,8 @@ _None_
 |2026-08-08 15:44:48|0.64 |0.00 |1.00 |0.85 |0.97 |1.00 |0.00 |
 |2026-08-12 07:29:01|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 |2026-10-03 05:46:44|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
-|2026-10-03 06:31:36.876563|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
+|2026-10-26 10:18:05|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
+|2026-10-26 11:10:03.062199|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 
 
 
@@ -1713,7 +1724,8 @@ _None_
 |2026-08-08 15:44:48|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
 |2026-08-12 07:29:01|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
-|2026-10-03 06:31:36.876563|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
+|2026-10-26 10:18:05|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
+|2026-10-26 11:10:03.062199|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
 
 
 
@@ -1851,7 +1863,8 @@ _None_
 |2026-08-08 15:44:48|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 |2026-08-12 07:29:01|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 |2026-10-03 05:46:44|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
-|2026-10-03 06:31:36.876563|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
+|2026-10-26 10:18:05|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
+|2026-10-26 11:10:03.062199|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 
 
 
@@ -1977,7 +1990,8 @@ _None_
 |2026-08-08 15:44:48|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 |2026-08-12 07:29:01|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
-|2026-10-03 06:31:36.876563|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
+|2026-10-26 10:18:05|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
+|2026-10-26 11:10:03.062199|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 
 
 
@@ -2090,7 +2104,8 @@ _None_
 |2026-08-08 15:44:48|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 |2026-08-12 07:29:01|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 |2026-10-03 05:46:44|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
-|2026-10-03 06:31:36.876563|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
+|2026-10-26 10:18:05|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
+|2026-10-26 11:10:03.062199|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 
 
 
@@ -2211,7 +2226,8 @@ _None_
 |2026-08-08 15:44:48|1.00 |1.00 |1.00 |
 |2026-08-12 07:29:01|1.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|1.00 |1.00 |1.00 |
-|2026-10-03 06:31:36.876563|1.00 |1.00 |1.00 |
+|2026-10-26 10:18:05|1.00 |1.00 |1.00 |
+|2026-10-26 11:10:03.062199|1.00 |1.00 |1.00 |
 
 
 
