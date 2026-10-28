@@ -46,7 +46,7 @@ permissions:
 jobs:
   docs-build:
     name: Build Documentation
-    runs-on: ${{ vars.REPO_RUNNER_LABELS && fromJSON(vars.REPO_RUNNER_LABELS) || 'ubuntu-latest' }}
+    runs-on: ${{ vars.REPO_RUNNER_LABELS && fromJSON(vars.REPO_RUNNER_LABELS) || 'ubuntu-24.04' }}
     permissions:
       pull-requests: write
     steps:
@@ -101,7 +101,7 @@ jobs:
 
   docs-deploy:
     name: Deploy Documentation to GitHub Pages
-    runs-on: ${{ vars.REPO_RUNNER_LABELS && fromJSON(vars.REPO_RUNNER_LABELS) || 'ubuntu-latest' }}
+    runs-on: ${{ vars.REPO_RUNNER_LABELS && fromJSON(vars.REPO_RUNNER_LABELS) || 'ubuntu-24.04' }}
     needs: docs-build
     permissions:
       pages: write

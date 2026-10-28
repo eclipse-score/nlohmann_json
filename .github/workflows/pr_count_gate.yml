@@ -9,7 +9,7 @@ on:
 
 jobs:
   pr_count_gate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Count open pull requests
