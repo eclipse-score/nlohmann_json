@@ -7,7 +7,7 @@ Collected data from tests and monitoring of deployed software in eclipse-score/i
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.65 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -52,7 +52,8 @@ _None_
 |2026-08-12 07:29:01|0.74 |1.00 |1.00 |1.00 |0.72 |0.00 |
 |2026-10-03 05:46:44|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
 |2026-10-26 10:18:05|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
-|2026-10-26 11:10:03.062199|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
+|2026-10-29 05:36:17|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
+|2026-10-29 06:23:10.049055|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
 
 
 
@@ -157,7 +158,7 @@ Expected or required behaviours for the nlohmann/json library are identified, sp
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.49 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -202,7 +203,8 @@ _None_
 |2026-08-12 07:29:01|0.72 |0.97 |1.00 |0.70 |0.00 |0.95 |
 |2026-10-03 05:46:44|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
 |2026-10-26 10:18:05|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
-|2026-10-26 11:10:03.062199|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
+|2026-10-29 05:36:17|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
+|2026-10-29 06:23:10.049055|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
 
 
 
@@ -296,7 +298,7 @@ and that the resulting system and tests are validated by appropriate strategies.
 
 ---
 
-### TA-CONFIDENCE | Reviewed: ✔ | Score: 0.5 
+### TA-CONFIDENCE | Reviewed: ✔ | Score: 0.25 
 Confidence in the nlohmann/json library is measured based on results of analysis.
 
 
@@ -304,7 +306,7 @@ Confidence in the nlohmann/json library is measured based on results of analysis
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONFIDENCE](TT.md#tt-confidence)  | Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json. | 0.65 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONFIDENCE](TT.md#tt-confidence)  | Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json. | 0.53 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -312,7 +314,7 @@ Confidence in the nlohmann/json library is measured based on results of analysis
 | --- | --- | --- | --- |
 | [JLS-08](JLS.md#jls-08)  | Each leaf node in the Trustable Graph that is not an Assumption-of-Use (AoU) is scored either based on SME review(s) alone or on a combination of SME review(s) and an automatic validator. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-09](JLS.md#jls-09)  | Scores within the TSF documentation are reasonably, systematically and repeatably accumulated. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
-| [JLS-20](JLS.md#jls-20)  | A GitHub workflow of eclipse-score/nlohmann_json saves the history of scores in the trustable graph to derive trends. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-20](JLS.md#jls-20)  | A GitHub workflow of eclipse-score/nlohmann_json saves the history of scores in the trustable graph to derive trends. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-37](JLS.md#jls-37)  | High-level statements are decomposed into smaller, recursive statements. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
@@ -348,7 +350,8 @@ _None_
 |2026-08-12 07:29:01|0.50 |0.00 |0.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.50 |0.00 |0.00 |1.00 |1.00 |
 |2026-10-26 10:18:05|0.50 |0.00 |0.00 |1.00 |1.00 |
-|2026-10-26 11:10:03.062199|0.50 |0.00 |0.00 |1.00 |1.00 |
+|2026-10-29 05:36:17|0.25 |0.00 |0.00 |0.00 |1.00 |
+|2026-10-29 06:23:10.049055|0.25 |0.00 |0.00 |0.00 |1.00 |
 
 
 
@@ -408,7 +411,7 @@ Constraints on adaptation and deployment of eclipse-score/inc_nlohmann_json are 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.49 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -480,7 +483,8 @@ _None_
 |2026-08-12 07:29:01|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 |2026-10-03 05:46:44|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 |2026-10-26 10:18:05|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
-|2026-10-26 11:10:03.062199|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
+|2026-10-29 05:36:17|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
+|2026-10-29 06:23:10.049055|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 
 
 
@@ -575,7 +579,7 @@ contradictions and obvious pitfalls within the defined Statements.
 
 ---
 
-### TA-DATA | Reviewed: ✔ | Score: 1.0 
+### TA-DATA | Reviewed: ✔ | Score: 0.5 
 Data in eclipse-score/inc_nlohmann_json is collected from tests, and from monitoring of deployed software, according to specified objectives.
 
 
@@ -583,13 +587,13 @@ Data in eclipse-score/inc_nlohmann_json is collected from tests, and from monito
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.65 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLS-18](JLS.md#jls-18)  | Results from automated tests for eclipse-score/nlohmann_json are automatically collected from CI-generated JUnit reports into a persistent test results database together with metadata about the executed tests and workflows. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-18](JLS.md#jls-18)  | Results from automated tests for eclipse-score/nlohmann_json are automatically collected from CI-generated JUnit reports into a persistent test results database together with metadata about the executed tests and workflows. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-45](JLS.md#jls-45)  | The storage location, retention limits, and intended use of captured test result data for eclipse-score/inc_nlohmann_json are documented so that the scope and reproducibility of the available test data can be understood. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
@@ -625,7 +629,8 @@ _None_
 |2026-08-12 07:29:01|1.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|1.00 |1.00 |1.00 |
 |2026-10-26 10:18:05|1.00 |1.00 |1.00 |
-|2026-10-26 11:10:03.062199|1.00 |1.00 |1.00 |
+|2026-10-29 05:36:17|0.50 |0.00 |1.00 |
+|2026-10-29 06:23:10.049055|0.50 |0.00 |1.00 |
 
 
 
@@ -695,7 +700,7 @@ monitored deployments.
 
 ---
 
-### TA-FIXES | Reviewed: ✔ | Score: 0.64844 
+### TA-FIXES | Reviewed: ✔ | Score: 0.52344 
 In the nlohmann/json repository, known bugs or misbehaviours are analysed and triaged, and critical fixes or mitigations are implemented or applied.
 
 
@@ -703,14 +708,14 @@ In the nlohmann/json repository, known bugs or misbehaviours are analysed and tr
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CHANGES](TT.md#tt-changes)  | The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions. | 0.77 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CHANGES](TT.md#tt-changes)  | The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions. | 0.71 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
 | [JLS-05](JLS.md#jls-05)  | The nlohmann/json library is widely used and actively maintained; bugs and misbehaviours are tracked publicly and transparently. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [JLS-04](JLS.md#jls-04)  | External dependencies within nlohmann/json are checked for potential security vulnerabilities with each pull request to main. Merging is blocked until all warnings are resolved. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-04](JLS.md#jls-04)  | External dependencies within nlohmann/json are checked for potential security vulnerabilities with each pull request to main. Merging is blocked until all warnings are resolved. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-11](JLS.md#jls-11)  | Outstanding bugs or misbehaviours are analysed within eclipse-score/inc_nlohmann_json to determine whether they are relevant for S-CORE's use cases of the nlohmann/json library. | 0.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-30](JLS.md#jls-30)  | Outstanding CVEs are analysed within eclipse-score/nlohmann_json to determine whether they can be dismissed, and/or are relevant for S-CORE's use cases of the nlohmann/json library. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-29](JLS.md#jls-29)  | Known bugs, misbehaviours and CVEs are analysed and either fixed or mitigated in the nlohmann/json repository. | 0.79 | ✔ Item Reviewed<br>✔ Link Reviewed |
@@ -751,7 +756,8 @@ _None_
 |2026-08-12 07:29:01|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 |2026-10-03 05:46:44|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 |2026-10-26 10:18:05|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
-|2026-10-26 11:10:03.062199|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
+|2026-10-29 05:36:17|0.52 |1.00 |0.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
+|2026-10-29 06:23:10.049055|0.52 |1.00 |0.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 
 
 
@@ -862,7 +868,7 @@ Each iteration, we should improve the algorithm based on measurements
 
 ---
 
-### TA-INDICATORS | Reviewed: ✔ | Score: 0.65 
+### TA-INDICATORS | Reviewed: ✔ | Score: 0.31667 
 In eclipse-score/inc_nlohmann_json, advanced warning indicators for misbehaviours are identified, and monitoring mechanisms are specified, verified and validated based on analysis.
 
 
@@ -870,14 +876,14 @@ In eclipse-score/inc_nlohmann_json, advanced warning indicators for misbehaviour
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.49 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLS-54](JLS.md#jls-54)  | In the eclipse-score/inc_nlohmann_json repository, code coverage is measured in CI and a minimum threshold is enforced for pull requests into main and pushes to main. If coverage falls below the threshold, the coverage_gate check fails and blocks merging into main until coverage is restored. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [JLS-55](JLS.md#jls-55)  | In eclipse-score/inc_nlohmann_json, a GitHub Actions workflow checks the number of open pull requests in the main branch. If the number exceeds a defined threshold, the workflow fails and blocks further merges until the number of open pull requests is reduced below that threshold. | 0.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-54](JLS.md#jls-54)  | In the eclipse-score/inc_nlohmann_json repository, code coverage is measured in CI and a minimum threshold is enforced for pull requests into main and pushes to main. If coverage falls below the threshold, the coverage_gate check fails and blocks merging into main until coverage is restored. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
+| [JLS-55](JLS.md#jls-55)  | In eclipse-score/inc_nlohmann_json, a GitHub Actions workflow checks the number of open pull requests in the main branch. If the number exceeds a defined threshold, the workflow fails and blocks further merges until the number of open pull requests is reduced below that threshold. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-56](JLS.md#jls-56)  | The expected behaviour of the expectations JLEX-01 and JLEX-02 is sufficiently broken-down. | 0.95 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
@@ -913,7 +919,8 @@ _None_
 |2026-08-12 07:29:01|0.65 |1.00 |0.00 |0.95 |
 |2026-10-03 05:46:44|0.98 |1.00 |1.00 |0.95 |
 |2026-10-26 10:18:05|0.65 |1.00 |0.00 |0.95 |
-|2026-10-26 11:10:03.062199|0.65 |1.00 |0.00 |0.95 |
+|2026-10-29 05:36:17|0.32 |0.00 |0.00 |0.95 |
+|2026-10-29 06:23:10.049055|0.32 |0.00 |0.00 |0.95 |
 
 
 
@@ -1028,7 +1035,7 @@ For data inspections, indicator data is collected and traceable for the implemen
 
 ---
 
-### TA-INPUTS | Reviewed: ✔ | Score: 0.99167 
+### TA-INPUTS | Reviewed: ✔ | Score: 0.825 
 All inputs to the nlohmann/json library are assessed, to identify potential risks and issues.
 
 
@@ -1036,13 +1043,13 @@ All inputs to the nlohmann/json library are assessed, to identify potential risk
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-PROVENANCE](TT.md#tt-provenance)  | All inputs (and attestations for claims) for the nlohmann/json library are provided with known provenance. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-PROVENANCE](TT.md#tt-provenance)  | All inputs (and attestations for claims) for the nlohmann/json library are provided with known provenance. | 0.91 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLS-04](JLS.md#jls-04)  | External dependencies within nlohmann/json are checked for potential security vulnerabilities with each pull request to main. Merging is blocked until all warnings are resolved. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-04](JLS.md#jls-04)  | External dependencies within nlohmann/json are checked for potential security vulnerabilities with each pull request to main. Merging is blocked until all warnings are resolved. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-47](JLS.md#jls-47)  | The nlohmann/json library only consists of source code in the form of a single header file, and has no binary artifacts. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-34](JLS.md#jls-34)  | The nlohmann/json library has no external components or dependencies besides the C++ standard components. | 0.95 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-48](JLS.md#jls-48)  | The nlohmann/json project transparently lists any third party tools used in building, testing and documenting the project. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
@@ -1082,7 +1089,8 @@ _None_
 |2026-08-12 07:29:01|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 |2026-10-26 10:18:05|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
-|2026-10-26 11:10:03.062199|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
+|2026-10-29 05:36:17|0.82 |0.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
+|2026-10-29 06:23:10.049055|0.82 |0.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 
 
 
@@ -1214,7 +1222,7 @@ All constructed iterations of the nlohmann/json library include source code, bui
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.55 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1258,7 +1266,8 @@ _None_
 |2026-08-12 07:29:01|0.63 |0.75 |0.00 |0.77 |1.00 |
 |2026-10-03 05:46:44|0.63 |0.75 |0.00 |0.77 |1.00 |
 |2026-10-26 10:18:05|0.63 |0.75 |0.00 |0.77 |1.00 |
-|2026-10-26 11:10:03.062199|0.63 |0.75 |0.00 |0.77 |1.00 |
+|2026-10-29 05:36:17|0.63 |0.75 |0.00 |0.77 |1.00 |
+|2026-10-29 06:23:10.049055|0.63 |0.75 |0.00 |0.77 |1.00 |
 
 
 
@@ -1348,7 +1357,7 @@ Manual methodologies applied for the nlohmann/json library by contributors, and 
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONFIDENCE](TT.md#tt-confidence)  | Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json. | 0.65 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONFIDENCE](TT.md#tt-confidence)  | Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json. | 0.53 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1395,7 +1404,8 @@ _None_
 |2026-08-12 07:29:01|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 |2026-10-03 05:46:44|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 |2026-10-26 10:18:05|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
-|2026-10-26 11:10:03.062199|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
+|2026-10-29 05:36:17|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
+|2026-10-29 06:23:10.049055|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 
 
 
@@ -1482,7 +1492,7 @@ Prohibited misbehaviours for the nlohmann/json library are identified, and mitig
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.57 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.49 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1528,7 +1538,8 @@ _None_
 |2026-08-12 07:29:01|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 |2026-10-03 05:46:44|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 |2026-10-26 10:18:05|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
-|2026-10-26 11:10:03.062199|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
+|2026-10-29 05:36:17|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
+|2026-10-29 06:23:10.049055|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 
 
 
@@ -1671,7 +1682,7 @@ considered against the list of Expectations.
 
 ---
 
-### TA-RELEASES | Reviewed: ✔ | Score: 0.775 
+### TA-RELEASES | Reviewed: ✔ | Score: 0.44167 
 Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified.
 
 
@@ -1679,18 +1690,18 @@ Construction of releases for the nlohmann/json library is fully repeatable and t
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.55 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLS-14](JLS.md#jls-14)  | The SHA value of the nlohmann/json library in use within eclipse-score/inc_nlohmann_json coincides with the SHA value provided by Niels Lohmann for that version. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-14](JLS.md#jls-14)  | The SHA value of the nlohmann/json library in use within eclipse-score/inc_nlohmann_json coincides with the SHA value provided by Niels Lohmann for that version. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-38](JLS.md#jls-38)  | Every release of the nlohmann/json library shall provide configuration management for build instructions and infrastructure. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-10](JLS.md#jls-10)  | Every release of the nlohmann/json library includes source code, build instructions, test code and test results summaries. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-19](JLS.md#jls-19)  | All library components, build dependencies, and build tools in the nlohmann/json repository are declared in build system manifests. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-49](JLS.md#jls-49)  | The eclipse-score/nlohmann_json project mirrors the external nlohmann/json_test_data repository, containing test data used by the unit tests in nlohmann/json, such that the test suite can be executed without internet connectivity. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [JLS-53](JLS.md#jls-53)  | Given the same version of the repository, configuration, and documented environment, the build process shall produce identical single-include header files. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-53](JLS.md#jls-53)  | Given the same version of the repository, configuration, and documented environment, the build process shall produce identical single-include header files. | 0.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -1725,7 +1736,8 @@ _None_
 |2026-08-12 07:29:01|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
 |2026-10-26 10:18:05|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
-|2026-10-26 11:10:03.062199|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
+|2026-10-29 05:36:17|0.44 |0.00 |0.90 |0.75 |0.00 |1.00 |0.00 |
+|2026-10-29 06:23:10.049055|0.44 |0.00 |0.90 |0.75 |0.00 |1.00 |0.00 |
 
 
 
@@ -1819,7 +1831,7 @@ All sources and tools for the nlohmann/json library are mirrored in our controll
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-PROVENANCE](TT.md#tt-provenance)  | All inputs (and attestations for claims) for the nlohmann/json library are provided with known provenance. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-PROVENANCE](TT.md#tt-provenance)  | All inputs (and attestations for claims) for the nlohmann/json library are provided with known provenance. | 0.91 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1864,7 +1876,8 @@ _None_
 |2026-08-12 07:29:01|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 |2026-10-03 05:46:44|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 |2026-10-26 10:18:05|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
-|2026-10-26 11:10:03.062199|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
+|2026-10-29 05:36:17|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
+|2026-10-29 06:23:10.049055|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 
 
 
@@ -1946,7 +1959,7 @@ All tests for the nlohmann/json library, and its build and test environments, ar
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.55 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1991,7 +2004,8 @@ _None_
 |2026-08-12 07:29:01|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 |2026-10-03 05:46:44|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 |2026-10-26 10:18:05|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
-|2026-10-26 11:10:03.062199|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
+|2026-10-29 05:36:17|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
+|2026-10-29 06:23:10.049055|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 
 
 
@@ -2059,7 +2073,7 @@ nlohmann/json library components, configurations and tools are updated under spe
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CHANGES](TT.md#tt-changes)  | The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions. | 0.77 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CHANGES](TT.md#tt-changes)  | The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions. | 0.71 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -2105,7 +2119,8 @@ _None_
 |2026-08-12 07:29:01|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 |2026-10-03 05:46:44|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 |2026-10-26 10:18:05|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
-|2026-10-26 11:10:03.062199|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
+|2026-10-29 05:36:17|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
+|2026-10-29 06:23:10.049055|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 
 
 
@@ -2177,7 +2192,7 @@ dependencies.
 
 ---
 
-### TA-VALIDATION | Reviewed: ✔ | Score: 1.0 
+### TA-VALIDATION | Reviewed: ✔ | Score: 0.5 
 All specified tests are executed repeatedly, under defined conditions in controlled environments, according to specified objectives.
 
 
@@ -2185,14 +2200,14 @@ All specified tests are executed repeatedly, under defined conditions in control
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.98 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.65 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
 | [JLS-01](JLS.md#jls-01)  | The CI pipeline in the upstream nlohmann/json repository executes the unit and integration test suites on each pull request (opened, reopened, synchronized). | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [JLS-22](JLS.md#jls-22)  | A scheduled GitHub workflow in eclipse-score/inc_nlohmann_json triggers the nlohmann/json unit and integration test at least once per day and records their outcomes as time-stamped entries in the persistent test results database. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-22](JLS.md#jls-22)  | A scheduled GitHub workflow in eclipse-score/inc_nlohmann_json triggers the nlohmann/json unit and integration test at least once per day and records their outcomes as time-stamped entries in the persistent test results database. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 
 
 
@@ -2227,7 +2242,8 @@ _None_
 |2026-08-12 07:29:01|1.00 |1.00 |1.00 |
 |2026-10-03 05:46:44|1.00 |1.00 |1.00 |
 |2026-10-26 10:18:05|1.00 |1.00 |1.00 |
-|2026-10-26 11:10:03.062199|1.00 |1.00 |1.00 |
+|2026-10-29 05:36:17|0.50 |1.00 |0.00 |
+|2026-10-29 06:23:10.049055|0.50 |1.00 |0.00 |
 
 
 
