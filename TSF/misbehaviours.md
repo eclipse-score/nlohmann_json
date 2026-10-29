@@ -5,13 +5,6 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
-### [#5917](https://github.com/nlohmann/json/issues/5917)
-- **Title:** JSON Patch add into a null parent converts it to an object instead of throwing out_of_range.411
-- **State:** OPEN
-- **Created At:** 2026-10-25T12:47:23Z
-
-
-
 ### [#3578](https://github.com/nlohmann/json/issues/3578)
 - **Title:** Unable to use gnu mpz types for NumberIntegerType
 - **State:** OPEN
@@ -22,6 +15,13 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 
 ## Closed Issues (since version 3.12.0)
+
+### [#5917](https://github.com/nlohmann/json/issues/5917)
+- **Title:** JSON Patch add into a null parent converts it to an object instead of throwing out_of_range.411
+- **State:** CLOSED
+- **Created At:** 2026-10-25T12:47:23Z
+
+
 
 ### [#5865](https://github.com/nlohmann/json/issues/5865)
 - **Title:** prefix_tree::slots collides with Qt’s slots macro
