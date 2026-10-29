@@ -14,8 +14,8 @@ The distribution of scores for evidence nodes across the graph.
 |0.3-0.4  |0|
 |0.4-0.5  |1|
 |0.5-0.6  |0|
-|0.6-0.7  |4|
-|0.7-0.8  |5|
+|0.6-0.7  |5|
+|0.7-0.8  |4|
 |0.8-0.9  |3|
 |0.9-1.0  |152|
 ## Expectations Score Distribution
@@ -52,8 +52,8 @@ The distribution of scores for all nodes across the graph.
 |0.3-0.4  |1|
 |0.4-0.5  |3|
 |0.5-0.6  |7|
-|0.6-0.7  |7|
-|0.7-0.8  |7|
+|0.6-0.7  |8|
+|0.7-0.8  |6|
 |0.8-0.9  |6|
 |0.9-1.0  |192|
 ## Jonas-Kirchhoff SME Score Distribution

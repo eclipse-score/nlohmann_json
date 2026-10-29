@@ -1,5 +1,5 @@
 
-### TRUSTABLE-SOFTWARE | Reviewed: ✔ | Score: 0.63835 
+### TRUSTABLE-SOFTWARE | Reviewed: ✔ | Score: 0.63634 
 This release of JSON-Library also referred in the documentation as nlohmann/json library is Trustable.
 
 
@@ -13,7 +13,7 @@ _None_
 | --- | --- | --- | --- |
 | [TT-CHANGES](TT.md#tt-changes)  | The nlohmann/json library is actively maintained, with regular updates to dependencies, and changes are verified to prevent regressions. | 0.71 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TT-CONFIDENCE](TT.md#tt-confidence)  | Confidence in the nlohmann/json library is achieved by measuring and analysing behaviour and evidence over time within eclipse-score/inc_nlohmann_json. | 0.53 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.55 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.54 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TT-EXPECTATIONS](TT.md#tt-expectations)  | Documentation is provided within eclipse-score/inc_nlohmann_json, specifying what the nlohmann/json library is expected to do, and what it must not do, and how this is verified. | 0.49 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TT-PROVENANCE](TT.md#tt-provenance)  | All inputs (and attestations for claims) for the nlohmann/json library are provided with known provenance. | 0.91 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TT-RESULTS](TT.md#tt-results)  | Evidence is provided within eclipse-score/inc_nlohmann_json to demonstrate that the nlohmann/json library does what it is supposed to do, and does not do what it must not do. | 0.65 | ✔ Item Reviewed<br>✔ Link Reviewed |
@@ -52,5 +52,6 @@ _None_
 |2026-10-03 05:46:44|0.79 |0.77 |0.65 |0.66 |0.66 |0.99 |0.98 |
 |2026-10-26 10:18:05|0.77 |0.77 |0.65 |0.66 |0.57 |0.99 |0.98 |
 |2026-10-29 05:36:17|0.64 |0.71 |0.53 |0.55 |0.49 |0.91 |0.65 |
-|2026-10-29 06:23:10.049055|0.64 |0.71 |0.53 |0.55 |0.49 |0.91 |0.65 |
+|2026-10-29 08:24:06|0.64 |0.71 |0.53 |0.54 |0.49 |0.91 |0.65 |
+|2026-10-29 09:07:58.506033|0.64 |0.71 |0.53 |0.54 |0.49 |0.91 |0.65 |
 

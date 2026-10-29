@@ -53,7 +53,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -135,7 +136,8 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -292,7 +294,8 @@ _None_
 |2026-10-03 05:46:44|0.70 |
 |2026-10-26 10:18:05|0.70 |
 |2026-10-29 05:36:17|0.70 |
-|2026-10-29 06:23:10.049055|0.70 |
+|2026-10-29 08:24:06|0.70 |
+|2026-10-29 09:07:58.506033|0.70 |
 
 
 
@@ -352,7 +355,7 @@ jobs:
           egress-policy: audit
 
       - name: 'Checkout Repository'
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@ce3cf9537a52e8119d91fd484ab5b8a807627bf8 # v4.6.0
 
@@ -404,7 +407,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -513,7 +517,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -575,7 +580,8 @@ _None_
 |2026-10-03 05:46:44|0.42 |
 |2026-10-26 10:18:05|0.42 |
 |2026-10-29 05:36:17|0.42 |
-|2026-10-29 06:23:10.049055|0.42 |
+|2026-10-29 08:24:06|0.42 |
+|2026-10-29 09:07:58.506033|0.42 |
 
 
 
@@ -637,7 +643,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -711,7 +718,8 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -771,13 +779,14 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
 ---
 
-### JLS-10 | Reviewed: ✔ | Score: 0.75 
+### JLS-10 | Reviewed: ✔ | Score: 0.66305 
 Every release of the nlohmann/json library includes source code, build instructions, test code and test results summaries.
 
 
@@ -785,8 +794,8 @@ Every release of the nlohmann/json library includes source code, build instructi
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.63 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.44 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.61 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.43 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -832,7 +841,8 @@ _None_
 |2026-10-03 05:46:44|0.75 |
 |2026-10-26 10:18:05|0.75 |
 |2026-10-29 05:36:17|0.75 |
-|2026-10-29 06:23:10.049055|0.75 |
+|2026-10-29 08:24:06|0.66 |
+|2026-10-29 09:07:58.506033|0.66 |
 
 
 
@@ -974,7 +984,8 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -1036,7 +1047,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -1110,7 +1122,8 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -1125,7 +1138,7 @@ The SHA value of the nlohmann/json library in use within eclipse-score/inc_nlohm
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
 | [JLS-53](JLS.md#jls-53)  | Given the same version of the repository, configuration, and documented environment, the build process shall produce identical single-include header files. | 0.00 | ✔ Item Reviewed<br>⨯ Link Reviewed |
-| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.44 | ✔ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.43 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1192,13 +1205,13 @@ jobs:
           egress-policy: audit
 
       - name: Checkout pull request
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
         with:
           path: main
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Checkout tools
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
         with:
           path: tools
           ref: main
@@ -1274,7 +1287,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -8872,7 +8886,8 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -9057,7 +9072,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -9399,7 +9415,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: gcc:14
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -9416,7 +9432,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: ghcr.io/nlohmann/json-ci:v2.4.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -9435,7 +9451,7 @@ jobs:
 
       - name: Install Valgrind
         run: sudo apt-get update ; sudo apt-get install -y valgrind
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -9458,7 +9474,7 @@ jobs:
     steps:
       - name: Install git, clang-tools, iwyu (ci_single_binaries), and unzip
         run: apt-get update ; apt-get install -y git clang-tools iwyu unzip
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -9482,7 +9498,7 @@ jobs:
     steps:
       - name: Install build-essential
         run: apt-get update ; apt-get install -y build-essential unzip wget git libssl-dev
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -9504,7 +9520,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Install dependencies and de_DE locale
         run: |
           sudo apt-get clean
@@ -9540,7 +9556,7 @@ jobs:
         compiler: ['4.8', '4.9', '5', '6']
     container: ghcr.io/nlohmann/json-ci:v2.4.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: CXX=g++-${{ matrix.compiler }} cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -9559,7 +9575,7 @@ jobs:
         compiler: ['7', '8', '9', '10', '11', '12', '13', '14']
     container: gcc:${{ matrix.compiler }}
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -9581,7 +9597,7 @@ jobs:
     steps:
       - name: Install unzip and git
         run: apt-get update ; apt-get install -y unzip git
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Set env FORCE_STDCPPFS_FLAG for clang 7 / 8 / 9 / 10
@@ -9604,7 +9620,7 @@ jobs:
       matrix:
         standard: [11, 14, 17, 20, 23, 26]
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -9627,7 +9643,7 @@ jobs:
     steps:
       - name: Install git and unzip
         run: apt-get update ; apt-get install -y git unzip
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -9648,7 +9664,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: ghcr.io/nlohmann/json-ci:v2.4.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -9658,7 +9674,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: ghcr.io/nlohmann/json-ci:v2.2.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -9682,7 +9698,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -9696,7 +9712,7 @@ jobs:
     if: success()
     steps:
       - name: Check out code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Download all workflow artifacts
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
@@ -9852,7 +9868,7 @@ jobs:
     if: failure()
     steps:
       - name: Check out code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Download all workflow artifacts
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
@@ -10007,7 +10023,7 @@ jobs:
     if: cancelled()
     steps:
       - name: Check out code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Download all workflow artifacts
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
@@ -10217,7 +10233,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -10231,8 +10248,8 @@ All library components, build dependencies, and build tools in the nlohmann/json
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.63 | ✔ Item Reviewed<br>⨯ Link Reviewed |
-| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.44 | ✔ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.61 | ✔ Item Reviewed<br>⨯ Link Reviewed |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.43 | ✔ Item Reviewed<br>⨯ Link Reviewed |
 
 **Supporting Items:**
 
@@ -10299,7 +10316,8 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -10427,7 +10445,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
 
       - name: Check child workflow results 
         run: |
@@ -10460,7 +10478,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
 
       - name: Check child workflow results 
         run: |
@@ -10557,7 +10575,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
 
       - name: Load ubuntu-artifact
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
@@ -10822,7 +10840,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -10950,7 +10969,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
 
       - name: Check child workflow results 
         run: |
@@ -10983,7 +11002,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
 
       - name: Check child workflow results 
         run: |
@@ -11065,7 +11084,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: gcc:14
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -11082,7 +11101,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: ghcr.io/nlohmann/json-ci:v2.4.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -11101,7 +11120,7 @@ jobs:
 
       - name: Install Valgrind
         run: sudo apt-get update ; sudo apt-get install -y valgrind
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -11124,7 +11143,7 @@ jobs:
     steps:
       - name: Install git, clang-tools, iwyu (ci_single_binaries), and unzip
         run: apt-get update ; apt-get install -y git clang-tools iwyu unzip
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -11148,7 +11167,7 @@ jobs:
     steps:
       - name: Install build-essential
         run: apt-get update ; apt-get install -y build-essential unzip wget git libssl-dev
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -11170,7 +11189,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Install dependencies and de_DE locale
         run: |
           sudo apt-get clean
@@ -11206,7 +11225,7 @@ jobs:
         compiler: ['4.8', '4.9', '5', '6']
     container: ghcr.io/nlohmann/json-ci:v2.4.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: CXX=g++-${{ matrix.compiler }} cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -11225,7 +11244,7 @@ jobs:
         compiler: ['7', '8', '9', '10', '11', '12', '13', '14']
     container: gcc:${{ matrix.compiler }}
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -11247,7 +11266,7 @@ jobs:
     steps:
       - name: Install unzip and git
         run: apt-get update ; apt-get install -y unzip git
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Set env FORCE_STDCPPFS_FLAG for clang 7 / 8 / 9 / 10
@@ -11270,7 +11289,7 @@ jobs:
       matrix:
         standard: [11, 14, 17, 20, 23, 26]
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -11293,7 +11312,7 @@ jobs:
     steps:
       - name: Install git and unzip
         run: apt-get update ; apt-get install -y git unzip
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Get latest CMake and ninja
         uses: lukka/get-cmake@28983e0d3955dba2bb0a6810caae0c6cf268ec0c # v4.0.0
       - name: Run CMake
@@ -11314,7 +11333,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: ghcr.io/nlohmann/json-ci:v2.4.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -11324,7 +11343,7 @@ jobs:
     runs-on: ubuntu-24.04
     container: ghcr.io/nlohmann/json-ci:v2.2.0
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -11348,7 +11367,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Run CMake
         run: cmake -S . -B build -DJSON_CI=On
       - name: Build
@@ -11362,7 +11381,7 @@ jobs:
     if: success()
     steps:
       - name: Check out code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Download all workflow artifacts
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
@@ -11518,7 +11537,7 @@ jobs:
     if: failure()
     steps:
       - name: Check out code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Download all workflow artifacts
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
@@ -11673,7 +11692,7 @@ jobs:
     if: cancelled()
     steps:
       - name: Check out code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
       - name: Download all workflow artifacts
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
@@ -12175,7 +12194,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -12242,7 +12262,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -12317,7 +12338,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
 |2026-10-26 10:18:05|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
 |2026-10-29 05:36:17|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
-|2026-10-29 06:23:10.049055|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
+|2026-10-29 08:24:06|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
+|2026-10-29 09:07:58.506033|1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |1.00 |
 
 
 
@@ -12384,7 +12406,8 @@ _None_
 |2026-10-03 05:46:44|0.85 |
 |2026-10-26 10:18:05|0.85 |
 |2026-10-29 05:36:17|0.85 |
-|2026-10-29 06:23:10.049055|0.85 |
+|2026-10-29 08:24:06|0.85 |
+|2026-10-29 09:07:58.506033|0.85 |
 
 
 
@@ -12449,7 +12472,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -12510,7 +12534,8 @@ _None_
 |2026-10-03 05:46:44|0.97 |
 |2026-10-26 10:18:05|0.97 |
 |2026-10-29 05:36:17|0.97 |
-|2026-10-29 06:23:10.049055|0.97 |
+|2026-10-29 08:24:06|0.97 |
+|2026-10-29 09:07:58.506033|0.97 |
 
 
 
@@ -12571,7 +12596,8 @@ _None_
 |2026-10-03 05:46:44|0.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -12687,7 +12713,8 @@ _None_
 |2026-10-03 05:46:44|0.79 |
 |2026-10-26 10:18:05|0.79 |
 |2026-10-29 05:36:17|0.79 |
-|2026-10-29 06:23:10.049055|0.79 |
+|2026-10-29 08:24:06|0.79 |
+|2026-10-29 09:07:58.506033|0.79 |
 
 
 
@@ -12755,7 +12782,8 @@ _None_
 |2026-10-03 05:46:44|0.75 |
 |2026-10-26 10:18:05|0.75 |
 |2026-10-29 05:36:17|0.75 |
-|2026-10-29 06:23:10.049055|0.75 |
+|2026-10-29 08:24:06|0.75 |
+|2026-10-29 09:07:58.506033|0.75 |
 
 
 
@@ -12836,7 +12864,8 @@ _None_
 |2026-10-03 05:46:44|0.72 |
 |2026-10-26 10:18:05|0.72 |
 |2026-10-29 05:36:17|0.72 |
-|2026-10-29 06:23:10.049055|0.72 |
+|2026-10-29 08:24:06|0.72 |
+|2026-10-29 09:07:58.506033|0.72 |
 
 
 
@@ -12897,7 +12926,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -12958,7 +12988,8 @@ _None_
 |2026-10-03 05:46:44|0.65 |
 |2026-10-26 10:18:05|0.65 |
 |2026-10-29 05:36:17|0.65 |
-|2026-10-29 06:23:10.049055|0.65 |
+|2026-10-29 08:24:06|0.65 |
+|2026-10-29 09:07:58.506033|0.65 |
 
 
 
@@ -13221,7 +13252,8 @@ _None_
 |2026-10-03 05:46:44|0.95 |
 |2026-10-26 10:18:05|0.95 |
 |2026-10-29 05:36:17|0.95 |
-|2026-10-29 06:23:10.049055|0.95 |
+|2026-10-29 08:24:06|0.95 |
+|2026-10-29 09:07:58.506033|0.95 |
 
 
 
@@ -13289,7 +13321,8 @@ _None_
 |2026-10-03 05:46:44|0.97 |
 |2026-10-26 10:18:05|0.97 |
 |2026-10-29 05:36:17|0.97 |
-|2026-10-29 06:23:10.049055|0.97 |
+|2026-10-29 08:24:06|0.97 |
+|2026-10-29 09:07:58.506033|0.97 |
 
 
 
@@ -13594,7 +13627,8 @@ _None_
 |2026-10-03 05:46:44|0.90 |
 |2026-10-26 10:18:05|0.90 |
 |2026-10-29 05:36:17|0.90 |
-|2026-10-29 06:23:10.049055|0.90 |
+|2026-10-29 08:24:06|0.90 |
+|2026-10-29 09:07:58.506033|0.90 |
 
 
 
@@ -13660,7 +13694,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -13674,7 +13709,7 @@ Every release of the nlohmann/json library shall provide configuration managemen
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.44 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.43 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -13726,7 +13761,8 @@ _None_
 |2026-10-03 05:46:44|0.90 |
 |2026-10-26 10:18:05|0.90 |
 |2026-10-29 05:36:17|0.90 |
-|2026-10-29 06:23:10.049055|0.90 |
+|2026-10-29 08:24:06|0.90 |
+|2026-10-29 09:07:58.506033|0.90 |
 
 
 
@@ -13792,7 +13828,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -13851,7 +13888,8 @@ _None_
 |2026-10-03 05:46:44|0.90 |
 |2026-10-26 10:18:05|0.90 |
 |2026-10-29 05:36:17|0.90 |
-|2026-10-29 06:23:10.049055|0.90 |
+|2026-10-29 08:24:06|0.90 |
+|2026-10-29 09:07:58.506033|0.90 |
 
 
 
@@ -13924,7 +13962,8 @@ _None_
 |2026-10-03 05:46:44|0.93 |
 |2026-10-26 10:18:05|0.93 |
 |2026-10-29 05:36:17|0.93 |
-|2026-10-29 06:23:10.049055|0.93 |
+|2026-10-29 08:24:06|0.93 |
+|2026-10-29 09:07:58.506033|0.93 |
 
 
 
@@ -13990,7 +14029,8 @@ _None_
 |2026-10-03 05:46:44|0.93 |
 |2026-10-26 10:18:05|0.93 |
 |2026-10-29 05:36:17|0.93 |
-|2026-10-29 06:23:10.049055|0.93 |
+|2026-10-29 08:24:06|0.93 |
+|2026-10-29 09:07:58.506033|0.93 |
 
 
 
@@ -14056,7 +14096,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -14482,7 +14523,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -14541,7 +14583,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -14600,7 +14643,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -14615,7 +14659,7 @@ The eclipse-score/nlohmann_json project mirrors the external nlohmann/json_test_
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
 | [TA-INPUTS](TA.md#ta-inputs)  | All inputs to the nlohmann/json library are assessed, to identify potential risks and issues. | 0.82 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.44 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.43 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
@@ -14742,7 +14786,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -15152,7 +15197,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -15166,7 +15212,7 @@ All source code of the nlohmann/json library is mirrored within eclipse-score/in
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.63 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.61 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TA-SUPPLY_CHAIN](TA.md#ta-supply_chain)  | All sources and tools for the nlohmann/json library are mirrored in our controlled environment. | 0.99 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
@@ -15233,7 +15279,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -15247,7 +15294,7 @@ Releases of the nlohmann/json library contain a comprehensive set of attestation
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.63 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.61 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -15290,7 +15337,8 @@ _None_
 |2026-10-03 05:46:44|0.77 |1.00 |0.65 |0.67 |
 |2026-10-26 10:18:05|0.77 |1.00 |0.65 |0.67 |
 |2026-10-29 05:36:17|0.77 |1.00 |0.65 |0.67 |
-|2026-10-29 06:23:10.049055|0.77 |1.00 |0.65 |0.67 |
+|2026-10-29 08:24:06|0.77 |1.00 |0.65 |0.67 |
+|2026-10-29 09:07:58.506033|0.77 |1.00 |0.65 |0.67 |
 
 
 
@@ -15304,7 +15352,7 @@ Given the same version of the repository, configuration, and documented environm
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.44 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.43 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -15345,7 +15393,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |1.00 |
 |2026-10-26 10:18:05|1.00 |1.00 |
 |2026-10-29 05:36:17|0.00 |0.00 |
-|2026-10-29 06:23:10.049055|0.00 |0.00 |
+|2026-10-29 08:24:06|0.00 |0.00 |
+|2026-10-29 09:07:58.506033|0.00 |0.00 |
 
 
 
@@ -15389,7 +15438,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4.2.2
 
       - name: Download coverage HTML artifact
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
@@ -15489,7 +15538,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -15630,7 +15680,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|0.00 |
 |2026-10-29 05:36:17|0.00 |
-|2026-10-29 06:23:10.049055|0.00 |
+|2026-10-29 08:24:06|0.00 |
+|2026-10-29 09:07:58.506033|0.00 |
 
 
 
@@ -15697,7 +15748,8 @@ _None_
 |2026-10-03 05:46:44|0.95 |
 |2026-10-26 10:18:05|0.95 |
 |2026-10-29 05:36:17|0.95 |
-|2026-10-29 06:23:10.049055|0.95 |
+|2026-10-29 08:24:06|0.95 |
+|2026-10-29 09:07:58.506033|0.95 |
 
 
 
@@ -15756,7 +15808,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -15815,7 +15868,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -15874,7 +15928,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16071,7 +16126,8 @@ _None_
 |2026-10-03 05:46:44|0.90 |
 |2026-10-26 10:18:05|0.90 |
 |2026-10-29 05:36:17|0.90 |
-|2026-10-29 06:23:10.049055|0.90 |
+|2026-10-29 08:24:06|0.90 |
+|2026-10-29 09:07:58.506033|0.90 |
 
 
 
@@ -16144,7 +16200,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16210,7 +16267,8 @@ _None_
 |2026-10-03 05:46:44|0.65 |
 |2026-10-26 10:18:05|0.65 |
 |2026-10-29 05:36:17|0.65 |
-|2026-10-29 06:23:10.049055|0.65 |
+|2026-10-29 08:24:06|0.65 |
+|2026-10-29 09:07:58.506033|0.65 |
 
 
 
@@ -16283,7 +16341,8 @@ _None_
 |2026-10-03 05:46:44|0.67 |
 |2026-10-26 10:18:05|0.67 |
 |2026-10-29 05:36:17|0.67 |
-|2026-10-29 06:23:10.049055|0.67 |
+|2026-10-29 08:24:06|0.67 |
+|2026-10-29 09:07:58.506033|0.67 |
 
 
 
@@ -16342,7 +16401,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16401,7 +16461,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16467,7 +16528,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16533,7 +16595,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16606,7 +16669,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16672,7 +16736,8 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
 
 
@@ -16844,5 +16909,6 @@ _None_
 |2026-10-03 05:46:44|1.00 |
 |2026-10-26 10:18:05|1.00 |
 |2026-10-29 05:36:17|1.00 |
-|2026-10-29 06:23:10.049055|1.00 |
+|2026-10-29 08:24:06|1.00 |
+|2026-10-29 09:07:58.506033|1.00 |
 
