@@ -54,7 +54,8 @@ _None_
 |2026-10-26 10:18:05|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
 |2026-10-29 05:36:17|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
 |2026-10-29 08:24:06|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
-|2026-10-29 09:07:58.506033|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
+|2026-11-02 10:55:55|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
+|2026-11-02 11:44:48.158690|0.94 |1.00 |1.00 |1.00 |0.72 |0.97 |
 
 
 
@@ -206,7 +207,8 @@ _None_
 |2026-10-26 10:18:05|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
 |2026-10-29 05:36:17|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
 |2026-10-29 08:24:06|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
-|2026-10-29 09:07:58.506033|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
+|2026-11-02 10:55:55|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
+|2026-11-02 11:44:48.158690|0.92 |0.97 |1.00 |0.70 |0.97 |0.95 |
 
 
 
@@ -354,7 +356,8 @@ _None_
 |2026-10-26 10:18:05|0.50 |0.00 |0.00 |1.00 |1.00 |
 |2026-10-29 05:36:17|0.25 |0.00 |0.00 |0.00 |1.00 |
 |2026-10-29 08:24:06|0.25 |0.00 |0.00 |0.00 |1.00 |
-|2026-10-29 09:07:58.506033|0.25 |0.00 |0.00 |0.00 |1.00 |
+|2026-11-02 10:55:55|0.25 |0.00 |0.00 |0.00 |1.00 |
+|2026-11-02 11:44:48.158690|0.25 |0.00 |0.00 |0.00 |1.00 |
 
 
 
@@ -488,7 +491,8 @@ _None_
 |2026-10-26 10:18:05|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 |2026-10-29 05:36:17|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 |2026-10-29 08:24:06|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
-|2026-10-29 09:07:58.506033|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
+|2026-11-02 10:55:55|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
+|2026-11-02 11:44:48.158690|0.12 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |0.00 |1.00 |1.00 |1.00 |1.00 |0.00 |
 
 
 
@@ -635,7 +639,8 @@ _None_
 |2026-10-26 10:18:05|1.00 |1.00 |1.00 |
 |2026-10-29 05:36:17|0.50 |0.00 |1.00 |
 |2026-10-29 08:24:06|0.50 |0.00 |1.00 |
-|2026-10-29 09:07:58.506033|0.50 |0.00 |1.00 |
+|2026-11-02 10:55:55|0.50 |0.00 |1.00 |
+|2026-11-02 11:44:48.158690|0.50 |0.00 |1.00 |
 
 
 
@@ -763,7 +768,8 @@ _None_
 |2026-10-26 10:18:05|0.65 |1.00 |1.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 |2026-10-29 05:36:17|0.52 |1.00 |0.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 |2026-10-29 08:24:06|0.52 |1.00 |0.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
-|2026-10-29 09:07:58.506033|0.52 |1.00 |0.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
+|2026-11-02 10:55:55|0.52 |1.00 |0.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
+|2026-11-02 11:44:48.158690|0.52 |1.00 |0.00 |0.00 |0.75 |0.79 |0.00 |0.65 |1.00 |
 
 
 
@@ -927,7 +933,8 @@ _None_
 |2026-10-26 10:18:05|0.65 |1.00 |0.00 |0.95 |
 |2026-10-29 05:36:17|0.32 |0.00 |0.00 |0.95 |
 |2026-10-29 08:24:06|0.32 |0.00 |0.00 |0.95 |
-|2026-10-29 09:07:58.506033|0.32 |0.00 |0.00 |0.95 |
+|2026-11-02 10:55:55|0.32 |0.00 |0.00 |0.95 |
+|2026-11-02 11:44:48.158690|0.32 |0.00 |0.00 |0.95 |
 
 
 
@@ -1098,7 +1105,8 @@ _None_
 |2026-10-26 10:18:05|0.99 |1.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 |2026-10-29 05:36:17|0.82 |0.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 |2026-10-29 08:24:06|0.82 |0.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
-|2026-10-29 09:07:58.506033|0.82 |0.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
+|2026-11-02 10:55:55|0.82 |0.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
+|2026-11-02 11:44:48.158690|0.82 |0.00 |1.00 |0.95 |1.00 |1.00 |1.00 |
 
 
 
@@ -1222,7 +1230,7 @@ and impact for nlohmann/json, and the sources of risk and issue data identified.
 
 ---
 
-### TA-ITERATIONS | Reviewed: ✔ | Score: 0.60882 
+### TA-ITERATIONS | Reviewed: ✔ | Score: 0.63056 
 All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations.
 
 
@@ -1230,13 +1238,13 @@ All constructed iterations of the nlohmann/json library include source code, bui
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.54 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.55 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [JLS-10](JLS.md#jls-10)  | Every release of the nlohmann/json library includes source code, build instructions, test code and test results summaries. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-10](JLS.md#jls-10)  | Every release of the nlohmann/json library includes source code, build instructions, test code and test results summaries. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-19](JLS.md#jls-19)  | All library components, build dependencies, and build tools in the nlohmann/json repository are declared in build system manifests. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-52](JLS.md#jls-52)  | Releases of the nlohmann/json library contain a comprehensive set of attestations. | 0.77 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-51](JLS.md#jls-51)  | All source code of the nlohmann/json library is mirrored within eclipse-score/inc_nlohmann_json. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
@@ -1276,7 +1284,8 @@ _None_
 |2026-10-26 10:18:05|0.63 |0.75 |0.00 |0.77 |1.00 |
 |2026-10-29 05:36:17|0.63 |0.75 |0.00 |0.77 |1.00 |
 |2026-10-29 08:24:06|0.61 |0.66 |0.00 |0.77 |1.00 |
-|2026-10-29 09:07:58.506033|0.61 |0.66 |0.00 |0.77 |1.00 |
+|2026-11-02 10:55:55|0.63 |0.75 |0.00 |0.77 |1.00 |
+|2026-11-02 11:44:48.158690|0.63 |0.75 |0.00 |0.77 |1.00 |
 
 
 
@@ -1415,7 +1424,8 @@ _None_
 |2026-10-26 10:18:05|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 |2026-10-29 05:36:17|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 |2026-10-29 08:24:06|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
-|2026-10-29 09:07:58.506033|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
+|2026-11-02 10:55:55|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
+|2026-11-02 11:44:48.158690|0.81 |0.00 |0.90 |1.00 |0.90 |0.93 |0.93 |1.00 |
 
 
 
@@ -1550,7 +1560,8 @@ _None_
 |2026-10-26 10:18:05|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 |2026-10-29 05:36:17|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 |2026-10-29 08:24:06|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
-|2026-10-29 09:07:58.506033|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
+|2026-11-02 10:55:55|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
+|2026-11-02 11:44:48.158690|0.60 |0.00 |1.00 |0.85 |0.72 |1.00 |0.00 |
 
 
 
@@ -1693,7 +1704,7 @@ considered against the list of Expectations.
 
 ---
 
-### TA-RELEASES | Reviewed: ✔ | Score: 0.42717 
+### TA-RELEASES | Reviewed: ✔ | Score: 0.44167 
 Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified.
 
 
@@ -1701,7 +1712,7 @@ Construction of releases for the nlohmann/json library is fully repeatable and t
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.54 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.55 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -1709,7 +1720,7 @@ Construction of releases for the nlohmann/json library is fully repeatable and t
 | --- | --- | --- | --- |
 | [JLS-14](JLS.md#jls-14)  | The SHA value of the nlohmann/json library in use within eclipse-score/inc_nlohmann_json coincides with the SHA value provided by Niels Lohmann for that version. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-38](JLS.md#jls-38)  | Every release of the nlohmann/json library shall provide configuration management for build instructions and infrastructure. | 0.90 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [JLS-10](JLS.md#jls-10)  | Every release of the nlohmann/json library includes source code, build instructions, test code and test results summaries. | 0.66 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [JLS-10](JLS.md#jls-10)  | Every release of the nlohmann/json library includes source code, build instructions, test code and test results summaries. | 0.75 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-19](JLS.md#jls-19)  | All library components, build dependencies, and build tools in the nlohmann/json repository are declared in build system manifests. | 0.00 | ⨯ Item Reviewed<br>⨯ Link Reviewed |
 | [JLS-49](JLS.md#jls-49)  | The eclipse-score/nlohmann_json project mirrors the external nlohmann/json_test_data repository, containing test data used by the unit tests in nlohmann/json, such that the test suite can be executed without internet connectivity. | 1.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [JLS-53](JLS.md#jls-53)  | Given the same version of the repository, configuration, and documented environment, the build process shall produce identical single-include header files. | 0.00 | ✔ Item Reviewed<br>✔ Link Reviewed |
@@ -1749,7 +1760,8 @@ _None_
 |2026-10-26 10:18:05|0.78 |1.00 |0.90 |0.75 |0.00 |1.00 |1.00 |
 |2026-10-29 05:36:17|0.44 |0.00 |0.90 |0.75 |0.00 |1.00 |0.00 |
 |2026-10-29 08:24:06|0.43 |0.00 |0.90 |0.66 |0.00 |1.00 |0.00 |
-|2026-10-29 09:07:58.506033|0.43 |0.00 |0.90 |0.66 |0.00 |1.00 |0.00 |
+|2026-11-02 10:55:55|0.44 |0.00 |0.90 |0.75 |0.00 |1.00 |0.00 |
+|2026-11-02 11:44:48.158690|0.44 |0.00 |0.90 |0.75 |0.00 |1.00 |0.00 |
 
 
 
@@ -1890,7 +1902,8 @@ _None_
 |2026-10-26 10:18:05|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 |2026-10-29 05:36:17|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 |2026-10-29 08:24:06|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
-|2026-10-29 09:07:58.506033|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
+|2026-11-02 10:55:55|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
+|2026-11-02 11:44:48.158690|0.99 |1.00 |1.00 |1.00 |0.95 |1.00 |
 
 
 
@@ -1972,7 +1985,7 @@ All tests for the nlohmann/json library, and its build and test environments, ar
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.54 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TT-CONSTRUCTION](TT.md#tt-construction)  | Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility. | 0.55 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 **Supporting Items:**
 
@@ -2019,7 +2032,8 @@ _None_
 |2026-10-26 10:18:05|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 |2026-10-29 05:36:17|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 |2026-10-29 08:24:06|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
-|2026-10-29 09:07:58.506033|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
+|2026-11-02 10:55:55|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
+|2026-11-02 11:44:48.158690|0.58 |0.00 |0.00 |0.90 |1.00 |1.00 |
 
 
 
@@ -2135,7 +2149,8 @@ _None_
 |2026-10-26 10:18:05|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 |2026-10-29 05:36:17|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 |2026-10-29 08:24:06|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
-|2026-10-29 09:07:58.506033|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
+|2026-11-02 10:55:55|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
+|2026-11-02 11:44:48.158690|0.89 |0.42 |1.00 |1.00 |1.00 |0.97 |0.95 |
 
 
 
@@ -2259,7 +2274,8 @@ _None_
 |2026-10-26 10:18:05|1.00 |1.00 |1.00 |
 |2026-10-29 05:36:17|0.50 |1.00 |0.00 |
 |2026-10-29 08:24:06|0.50 |1.00 |0.00 |
-|2026-10-29 09:07:58.506033|0.50 |1.00 |0.00 |
+|2026-11-02 10:55:55|0.50 |1.00 |0.00 |
+|2026-11-02 11:44:48.158690|0.50 |1.00 |0.00 |
 
 
 

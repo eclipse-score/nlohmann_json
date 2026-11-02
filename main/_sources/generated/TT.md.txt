@@ -51,7 +51,8 @@ _None_
 |2026-10-26 10:18:05|0.77 |0.65 |0.89 |
 |2026-10-29 05:36:17|0.71 |0.52 |0.89 |
 |2026-10-29 08:24:06|0.71 |0.52 |0.89 |
-|2026-10-29 09:07:58.506033|0.71 |0.52 |0.89 |
+|2026-11-02 10:55:55|0.71 |0.52 |0.89 |
+|2026-11-02 11:44:48.158690|0.71 |0.52 |0.89 |
 
 
 
@@ -109,13 +110,14 @@ _None_
 |2026-10-26 10:18:05|0.65 |0.81 |0.50 |
 |2026-10-29 05:36:17|0.53 |0.81 |0.25 |
 |2026-10-29 08:24:06|0.53 |0.81 |0.25 |
-|2026-10-29 09:07:58.506033|0.53 |0.81 |0.25 |
+|2026-11-02 10:55:55|0.53 |0.81 |0.25 |
+|2026-11-02 11:44:48.158690|0.53 |0.81 |0.25 |
 
 
 
 ---
 
-### TT-CONSTRUCTION | Reviewed: ✔ | Score: 0.53866 
+### TT-CONSTRUCTION | Reviewed: ✔ | Score: 0.55074 
 Tools are provided to build the nlohmann/json library from trusted sources (also provided) with full reproducibility.
 
 
@@ -129,9 +131,9 @@ Tools are provided to build the nlohmann/json library from trusted sources (also
 
 | Item  | Summary  | Score  | Status  |
 | --- | --- | --- | --- |
-| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.43 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-RELEASES](TA.md#ta-releases)  | Construction of releases for the nlohmann/json library is fully repeatable and the results are fully reproducible, with any exceptions documented and justified. | 0.44 | ✔ Item Reviewed<br>✔ Link Reviewed |
 | [TA-TESTS](TA.md#ta-tests)  | All tests for the nlohmann/json library, and its build and test environments, are constructed from controlled/mirrored sources and are reproducible, with any exceptions documented. | 0.58 | ✔ Item Reviewed<br>✔ Link Reviewed |
-| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.61 | ✔ Item Reviewed<br>✔ Link Reviewed |
+| [TA-ITERATIONS](TA.md#ta-iterations)  | All constructed iterations of the nlohmann/json library include source code, build instructions, tests, results and attestations. | 0.63 | ✔ Item Reviewed<br>✔ Link Reviewed |
 
 
 
@@ -168,7 +170,8 @@ _None_
 |2026-10-26 10:18:05|0.66 |0.78 |0.58 |0.63 |
 |2026-10-29 05:36:17|0.55 |0.44 |0.58 |0.63 |
 |2026-10-29 08:24:06|0.54 |0.43 |0.58 |0.61 |
-|2026-10-29 09:07:58.506033|0.54 |0.43 |0.58 |0.61 |
+|2026-11-02 10:55:55|0.55 |0.44 |0.58 |0.63 |
+|2026-11-02 11:44:48.158690|0.55 |0.44 |0.58 |0.63 |
 
 
 
@@ -228,7 +231,8 @@ _None_
 |2026-10-26 10:18:05|0.57 |0.92 |0.60 |0.12 |0.65 |
 |2026-10-29 05:36:17|0.49 |0.92 |0.60 |0.12 |0.32 |
 |2026-10-29 08:24:06|0.49 |0.92 |0.60 |0.12 |0.32 |
-|2026-10-29 09:07:58.506033|0.49 |0.92 |0.60 |0.12 |0.32 |
+|2026-11-02 10:55:55|0.49 |0.92 |0.60 |0.12 |0.32 |
+|2026-11-02 11:44:48.158690|0.49 |0.92 |0.60 |0.12 |0.32 |
 
 
 
@@ -286,7 +290,8 @@ _None_
 |2026-10-26 10:18:05|0.99 |0.99 |0.99 |
 |2026-10-29 05:36:17|0.91 |0.99 |0.82 |
 |2026-10-29 08:24:06|0.91 |0.99 |0.82 |
-|2026-10-29 09:07:58.506033|0.91 |0.99 |0.82 |
+|2026-11-02 10:55:55|0.91 |0.99 |0.82 |
+|2026-11-02 11:44:48.158690|0.91 |0.99 |0.82 |
 
 
 
@@ -345,5 +350,6 @@ _None_
 |2026-10-26 10:18:05|0.98 |1.00 |0.94 |1.00 |
 |2026-10-29 05:36:17|0.65 |0.50 |0.94 |0.50 |
 |2026-10-29 08:24:06|0.65 |0.50 |0.94 |0.50 |
-|2026-10-29 09:07:58.506033|0.65 |0.50 |0.94 |0.50 |
+|2026-11-02 10:55:55|0.65 |0.50 |0.94 |0.50 |
+|2026-11-02 11:44:48.158690|0.65 |0.50 |0.94 |0.50 |
 
