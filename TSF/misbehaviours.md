@@ -5,6 +5,55 @@ The misbehaviours are compiled from github issues of the nlohmann/json repositor
 
 ## Open issues
 
+### [#5995](https://github.com/nlohmann/json/issues/5995)
+- **Title:** ~basic_json() default-constructs the CustomBaseClass for every destroyed container; an allocating base class can still terminate on std::bad_alloc (#5762 incomplete)
+- **State:** OPEN
+- **Created At:** 2026-11-01T21:02:00Z
+
+
+
+### [#5994](https://github.com/nlohmann/json/issues/5994)
+- **Title:** json_view: dump() requires StringType::capacity(), which the documented StringType contract (the tests' alt_string) does not provide
+- **State:** OPEN
+- **Created At:** 2026-11-01T21:01:58Z
+
+
+
+### [#5993](https://github.com/nlohmann/json/issues/5993)
+- **Title:** dump() of a long double value is corrupt under a locale with a multibyte decimal point (glibc ps_AF)
+- **State:** OPEN
+- **Created At:** 2026-11-01T21:01:57Z
+
+
+
+### [#5988](https://github.com/nlohmann/json/issues/5988)
+- **Title:** get<T>() of a boolean throws for the exact number types but not for other arithmetic types; json_view disagrees with basic_json
+- **State:** OPEN
+- **Created At:** 2026-11-01T19:06:30Z
+
+
+
+### [#5987](https://github.com/nlohmann/json/issues/5987)
+- **Title:** Exception about the root value loses its byte range when JSON_DIAGNOSTICS and JSON_DIAGNOSTIC_POSITIONS are both set
+- **State:** OPEN
+- **Created At:** 2026-11-01T19:06:29Z
+
+
+
+### [#5986](https://github.com/nlohmann/json/issues/5986)
+- **Title:** insert() does not provide its documented strong exception guarantee; a failed insert leaves stale parent pointers with JSON_DIAGNOSTICS
+- **State:** OPEN
+- **Created At:** 2026-11-01T19:06:28Z
+
+
+
+### [#5985](https://github.com/nlohmann/json/issues/5985)
+- **Title:** parse() crashes in the destructor instead of propagating std::bad_alloc (the DOM parser leaves a half-constructed member)
+- **State:** OPEN
+- **Created At:** 2026-11-01T19:06:26Z
+
+
+
 ### [#3578](https://github.com/nlohmann/json/issues/3578)
 - **Title:** Unable to use gnu mpz types for NumberIntegerType
 - **State:** OPEN
