@@ -1,3 +1,6 @@
+> [!WARNING]
+> This S-CORE-maintained fork is being archived following Baselibs' migration to vaJson. Baselibs no longer uses it as a parser backend. After archival, the repository's source, history, releases, and TSF qualification material will remain accessible as a read-only reference.
+
 [![JSON for Modern C++](docs/mkdocs/docs/images/json.gif)](https://github.com/nlohmann/json/releases)
 
 [![Build Status](https://ci.appveyor.com/api/projects/status/1acb366xfyg3qybk/branch/develop?svg=true)](https://ci.appveyor.com/project/nlohmann/json)
